@@ -5,8 +5,11 @@ Writeups, Tutorials, tips, his to get started etc.
 
 Index | Contents 
 --- | ---
-**1** | [Reconnaissance.md] (
-**2** | [My Guide to Basic Reckon] (https://blog.securitybreached.org/2017/11/25/guide-to-basic-recon-for-bugbounty/
+**1** | [Conferences around the world](Conferance/Conferance.md)
+**2** | [Reconnaissance](Reconnaissance/reconnaissance.md)
+
+
+
 **3** | [Shankar Bug Hunting Methodology (part 1)] (https://blog.usejournal.com/bug-hunting-methodology-part-1-91295b2d2066 )
 **4** | [Shankar Bug Hunting Methodology (part 2)] (https://blog.usejournal.com/bug-hunting-methodology-part-2-5579dac06150 )
 **5** | [Recon — my way] (https://medium.com/@ehsahil/recon-my-way-82b7e5f62e21 )
