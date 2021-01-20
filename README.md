@@ -1,8 +1,8 @@
 # Resources
 
-Index | Reconnaissancece
+Index | Contents 
 --- | ---
-**1** | [How To Do Your Reconnaissance]  (https://medium.com/bugbountywriteup/guide-to-basic-recon-bug-bounties-recon-)
+**1** | [Reconnaissance.md] (
 **2** | [My Guide to Basic Reckon] (https://blog.securitybreached.org/2017/11/25/guide-to-basic-recon-for-bugbounty/
 **3** | [Shankar Bug Hunting Methodology (part 1)] (https://blog.usejournal.com/bug-hunting-methodology-part-1-91295b2d2066 )
 **4** | [Shankar Bug Hunting Methodology (part 2)] (https://blog.usejournal.com/bug-hunting-methodology-part-2-5579dac06150 )
