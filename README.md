@@ -6,7 +6,7 @@ Conference, Writeups, Tutorials, Bugbounty tips,How  to get started etc.
 Index | Contents 
 --- | ---
 **1** | [Conferences around the world](Conferance/Conferance.md)
-**2** | [Write-ups](write-ups/writeups.md)
+**2** | [Write-ups](Write-ups/writeups.md)
 **x** | [Reconnaissance](Reconnaissance/reconnaissance.md)
 
 
