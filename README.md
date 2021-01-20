@@ -1,5 +1,8 @@
 # Resources
 
+This Contains all kind of resources for learning purpose which includes
+Writeups, Tutorials, tips, his to get started etc.
+
 Index | Contents 
 --- | ---
 **1** | [Reconnaissance.md] (
