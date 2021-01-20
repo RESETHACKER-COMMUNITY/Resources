@@ -1,5 +1,5 @@
 # Resources
-RESETWriteups
+
 - [ Reconnaissan
 - [ Reconnaissancece ] :
      1. How To Do Your Reconnaissance = https://medium.com/bugbountywriteup/guide-to-basic-recon-bug-bounties-recon-   728c5242a115
@@ -24,35 +24,7 @@ ory/threatlevel
 3. Adrian Crenshaw = https://www.youtube.com/user/irongeek
 4. infocon (Hacking Conference Archive) = https://infocon.org/cons/
 
--[ Github Repositories ] :
-1. Book of Secret 
-Knowledge = https://github.com/trimstray/the-book-of-secret-knowledge
-2. Awesome Hacking = https://github.com/Hack-with-Github/Awesome-Hacking
-3. Awesome Bug Bounty = https://github.com/djadmin/awesome-bug-bounty
-4. Awesome Penetration Testing = https://github.com/wtsxDev/Penetration-Testing
-5. Awesome Web Hacking = https://github.com/infoslack/awesome-web-hacking
-6. Awesome Hacking Resources = https://github.com/vitalysim/Awesome-Hacking-Resources
-7. Awesome Pentest = https://github.com/enaqx/awesome-pentest
-8. Awesome Red Teaming = https://github.com/yeyintminthuhtut/Awesome-Red-Teaming
-9. Awesome Web Security = https://github.com/qazbnm456/awesome-web-security
-10. Penetration Test Guide based on OWASP = https://github.com/Voorivex/pentest-guide
-11. Pentest Compilation = https://github.com/adon90/pentest_compilation
-12. Infosec Reference = https://github.com/rmusser01/Infosec_Reference
-
--[ Cheat Sheets ] :
-1. Pentest Cheat Sheets = https://github.com/Kitsun3Sec/Pentest-Cheat-Sheets
-2. Linux Commands Cheat Sheet = https://highon.coffee/blog/linux-commands-cheat-sheet/
-3. Nmap Cheat Sheet = https://medium.com/@infosecsanyam/nmap-cheat-sheet-nmap-scanning-types-scanning-commands-nse-scripts-868a7bd7f692
-
-https://medium.com/dvlpr/penetration-testing-methodology-part-2-6-scanning-ee64daec7c10
-8. Pentester Land Recon resources = https://pentester.land/cheatsheets/2019/04/15/recon-resources.html
-9. Compilation of Recon workflows = https://pentester.land/cheatsheets/2019/03/25/compilation-of-recon-workflows.html
-10. Ultimate Dirty Recon Methods = https://bugbountytuts.files.wordpress.com/2019/01/dirty-recon-1.pdf
-11. Bug Bounty Forum Recon = https://bugbountyforum.com/tools/recon/
-12. Practical Recon Techniques For Bug Hunters =
-https://youtu.be/McLdm4c1oLs?t=7
-13. Lightweight Reconnaissance Setup for Bug Hunters = https://dev.to/edoverflow/a-lightweight-reconnaissance-setup-for-bug-bounty-hunters--4o36
-14. Application Security Wiki Reconnaissance = https://appsecwiki.com/#/recon
+appsecwiki.com/#/recon
 15. Power of Automation & Recon (Mohamed Eldeeb) = KL5kvTusBGW2os
 16. Nahamsec How to Recon & Content Discovery = https://www.hackerone.com/blog/how-to-recon-and-content-discovery
 17. Web Application Security & Bug Bounty (Methodology, Reconnaissance, Vulnerabilities, Reporting) = https://blog.usejournal.com/web-application-security-bug-bounty-methodology-reconnaissance-vulnerabilities-reporting-635073cddcf2
