@@ -7,7 +7,7 @@ Index | Contents
 --- | ---
 **1** | [Conferences around the world](Conferance/Conferance.md)
 **2** | [Bugbounty Write-ups](Write-ups/writeups.md)
-**3** | [Bugbounty Cheetsheet](BugbountyCheetsheet/bugbountycgeetsheet.md)
+**3** | [Bugbounty Cheetsheet](BugbountyCheetsheet/Readme.md)
 **x** | [Reconnaissance](Reconnaissance/reconnaissance.md)
 
 
