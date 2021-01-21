@@ -1,3 +1,5 @@
+**Bugboubty Cheetsheet**
+
 This section contain Bugbounty platform, practice platforms,tips, bypass, Payload, script etc
 
 Index | Cheetsheet
