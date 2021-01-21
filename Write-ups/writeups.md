@@ -1,4 +1,4 @@
-This contains the write-ups on IT sectors.
+This contains the Reports, disclosed, write-ups on IT sectors.
 
 Index | Reports 
 --- | ---
