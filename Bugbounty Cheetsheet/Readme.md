@@ -1,8 +1,8 @@
 This section contain Bugbounty platform, practice platforms,tips, bypass, Payload, script etc
 
-Index | Practice Platforms
+Index | Cheetsheet
 --- | ---
-**1** | [Portswigger Labs](https://portswigger.net/web-security/all-labs)
+**1** | [Practice platform ](/Bugbountycheatsheet/bugbountyplatfoms.md)
 **2** | [OWASP Juice Shop](http://juice-shop.herokuapp.com/)
 **3** | [Pentesterlab](https://pentesterlab.com/)
 **4** | [XSS Game](https://xss-game.appspot.com/)
