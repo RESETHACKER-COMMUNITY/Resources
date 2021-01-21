@@ -1,6 +1,6 @@
 This contains the Reports, disclosed, write-ups on IT sectors.
 
-Index | Reports 
+Index | Reports/Disclosures 
 --- | ---
 **1** | [The Unofficial Hackerone Disclosure Timeline](http://h1.nobbd.de/)
 **2** | [BugReader](https://bugreader.com/)
