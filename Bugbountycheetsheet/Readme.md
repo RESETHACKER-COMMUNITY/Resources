@@ -4,7 +4,7 @@ This section contain Bugbounty platform, practice platforms,tips, bypass, Payloa
 
 Index | Cheetsheet
 --- | ---
-**1** | [Practice platform ](/Bugbountycheatsheet/bugbountyplatfoms.md)
+**1** | [Practice platform ](Bugbountycheetsheet/BugbountyPlatform.md)
 **2** | [OWASP Juice Shop](http://juice-shop.herokuapp.com/)
 **3** | [Pentesterlab](https://pentesterlab.com/)
 **4** | [XSS Game](https://xss-game.appspot.com/)
