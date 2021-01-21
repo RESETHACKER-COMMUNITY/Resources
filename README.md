@@ -1,12 +1,13 @@
 # Resources
 
 This Contains all kind of resources for learning purpose which includes
-Conference, Writeups, Tutorials, Bugbounty tips,How  to get started etc.
+Conference, Writeups, Tutorials, Bugbounty tips, How to get started etc.
 
 Index | Contents 
 --- | ---
 **1** | [Conferences around the world](Conferance/Conferance.md)
-**2** | [Write-ups](Write-ups/writeups.md)
+**2** | [Bugbounty Write-ups](Write-ups/writeups.md)
+**3** | [Bugbounty Cheetsheet](bugbountycheetsheet.md)
 **x** | [Reconnaissance](Reconnaissance/reconnaissance.md)
 
 
