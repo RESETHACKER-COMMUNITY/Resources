@@ -5,8 +5,8 @@ Conference, Writeups, Tutorials, Bugbounty tips, How to get started etc.
 
 Index | Contents 
 --- | ---
-**1** | [IT Conferences around the world](Conferance/Conferance.md)
-**2** | [Security Write-ups](Write-ups/writeups.md)
+**1** | [IT Conferences around the world](Conference/Conference.md)
+**2** | [Web Security Write-ups & Bug Hunting](Write-ups/writeups.md)
 **3** | [Security Cheetsheet](Bugbountycheetsheet/Readme.md)
 **x** | [Reconnaissance/Methodology](Reconnaissance/Readme.md)
 
