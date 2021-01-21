@@ -1,5 +1,4 @@
-This contains stuff related to Bugbounty such as cheat sheet, tips, tricks, platform, guide etc
-
+Here you can find the practice platform for learning pentesting, bughunting, CTF practice etc
 Index | Practice Platforms
 --- | ---
 **1** | [Portswigger Labs](https://portswigger.net/web-security/all-labs)
