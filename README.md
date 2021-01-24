@@ -9,10 +9,8 @@ Index | Contents
 **2** | [Web Security Write-ups & Bug Hunting](Write-ups/writeups.md)
 **3** | [Security Cheetsheet](Bugbountycheetsheet/Readme.md)
 **x** | [Reconnaissance/Methodology](Reconnaissance/Readme.md)
+**4** | [Ethical Alternative](https://ethical.net/resources/)
 
-
-
-**3** | []( )
 **4** | []( )
 **5** | []( )
 **6** |  [](https://medium.com/dvlpr/penetration-testing-methodology-part-1-6-recon-9296c4d07c8a
