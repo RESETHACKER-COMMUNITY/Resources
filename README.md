@@ -12,10 +12,10 @@ Index | Contents
 **4** | [Ethical Alternative](https://ethical.net/resources/)
 
 **4** | []( )
-**5** | []( )
-**6** |  [](https://medium.com/dvlpr/penetration-testing-methodology-part-1-6-recon-9296c4d07c8a
+**5** | []()
+**6** |  [Penetration Testing Methodology, Part 1/6 — Recon](https://medium.com/dvlpr/penetration-testing-methodology-part-1-6-recon-9296c4d07c8a)
 **7** | [] 
-**8** | []( )
-**9** | [Zdnet](  )
-**11** | [Brain Kerbs](  )
-**12** |[Bruce Schneier](  )
+**8** | []()
+**9** | [Zdnet]()
+**11** | [Brain Kerbs]()
+**12** |[Bruce Schneier]()
