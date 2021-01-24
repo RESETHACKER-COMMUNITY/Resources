@@ -10,10 +10,10 @@ Index | Contents
 **3** | [Security Cheetsheet](Bugbountycheetsheet/Readme.md)
 **x** | [Reconnaissance/Methodology](Reconnaissance/Readme.md)
 **4** | [Ethical Alternative](https://ethical.net/resources/)
+**5** |  [Penetration Testing Methodology, Part 1/6 — Recon](https://medium.com/dvlpr/penetration-testing-methodology-part-1-6-recon-9296c4d07c8a)
 
 **4** | []( )
 **5** | []()
-**6** |  [Penetration Testing Methodology, Part 1/6 — Recon](https://medium.com/dvlpr/penetration-testing-methodology-part-1-6-recon-9296c4d07c8a)
 **7** | [] 
 **8** | []()
 **9** | [Zdnet]()
