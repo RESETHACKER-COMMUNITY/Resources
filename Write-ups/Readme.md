@@ -12,7 +12,7 @@ Index | Bug Basic 00](/Write-ups/bb-basics.md)
 **6** | Practice platform]
 **7** | Ebooks]
 
-Index | [Writeups](Write-ups/writeups.md)
+Index | [Writeups](/writeups.md)
 --- | ---
 **1** | [Reports/Disclosures](Write-ups/writeups.md)
 **2** | [Web security Testing Writeups](Write-ups/writeups.md)
