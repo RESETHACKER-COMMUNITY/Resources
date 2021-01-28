@@ -2,17 +2,17 @@
 
 This contains the detailed write up on Web applications Penetration Testing, Reports, Disclosure, Bug Hunting, etc
 
-Index | [Bug Basic - 00 ](/Writeups/BBbasics.md)
+Index | [BugBounty Basic -BBb_00 ](/Writeups/BBbasics.md)
 --- | ---
-**1** | Linux Distributions]
-**2** | Bug Bounty platforms]
-**3** | Ethical Alternative for tools]
-**4** | paid Certifications / courses ]
-**5** | How to write a Bug Report? ]
-**6** | Practice platform]
-**7** | Ebooks]
+**1** | Linux Distributions
+**2** | Ethical Alternative for tools
+**3** | Bug Bounty platforms
+**4** | Practice platform
+**5** | How to write a Bug Report? 
+**6** | Ebooks
+**7** | paid Certifications / courses
 
-Index | [BB Let's Hunt - 01 ](/Writeups/BBintermediate.md)
+Index | [BugBounty Let's Hunt - BBh_01 ](/Writeups/BBintermediate.md)
 --- | ---
 **1** | [Reports/Disclosures]
 **2** | [Web security Testing Writeups]
@@ -27,3 +27,6 @@ Index | [BB Let's Hunt - 01 ](/Writeups/BBintermediate.md)
 **11** | [Talks - Bug Bounty]
 **12** | [Pentesting & Bug Hunting Resources - How to Start?]
 **13** | [Learning Resources]
+
+Index | [Bugbounty Hunters - BB_Hunter]
+--- | ---
