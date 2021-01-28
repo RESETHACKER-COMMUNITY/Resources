@@ -3,6 +3,7 @@
 This contains the detailed write up on Web applications Penetration Testing, Reports, Disclosure, Bug Hunting, etc
 
 Index | Bug Basic 00](/Write-ups/bb-basics.md)
+--- | ---
 **1** | Linux Distributions]
 **2** | Bug Bounty platforms]
 **3** | Ethical Alternative for tools]
