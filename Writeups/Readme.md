@@ -2,7 +2,7 @@
 
 This contains the detailed write up on Web applications Penetration Testing, Reports, Disclosure, Bug Hunting, etc
 
-Index | Bug Basic 00](/Writeups/BBbasics.md)
+Index | Bug Basic 00](Writeups/BBbasics.md)
 --- | ---
 **1** | Linux Distributions]
 **2** | Bug Bounty platforms]
@@ -12,7 +12,7 @@ Index | Bug Basic 00](/Writeups/BBbasics.md)
 **6** | Practice platform]
 **7** | Ebooks]
 
-Index | [BB intermediate 01](/Writeups/Bb-intermediate.md
+Index | [BB intermediate 01](Writeups/BBintermediate.md)
 --- | ---
 **1** | [Reports/Disclosures]
 **2** | [Web security Testing Writeups]
