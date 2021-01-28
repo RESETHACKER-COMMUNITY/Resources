@@ -47,7 +47,7 @@ Index | Bug Bounty platforms
 **5.** | [intigriti](https://www.intigriti.com)
 **6.** | [YesweHack]()
 
-Index | Tools 
+Index | Tools collection 
 -- | ---
 **1.** | [Research Tools (Bugcrowd)](https://forum.bugcrowd.com/t/researcher-resources-tools/167)
 **2.** | [Red Teaming Toolkit](https://github.com/infosecn1nja/Red-Teaming-Toolkit)
@@ -76,7 +76,7 @@ Index | Bugbounty Methodology/Reconnaissance
 7. | [Wired](https://www.wired.com/category)
 
 
-Index | Discussion For Help
+Index | Discussion or HelpDesk
 --- | ---
 4. | [BugBountyNotes]( https://www.bugbountynotes.com/writeups)
 5. | [Pentesterland Write-ups List ]( https://pentester.land/list-of-bug-bounty-writeups.html)
@@ -103,7 +103,7 @@ Index | Talks (Bug Bounty)
 12. | [Hunting for Top Bounties (Nicolas Grégoire](https://www.youtube.com/watch?v=mQjTgDuLsp4)
 
 
-Index | Paid Courses/Certifications ($) 
+Index | paid Certifications / courses ($) 
 -- | ---
 1. | [SANS ](https://www.sans.org/courses)
 2. | [Offensive Security ](https://www.offensive-security.com/information-security-certifications/)
@@ -182,7 +182,7 @@ Index | Ebooks
 30. | [Nmap Essentials = David Shaw]()
 
 
-# Pentesting & Bug Hunting Resources - How to Start ? 
+Index | Pentesting & Bug Hunting Resources - How to Start ? 
 --- | ---
 1. | [Ebrahim Hegazy Guide](http://security4arabs.com/2015/04/03/how-to-start-in-webapps-security/)
 2. | [Mohamed Abd El-Baset Guide ]( https://seekurity.com/blog/discuss/your-start-guide-to-web-application-security-101/)
