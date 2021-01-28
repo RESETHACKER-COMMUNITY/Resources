@@ -28,5 +28,5 @@ Index | [BugBounty Let's Hunt - BBh_01 ](/Writeups/BBintermediate.md)
 **12** | [Pentesting & Bug Hunting Resources - How to Start?]
 **13** | [Learning Resources]
 
-Index | [Bugbounty Hunters - BB_Hunter]
+Index | [Bugbounty Hunters - BB_Hunter](/Writeups/BBHunter.md)
 --- | ---
