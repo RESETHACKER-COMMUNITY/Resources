@@ -1,33 +1,34 @@
-## References and Resources
+## References and Resources 
 
-This is a list of references and resources that you can follow to explore pentesting and create the your own methods, cheatsheets but it is not comprehensive. 
+This is a list of references and resources that you can follow to explore pentesting and create your methods, cheatsheets but it is not comprehensive. 
+- By Beau Bullock (@dafthack): https://twitter.com/dafthack?s=09
 
-Huge thanks to all the cloud pentesting blog/book authors & open source developers!
+1. Huge thanks to all the cloud pentesting blog/book authors & open source developers!
 
-Rhino Security Labs [@RhinoSecurity](https://twitter.com/RhinoSecurity) - [Blog - Rhino Security Labs](https://rhinosecuritylabs.com/blog/)
+2. Rhino Security Labs [@RhinoSecurity](https://twitter.com/RhinoSecurity) - [Blog - Rhino Security Labs](https://rhinosecuritylabs.com/blog/)
 
-Matt Burrough [@mattburrough](https://twitter.com/mattburrough) - [Pentesting Azure Applications | No Starch Press](https://nostarch.com/azure)
+3. Matt Burrough [@mattburrough](https://twitter.com/mattburrough) - [Pentesting Azure Applications | No Starch Press](https://nostarch.com/azure)
 
-NCC Group [@NCCGroupInfoSec](https://twitter.com/NCCGroupInfoSec) - [NCC Group Plc · GitHub](https://github.com/nccgroup)
+4. NCC Group [@NCCGroupInfoSec](https://twitter.com/NCCGroupInfoSec) - [NCC Group Plc · GitHub](https://github.com/nccgroup)
 
-Sean Metcalf [@PyroTek3](https://twitter.com/PyroTek3) & Trimarc - [AD Security](https://adsecurity.org/)
+5. Sean Metcalf [@PyroTek3](https://twitter.com/PyroTek3) & Trimarc - [AD Security](https://adsecurity.org/)
 
-Karl Fosaaen [@kfosaaen](https://twitter.com/kfosaaen) & NETSPI - [NetSPI Blog](https://blog.netspi.com/)
+6. Karl Fosaaen [@kfosaaen](https://twitter.com/kfosaaen) & NETSPI - [NetSPI Blog](https://blog.netspi.com/)
 
-Ryan Hausknecht [@haus3c](https://twitter.com/haus3c) & SpectorOps - [Posts By SpecterOps Team Members](https://posts.specterops.io/)
+7. Ryan Hausknecht [@haus3c](https://twitter.com/haus3c) & SpectorOps - [Posts By SpecterOps Team Members](https://posts.specterops.io/)
 
-Steve Borosh [@424f424f](https://twitter.com/424f424f) - [rvrsh3ll Blog](https://medium.com/@rvrsh3ll)
+8. Steve Borosh [@424f424f](https://twitter.com/424f424f) - [rvrsh3ll Blog](https://medium.com/@rvrsh3ll)
 
-Dirk-jan Mollema [@_dirkjan](https://twitter.com/_dirkjan) - [dirkjanm.io](https://dirkjanm.io/)
+9. Dirk-jan Mollema [@_dirkjan](https://twitter.com/_dirkjan) - [dirkjanm.io](https://dirkjanm.io/)
 
-Mike Felch [@ustayready](https://twitter.com/ustayready) - [ustayready (ustayready) · GitHub](https://github.com/ustayready)
+10. Mike Felch [@ustayready](https://twitter.com/ustayready) - [ustayready (ustayready) · GitHub](https://github.com/ustayready)
 
-Zachary Rice (@zricethezav) - [zricethezav (Zachary Rice) · GitHub](https://github.com/zricethezav)
+11. Zachary Rice (@zricethezav) - [zricethezav (Zachary Rice) · GitHub](https://github.com/zricethezav)
 
-Adam Chester [@xpn](https://twitter.com/xpn) - [XPN InfoSec Blog](https://blog.xpnsec.com/)
+12. Adam Chester [@xpn](https://twitter.com/xpn) - [XPN InfoSec Blog](https://blog.xpnsec.com/)
 
-Chris Moberly [@init_string](https://twitter.com/init_string) & Gitlab - [GitLab Security Department · GitLab](https://gitlab.com/gitlab-com/gl-security)
+13. Chris Moberly [@init_string](https://twitter.com/init_string) & Gitlab - [GitLab Security Department · GitLab](https://gitlab.com/gitlab-com/gl-security)
 
-Lee Kagan [@invokethreatguy](https://twitter.com/invokethreatguy) & Lares - [Blog | Resources | Lares Consulting, LLC](https://www.lares.com/resources/blog/)
+14. Lee Kagan [@invokethreatguy](https://twitter.com/invokethreatguy) & Lares - [Blog | Resources | Lares Consulting, LLC](https://www.lares.com/resources/blog/)
 
-Oddvar Moe [@Oddvarmoe](https://twitter.com/Oddvarmoe) & TrustedSec - [Cybersecurity Education from the Experts | TrustedSec Blog Posts](https://www.trustedsec.com/blog/)
+15. Oddvar Moe [@Oddvarmoe](https://twitter.com/Oddvarmoe) & TrustedSec - [Cybersecurity Education from the Experts | TrustedSec Blog Posts](https://www.trustedsec.com/blog/)
