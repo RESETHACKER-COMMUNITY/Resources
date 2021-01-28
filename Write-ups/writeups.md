@@ -11,7 +11,10 @@ Index | Web security Testing Writeups
 
 Index | Daily Check out
 -- | ---  
-- 1. [Twitter # Tag's you should Follow #bugbounty  #bugbountytip #bugbountytips #infosec #togetherwehitharder]
+- 1. Twitter # Tag's you should 
+
+> Follow #bugbounty  #bugbountytip #bugbountytips #infosec #togetherwehitharder]
+
 - 2. [Security Researches List Bugcrowd](https://twitter.com/bugcrowd/lists/security-researchers)
 - 3. [5 Tips to Make the Most of Twitter as a Pentester or Bug Hunter](https://pentester.land/tips-n-tricks/2018/10/23/5-tips-to-make-the-most-of-twitter-as-a-pentester-or-bug-bounty-hunter.html)
 
@@ -47,26 +50,26 @@ Index | Tools collection
 
 Index | Bugbounty Methodology/Reconnaissance
 --- | ---
-0.| [Power of Automation & Recon - Mohamed Eldeeb)]( KL5kvTusBGW2os) 
+0.| [Power of Automation & Recon - Mohamed Eldeeb)](KL5kvTusBGW2os) 
 0. | [Nahamsec How to Recon & Content Discovery](https://www.hackerone.com/blog/) 
-1. | [How To Do Your Reconnaissance ](https://medium.com/bugbountywriteup/guide-to-basic-recon-bug-bounties-recon-728c5242a115)
-2. | [My Guide to Basic Recon ](https://blog.securitybreached.org/2017/11/25/guide-to-basic-recon-for-bugbounty/)
+1. | [How To Do Your Reconnaissance](https://medium.com/bugbountywriteup/guide-to-basic-recon-bug-bounties-recon-728c5242a115)
+2. | [My Guide to Basic Recon](https://blog.securitybreached.org/2017/11/25/guide-to-basic-recon-for-bugbounty/)
 3. | [Shankar Bug Hunting Methodology -part 1](https://blog.usejournal.com/bug-hunting-methodology-part-1-91295b2d2066)
 4. | [Shankar Bug Hunting Methodology -part 2](https://blog.usejournal.com/bug-hunting-methodology-part-2-5579dac0615
-5. | [Recon — my way ](https://medium.com/@ehsahil/reconemy-way-82b7e5f62e21)
+5. | [Recon — my way](https://medium.com/@ehsahil/reconemy-way-82b7e5f62e21)
 6. | [Holdswarth Penetration Testing Methodology -part 1,2 ](https://medium.com/dvlpr/penetration-testing-methodology-part-1-6-recon-9296c4d07c8a)
 7. | [Wired](https://www.wired.com/category)
 
 
 Index | Discussion or HelpDesk
 --- | ---
-4. | [BugBountyNotes]( https://www.bugbountynotes.com/writeups)
-5. | [Pentesterland Write-ups List ]( https://pentester.land/list-of-bug-bounty-writeups.html)
-6. | [Bugcrowd Write-ups ]( https://forum.bugcrowd.com/t/researcher-resources-bounty-bug-write-ups/1137)
-7. | [Reddit Netsec ]( https://www.reddit.com/r/netsec/)
-8. | [Bug Bounty World Slack Archive ]( https://bugbountyworld.com/slack-archives/)
-9. | [Infosec Write-ups ]( https://medium.com/bugbountywriteup)
-10. | [Hacker1 Hacktivity ]( https://hackerone.com/hacktivity)
+4. | [BugBountyNotes](https://www.bugbountynotes.com/writeups)
+5. | [Pentesterland Write-ups List](https://pentester.land/list-of-bug-bounty-writeups.html)
+6. | [Bugcrowd Write-ups ](https://forum.bugcrowd.com/t/researcher-resources-bounty-bug-write-ups/1137)
+7. | [Reddit Netsec ](https://www.reddit.com/r/netsec/)
+8. | [Bug Bounty World Slack Archive ](https://bugbountyworld.com/slack-archives/)
+9. | [Infosec Write-ups](https://medium.com/bugbountywriteup)
+10. | [Hacker1 Hacktivity](https://hackerone.com/hacktivity)
 
 
 Index | Talks (Bug Bounty) 
@@ -74,7 +77,7 @@ Index | Talks (Bug Bounty)
 1. | [Bug Bounty Field Manual -Adam Bacchus](https://www.youtube.com/watch?v=aNyK1yVLLRI)
 2. | [Tales of a Bug Bounty Hunter (Arne Swinnen](https://www.youtube.com/watch?v=Ehq6ofUbslI)
 3. | [Doing Recon Like a Boss (Ben Sadeghipour](https://www.youtube.com/watch?v=1Kg0_53ZEq8)
-4. | [Bug Bounty Hunters Lessons From Darth Vader](https://www.youtube.com/watch?v=DB42tvvJhH
+4. | [Bug Bounty Hunters Lessons From Darth Vader](https://www.youtube.com/watch?v=DB42tvvJhH)
 5. | [Attacking Modern Web Technologies (Frans Rosén](https://www.youtube.com/watch?v=vRqcUS4CPFs)
 6. | [How to Win Over Security Teams and Gain Influence -Frans Rosén](https://www.youtube.com/watch?v=Uyjkgsu-mrU)
 7. | [Bug Bounty Hunting Methodology V3 - Jason Haddix](https://www.youtube.com/watch?v=Qw1nNPiH_Go)
@@ -102,12 +105,12 @@ Index | Pentesting & Bug Hunting Resources - How to Start ?
 12. | [Bug Bounty Methodology (Tactics,Techniques and Procedures) V 2.0 ]( https://cyberzombie.in/bug-bounty-methodology-techniques-tools-procedures/)
 13. | [How to Become a Bug Bounty Hunter ]( https://forum.bugcrowd.com/t/researcher-resources-how-to-become-a-bug-bounty-hunter/1102)
 14. | [So You Want To Be a Pentester? ]( https://jhalon.github.io/becoming-a-pentester/)
-15. | [Pentesterlab Bootcamp = https://pentesterlab.com/bootcamp)
+15. | [Pentesterlab Bootcamp](https://pentesterlab.com/bootcamp)
 16. | [So you want to be a web security researcher? ]( https://portswigger.net/blog/so-you-want-to-be-a-web-security-researcher)
 17. | [Bug Hunting Guide ]( https://cybertheta.blogspot.com/2018/08/bug-hunting-guide.html)
-18. | [Getting Started in Bug Bounty Hunting ]( https://whoami.securitybreached.org/2019/06/03/guide-getting-started-in-bug-bounty-hunting/)
+18. | [Getting Started in Bug Bounty Hunting ](https://whoami.securitybreached.org/2019/06/03/guide-getting-started-in-bug-bounty-hunting/)
 19. | [Infosec Newbie ]( https://www.sneakymonkey.net/2017/04/23/infosec-newbie/)
-20. | [How to Learn Penetration Testing: A Beginners Tutorial ]( https://learningactors.com/how-to-learn-penetration-testing-a-beginners-tutorial)
+20. | [How to Learn Penetration Testing: A Beginners Tutorial ](https://learningactors.com/how-to-learn-penetration-testing-a-beginners-tutorial)
 21. | [How to Become a Security Specialist ]( https://www.youtube.com/playlist?list=PLkpG3YKjv6p7vb5suZY3mhBCJDSbflmhT)
 22. | [Web Application Penetration Testing Course](https://hackingresources.com/web-application-penetration-testing-course/)
 23. | [So you Want to be a Security Engineer?](https://medium.com/@niruragu/so-you-want-to-be-a-security-engineer-d8775976afb7)
