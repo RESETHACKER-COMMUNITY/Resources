@@ -1,5 +1,5 @@
 # Author : Legend NAHAMSEC (https://github.com/nahamsec/bbht)
-Updated Version from **RESETHACKER Community for WSL2 Environmemts.**
+Updated Version from **RESETHACKER Community for WSL2 & VPS Environmets.**
 - Latest go Language
 - Arjun
 - Subfinder
@@ -7,7 +7,7 @@ Updated Version from **RESETHACKER Community for WSL2 Environmemts.**
 - Amass
 - ffuf
 
-NOTE : Before Installing this Don't forget to enable & install WSL2 + Window Terminal + Virtual Code Stdio + Python3 + PIP3
+NOTE : Before Installing this Don't forget to enable Window Subsystem for Linux & install WSL2 + Ubantu 20.4 + Window Terminal + Virtual Code Stdio + Python3 + PIP3 + VPS.(Check it Out)
 
 Bug Bounty Hunting Tools is a script to install the most popular tools used while looking for vulnerabilities for a bug bounty program.
  
