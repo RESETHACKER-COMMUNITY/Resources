@@ -36,7 +36,10 @@ https://github.com/nahamsec/recon_profile
 
 
 # Installing
-- git clone https://github.com/nahamsec/bbht.git
-- cd bbht
-- chmod +x install.sh
-- ./install.sh
+- git clone https://github.com/RESETHACKER-COMMUNITY/Resources.git
+- cd Resources/
+- ls
+- cd BB_Setup
+- ls
+- chmod +x BB_Setup.sh
+- ./BB_Setup.sh
