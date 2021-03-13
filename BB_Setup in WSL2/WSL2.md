@@ -1,27 +1,27 @@
-1. INSTALL WSL 2
+- INSTALL WSL 2
 
-RUN POWERSHELL as administrator
+- RUN POWERSHELL as administrator
 
 ⚙️ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 
-RESTART POWERSHELL and RUN cmd in powershell
+- RESTART POWERSHELL and RUN cmd in powershell
 
 ⚙️ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 
 ⚙️ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 
-RESTART POWERSHELL and RUN cmd in powershell
+- RESTART POWERSHELL and RUN cmd in powershell
 
-SET DEFAULT TO WSL 2
+- SET DEFAULT TO WSL 2
 ⚙️ wsl --set-default-version 2 	(Type this in adminstrator mode powershell)
 
-DOWNLOAD & INSTALL UBANTU 
+- DOWNLOAD & INSTALL UBANTU 
 Download Linux Kernel: https://aka.ms/wsl2kernel​
 go to search 
 type Ubantu 20.04 Linux & open. it'll take few minutes.
 then it'll ask for username & Password.
 
-CHECK VERSION 
+- CHECK VERSION 
 ⚙️ wsl --list --verbose   (Type this in powershell)
 ⚙️ cat /etc/os-release	  (Type this in Ubantu)
 
@@ -39,7 +39,7 @@ CHECK VERSION
 - 2. Type "cd /mnt" t get access to Window system and cd to go back to UBANTU
 -------------------------------------------------
 
-Ubantu GUI (Ref: https://www.youtube.com/watch?v=IL7Jd9rjgrM)
+- Ubantu GUI (Ref: https://www.youtube.com/watch?v=IL7Jd9rjgrM)
 
 Open Remote Desktop Connection(RDC)
 Enter 	localhost:3390
@@ -48,12 +48,12 @@ Username :	 --------
 password :	 --------
 
 -------------------------------------------------
-REF:
+-  REF:
 Video 1 - Install Windows Subsystem for Linux, Ubuntu 20.04 LTS and Python using ASDF https://youtu.be/CLPwhoTITow​
 Video 2 - Using VSCode with Ubuntu https://www.youtube.com/watch?v=CTlTB...​ 
 Video 3 (this) - Using Windows Terminal//
 
- To INSTALL Python, pip, and venv in UBANTU you need to isntall ASDF
+- To INSTALL Python, pip, and venv in UBANTU you need to isntall ASDF
 ⚙️ git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.8.0
 ⚙️ nano ~/.bashrc
 ⚙️ asdf plugin-add python
@@ -70,7 +70,7 @@ Video 3 (this) - Using Windows Terminal//
 ⚙️ sudo apt install python3-pip
 ⚙️ sudo apt install python3-venv
 
-Note:
+- Note:
 1. Install virtual stdio code
 //VS Code is also available for Linux, but Windows Subsystem for Linux does not support GUI apps, so we need to install it on Windows. Not to worry, you'll still be able to integrate with your Linux command line and tools using the Remote - WSL Extension.//
 2. Add WSL extention
