@@ -1,4 +1,4 @@
-# Author : Legend NAHAMSEC (https://github.com/nahamsec/bbht)
+
 Updated Version from **RESETHACKER Community for WSL2 & VPS Environmets.**
 - Latest go Language
 - Arjun
@@ -6,33 +6,46 @@ Updated Version from **RESETHACKER Community for WSL2 & VPS Environmets.**
 - Assetfinder
 - Amass
 - ffuf
+- Dirhunt
+- Gau
 
-NOTE : Before Installing this Don't forget to enable Window Subsystem for Linux & install WSL2 + Ubantu 20.4 + Window Terminal + Virtual Code Stdio + Python3 + PIP3 + VPS.(Check it Out)
+NOTE : 
+1. Before Installing this Don't forget to enable Window Subsystem for Linux & install WSL2 + Ubantu 20.4 + Window Terminal + Virtual Code Stdio + Python3 + PIP3 + VPS.(Check it Out)
+2. Idea : NAHAMSEC (https://github.com/nahamsec/bbht)
+3. This script also grabs the aliases created and published by Nahamsec:
+https://github.com/nahamsec/recon_profile
 
 Bug Bounty Hunting Tools is a script to install the most popular tools used while looking for vulnerabilities for a bug bounty program.
  
-# Tools
+#  Updated Tools
 
-- dirsearch
-- JSParser
-- knockpy
-- lazys3
-- recon_profile
-- sqlmap-dev
-- Sublist3r
-- teh_s3_bucketeers
-- virtual-host-discovery
-- wpscan
-- webscreenshot
-- Massdns
-- Asnlookup
-- Unfurl
-- Waybackurls
-- Httprobe
-- Seclists collection
+0.  recon_profile
+1.  Arjun      
+2.  SecLists   
+3.  crtndstry  
+4.  lazyrecon  
+5.  sqlmap-dev              
+6.  wpscan
+7.  JSParser   
+8.  Sublist3r  
+9.  dirsearch  
+10. lazys3     
+11. teh_s3_bucketeers
+12. asnlookup  
+13. knock      
+14. massdns    
+15. virtual-host-discovery
+16. Subfinder
+17. unfur
+18. waybackurls
+19. assestsfinders
+20. httprobe
+21. amass
+22. ffuf
+23. Dirhunt
+24. Gau
 
-This script also grabs the aliases created and published here:
-https://github.com/nahamsec/recon_profile
+
 
 
 # Installing
