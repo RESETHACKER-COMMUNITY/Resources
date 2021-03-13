@@ -11,9 +11,7 @@ Updated Version from **RESETHACKER Community for WSL2 & VPS Environmets.**
 
 NOTE : 
 1. Before Installing this Don't forget to enable Window Subsystem for Linux & install WSL2 + Ubantu 20.4 + Window Terminal + Virtual Code Stdio + Python3 + PIP3 + VPS.(Check it Out)
-2. Idea : NAHAMSEC (https://github.com/nahamsec/bbht)
-3. This script also grabs the aliases created and published by Nahamsec:
-https://github.com/nahamsec/recon_profile
+2. Idea : NAHAMSEC (https://github.com/nahamsec/bbht) and this script also grabs the aliases created and published by Nahamsec: (https://github.com/nahamsec/recon_profile)
 
 Bug Bounty Hunting Tools is a script to install the most popular tools used while looking for vulnerabilities for a bug bounty program.
  
