@@ -55,7 +55,7 @@ Index | Bugbounty Methodology/Reconnaissance
 1. | [How To Do Your Reconnaissance](https://medium.com/bugbountywriteup/guide-to-basic-recon-bug-bounties-recon-728c5242a115)
 2. | [My Guide to Basic Recon](https://blog.securitybreached.org/2017/11/25/guide-to-basic-recon-for-bugbounty/)
 3. | [Shankar Bug Hunting Methodology -part 1](https://blog.usejournal.com/bug-hunting-methodology-part-1-91295b2d2066)
-4. | [Shankar Bug Hunting Methodology -part 2](https://blog.usejournal.com/bug-hunting-methodology-part-2-5579dac0615
+4. | [Shankar Bug Hunting Methodology -part 2](https://blog.usejournal.com/bug-hunting-methodology-part-2-5579dac0615)
 5. | [Recon — my way](https://medium.com/@ehsahil/reconemy-way-82b7e5f62e21)
 6. | [Holdswarth Penetration Testing Methodology -part 1,2 ](https://medium.com/dvlpr/penetration-testing-methodology-part-1-6-recon-9296c4d07c8a)
 7. | [Wired](https://www.wired.com/category)
