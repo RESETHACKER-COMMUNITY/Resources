@@ -2,7 +2,7 @@ This contains the Reports, disclosed, write-ups on IT sectors.
 
 Index | Pentesting Reports/Disclosures 
 --- | ---
-**1** | [Coming Soon]
+**1** | [Pentesting Smaple Reports](https://github.com/RESETHACKER-COMMUNITY/Pentesting-Bugbounty/tree/main/PentestingReports)
 
 Index | Web security Testing Writeups
 --- | ---
