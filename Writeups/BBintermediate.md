@@ -2,7 +2,7 @@ This contains the Reports, disclosed, write-ups on IT sectors.
 
 Index | Pentesting Reports/Disclosures 
 --- | ---
-**1** | [Pentesting Samples](https://github.com/RESETHACKER-COMMUNITY/Pentesting-Bugbounty/tree/main/PentestingReports)
+**1** | [Web Pentesting/Bug Bounty Mindmaps](https://workbook.securityboat.in/mindmaps/web-app-pen-test-mindmap)
 
 Index | Web security Testing Writeups
 --- | ---
