@@ -1,8 +1,8 @@
-**Bugboubty Cheetsheet**
+**cybersecurity/Bugbounty practice platform**
 
 This section contain Bugbounty platform, practice platforms,tips, bypass, Payload, script etc
 
-Index | Cheetsheet
+Index | practice platform
 --- | ---
 **1** | [Practice platform](/Bugbountycheetsheet/bugbountyplatform.md)
 **2** | [OWASP Juice Shop](http://juice-shop.herokuapp.com/)
