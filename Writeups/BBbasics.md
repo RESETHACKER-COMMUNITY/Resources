@@ -106,6 +106,15 @@ Index | Daily CheckOut
 **2.** | [Security Researches List Bugcrowd](https://twitter.com/bugcrowd/lists/security-researchers)
 **3.** | [5 Tips to Make the Most of Twitter as a Pentester or Bug Hunter](https://pentester.land/tips-n-tricks/2018/10/23/5-tips-to-make-the-most-of-twitter-as-a-pentester-or-bug-bounty-hunter.html)
 
+Index | Discussion or HelpDesk
+--- | ---
+4. | [BugBountyNotes](https://www.bugbountynotes.com/writeups)
+5. | [Pentesterland Write-ups List](https://pentester.land/list-of-bug-bounty-writeups.html)
+6. | [Bugcrowd Write-ups ](https://forum.bugcrowd.com/t/researcher-resources-bounty-bug-write-ups/1137)
+7. | [Reddit Netsec ](https://www.reddit.com/r/netsec/)
+8. | [Bug Bounty World Slack Archive ](https://bugbountyworld.com/slack-archives/)
+9. | [Infosec Write-ups](https://medium.com/bugbountywriteup)
+10. | [Hacker1 Hacktivity](https://hackerone.com/hacktivity)
 
 Index |  News Sites
 --- | ---
@@ -128,3 +137,4 @@ Index | Tools collection
 **6.** | [Awesome Hacking Tools](https://github.com/m4ll0k/Awesome-Hacking-Tools)
 **7.** | [Bugbountyforum Suggested tools](https://bugbountyforum.com/tools/)
 **8.** | [Web Penetration Testing Arsenal](https://pastebin.com/5mBudvMt)
+
