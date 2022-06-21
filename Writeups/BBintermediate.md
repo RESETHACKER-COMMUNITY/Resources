@@ -1,5 +1,12 @@
 This contains the Reports, disclosed, write-ups on IT sectors.
 
+
+Index | Bugbounty Reports/Disclosures 
+--- | ---
+**1** | [The Unofficial Hackerone Disclosure Timeline](http://h1.nobbd.de/)
+**2** | [BugReader](https://bugreader.com/)
+**3** | [Bug Bounty Reference](https://github.com/ngalongc/bug-bounty)
+
 Index | Web Pentesting MindMaps 
 --- | ---
 **1** | [Web Pentesting/Bug Bounty Mindmaps](https://workbook.securityboat.in/mindmaps/web-app-pen-test-mindmap)
@@ -19,17 +26,6 @@ Index | Bugbounty Methodology/Reconnaissance
 5. | [Recon — my way](https://medium.com/@ehsahil/reconemy-way-82b7e5f62e21)
 6. | [Holdswarth Penetration Testing Methodology -part 1,2 ](https://medium.com/dvlpr/penetration-testing-methodology-part-1-6-recon-9296c4d07c8a)
 7. | [Wired](https://www.wired.com/category)
-
-
-Index | Discussion or HelpDesk
---- | ---
-4. | [BugBountyNotes](https://www.bugbountynotes.com/writeups)
-5. | [Pentesterland Write-ups List](https://pentester.land/list-of-bug-bounty-writeups.html)
-6. | [Bugcrowd Write-ups ](https://forum.bugcrowd.com/t/researcher-resources-bounty-bug-write-ups/1137)
-7. | [Reddit Netsec ](https://www.reddit.com/r/netsec/)
-8. | [Bug Bounty World Slack Archive ](https://bugbountyworld.com/slack-archives/)
-9. | [Infosec Write-ups](https://medium.com/bugbountywriteup)
-10. | [Hacker1 Hacktivity](https://hackerone.com/hacktivity)
 
 
 Index | Talks (Bug Bounty) 
