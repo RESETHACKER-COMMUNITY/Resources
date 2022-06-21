@@ -1,6 +1,6 @@
 This contains the Reports, disclosed, write-ups on IT sectors.
 
-Index | Pentesting Reports/Disclosures 
+Index | Web Pentesting MindMaps 
 --- | ---
 **1** | [Web Pentesting/Bug Bounty Mindmaps](https://workbook.securityboat.in/mindmaps/web-app-pen-test-mindmap)
 
