@@ -99,3 +99,32 @@ Index | paid Certifications / courses ($)
 6. | [Eccouncil Road Map](https://eccouncil.com)
 7. | [Cisco read map for Newtowk analysis](https://cisco.com)
 1. | [Cybrary FREE](https://cybrary.com)
+
+Index | Daily CheckOut
+-- | ---  
+**1.** | [Twitter # Tag's you should Follow #bugbounty  #bugbountytip #bugbountytips #infosec #togetherwehitharder]
+**2.** | [Security Researches List Bugcrowd](https://twitter.com/bugcrowd/lists/security-researchers)
+**3.** | [5 Tips to Make the Most of Twitter as a Pentester or Bug Hunter](https://pentester.land/tips-n-tricks/2018/10/23/5-tips-to-make-the-most-of-twitter-as-a-pentester-or-bug-bounty-hunter.html)
+
+
+Index |  News Sites
+--- | ---
+**1.** | [The Hacker News](https://thehackernews.com)
+**2.** | [HackRead](https://www.hackread.com)
+**3.** | [Naked Security](https://nakedsecurity.sophos.com)
+**4.** | [bleepingcomputer](https://www.bleepingcomputer.com)
+**5.** | [CSO](https://www.csoonline.com)
+**6.** | [Threat Post](https://threatpost.com)
+**7.** | [Dark Reading](https://www.darkreading.com)
+
+
+Index | Tools collection 
+-- | ---
+**1.** | [Research Tools (Bugcrowd)](https://forum.bugcrowd.com/t/researcher-resources-tools/167)
+**2.** | [Red Teaming Toolkit](https://github.com/infosecn1nja/Red-Teaming-Toolkit)
+**3**. | [40 Best Penetration Testing Tools](https://www.guru99.com/top-5-penetration-testing-tools.html)
+**4.** | [Penetration Testing Tools Cheat Sheet](https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/)
+**5.** | [A Good Pentesting Tools List](https://www.reddit.com/r/Pentesting/comments/9ondj5/a_good_pentesting_tools_list/)
+**6.** | [Awesome Hacking Tools](https://github.com/m4ll0k/Awesome-Hacking-Tools)
+**7.** | [Bugbountyforum Suggested tools](https://bugbountyforum.com/tools/)
+**8.** | [Web Penetration Testing Arsenal](https://pastebin.com/5mBudvMt)
