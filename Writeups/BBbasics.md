@@ -8,7 +8,7 @@ Index | Ethical Alternative for tools
 -- | ---
 **1** | [Ethical Alternative](https://ethical.net/resources/)
 
-Index | Basic Termonology before you start Hunting
+Index | Basic Understanding of web application before you start Hunting
 ---|---
 **0** Pentesterlabs | [Web pentesting part 1](https://pentesterlab.com/exercises/web_for_pentester/course)
 **0** Pentesterlabs | [Web pentesting part 2](https://pentesterlab.com/exercises/web_for_pentester_ii/course)
