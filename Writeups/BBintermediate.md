@@ -13,7 +13,7 @@ Index | Web Pentesting MindMaps
 
 Index | Web security Testing Writeups
 --- | ---
-**1** | [Web Application Security & Bug Bounty - Methodology, Reconnaissance, Vulnerabilities, Reporting)] (https://blog.usejournal.com/web-application-security-bug-bounty-methodology-reconnaissance-vulnerabilities-reporting-635073cddcf2)
+**1** | [Web Application Security & Bug Bounty - Methodology, Reconnaissance, Vulnerabilities, Reporting)](https://blog.usejournal.com/web-application-security-bug-bounty-methodology-reconnaissance-vulnerabilities-reporting-635073cddcf2)
 
 Index | Bugbounty Methodology/Reconnaissance
 --- | ---
@@ -28,7 +28,7 @@ Index | Bugbounty Methodology/Reconnaissance
 7. | [Wired](https://www.wired.com/category)
 
 
-Index | Talks (Bug Bounty) 
+Index | Talks (Old but Gold Bug Bounty) 
 -- | ---
 1. | [Bug Bounty Field Manual -Adam Bacchus](https://www.youtube.com/watch?v=aNyK1yVLLRI)
 2. | [Tales of a Bug Bounty Hunter (Arne Swinnen](https://www.youtube.com/watch?v=Ehq6ofUbslI)
