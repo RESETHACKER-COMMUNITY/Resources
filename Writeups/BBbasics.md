@@ -16,73 +16,73 @@ Index | Basic Understanding of web application before you start Hunting
 ## Paid Certifications / courses
 Index | paid Certifications / courses ($) 
 -- | ---
-1. | [SANS ](https://www.sans.org/courses)
-2. | [Offensive Security ](https://www.offensive-security.com/information-security-certifications/)
-3. | [ElearnSecurity ](https://www.elearnsecurity.com/course/)
-4. | [Pentester Academy ](https://www.pentesteracademy.com/topics)
-5. | [Hakin9 ](https://hakin9.org/online-courses-2/)
-6. | [Eccouncil Road Map](https://eccouncil.com)
-7. | [Cisco read map for Newtowk analysis](https://cisco.com)
-9. | [Cybrary FREE](https://cybrary.com)
+**1** | [SANS ](https://www.sans.org/courses)
+**2** | [Offensive Security ](https://www.offensive-security.com/information-security-certifications/)
+**3** | [ElearnSecurity ](https://www.elearnsecurity.com/course/)
+**4** | [Pentester Academy ](https://www.pentesteracademy.com/topics)
+**5** | [Hakin9 ](https://hakin9.org/online-courses-2/)
+**6** | [Eccouncil Road Map](https://eccouncil.com)
+**7** | [Cisco read map for Newtowk analysis](https://cisco.com)
+**8** | [Cybrary FREE](https://cybrary.com)
 
 ## Bug Bounty platforms offers Bounty
 Index | Bug Bounty platforms offers Bounty
 -- | ---
-**1.** | [Hacker1](https://www.hackerone.com)
-**2.** | [Bugcrowd](https://www.bugcrowd.com)
-**3.** | [Synack](https://www.synack.com)
-**4.** | [Cobalt](https://cobalt.io)
-**5.** | [intigriti](https://www.intigriti.com)
-**6.** | [YesweHack]()
+**1** | [Hacker1](https://www.hackerone.com)
+**2** | [Bugcrowd](https://www.bugcrowd.com)
+**3** | [Synack](https://www.synack.com)
+**4** | [Cobalt](https://cobalt.io)
+**5** | [intigriti](https://www.intigriti.com)
+**6** | [YesweHack]()
 
 ## Practice platform 
 Index | Practice platform 
 --- | ---
-1. | [Damn Vulnerable Web Application](http://www.dvwa.co.uk)
-2. | [OWASP WebGoat Project](https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project)
-3. | [OWASP Juice Shop Project](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project)
-4. | [Vulnhub](https://www.vulnhub.com)
-5. | [bWAAP](http://www.itsecgames.com)
-6. | [Metasploitable 2](https://metasploit.help.rapid7.com/docs/metasploitable-2)
-7. | [HackTheBox](https://www.hackthebox.eu)
-7. | [TryhackMe](https://tryhackme.com)
-7. | [Pentester labs](pentesterlabs.com)
-8. | [AttackDefence ]( https://attackdefense.com)
-9. | [HackThisSite](https://www.hackthissite.org)
-10. | [Rootme](https://www.root-me.org/?lang=en)
-11. | [Enigmagroup Challenges](https://www.enigmagroup.org/pages/challenges)
-12. | [Hackxor](https://hackxor.net)
-13. | [Natas](http://overthewire.org/wargames/natas/)
-14. | [HackMe](https://hack.me/explore/)
+**1** | [Damn Vulnerable Web Application](http://www.dvwa.co.uk)
+**2** | [OWASP WebGoat Project](https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project)
+**3** | [OWASP Juice Shop Project](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project)
+**4** | [Vulnhub](https://www.vulnhub.com)
+**5** | [bWAAP](http://www.itsecgames.com)
+**6** | [Metasploitable 2](https://metasploit.help.rapid7.com/docs/metasploitable-2)
+**7** | [HackTheBox](https://www.hackthebox.eu)
+**8** | [TryhackMe](https://tryhackme.com)
+**9** | [Pentester labs](pentesterlabs.com)
+**10** | [AttackDefence ]( https://attackdefense.com)
+**11** | [HackThisSite](https://www.hackthissite.org)
+**12** | [Rootme](https://www.root-me.org/?lang=en)
+**13** | [Enigmagroup Challenges](https://www.enigmagroup.org/pages/challenges)
+**14** | [Hackxor](https://hackxor.net)
+**15** | [Natas](http://overthewire.org/wargames/natas/)
+**16** | [HackMe](https://hack.me/explore/)
 
 ## Bug  reports
 Index | How to write a Bug Report? 
 --- | ---
-1. | [How to write Report ](http://10degres.net/bugbounty-howto-write-report/)
-2. | [How To Write a Vulnerability Report ](https://community.ctf365.com/t/how-to-write-a-vulnerability-report/1576)
-3. | [How to write a great vulnerability report ](https://blog.cobalt.io/how-to-write-a-great-vulnerability-report-ab8654c6290c)
-4. | [Writing a good and detailed vulnerability report ](https://medium.com/@tolo7010/writing-a-good-and-detailed-vulnerability-report-bdb86cedcff)
-5. | [Writing Up A POC By Planet Zuda ](https://www.bugcrowd.com/blog/writing-up-a-poc-by-planet-zuda/)
-6. | [What does a good report look like? ](https://bugbountyguide.com/hunters/writing-reports.html)
-7. | [How do I create a detailed proof of concept? ](https://bugbountyguide.com/hunters/proof-of-concepts.html)
-8. | [Reporting a Bug (BugCrowd) ](https://researcherdocs.bugcrowd.com/docs/reporting-a-bug)
-9. | [Google Bug Hunter University ](https://sites.google.com/site/bughunteruniversity/)
-10. | [Bug Bounty Reports Templates](https://github.com/gwen001/bb-reports-templates)
+**1** | [How to write Report ](http://10degres.net/bugbounty-howto-write-report/)
+**2** | [How To Write a Vulnerability Report ](https://community.ctf365.com/t/how-to-write-a-vulnerability-report/1576)
+**3**| [How to write a great vulnerability report ](https://blog.cobalt.io/how-to-write-a-great-vulnerability-report-ab8654c6290c)
+**4** | [Writing a good and detailed vulnerability report ](https://medium.com/@tolo7010/writing-a-good-and-detailed-vulnerability-report-bdb86cedcff)
+**5** | [Writing Up A POC By Planet Zuda ](https://www.bugcrowd.com/blog/writing-up-a-poc-by-planet-zuda/)
+**6** | [What does a good report look like? ](https://bugbountyguide.com/hunters/writing-reports.html)
+**7** | [How do I create a detailed proof of concept? ](https://bugbountyguide.com/hunters/proof-of-concepts.html)
+**8** | [Reporting a Bug (BugCrowd) ](https://researcherdocs.bugcrowd.com/docs/reporting-a-bug)
+**9** | [Google Bug Hunter University ](https://sites.google.com/site/bughunteruniversity/)
+**10** | [Bug Bounty Reports Templates](https://github.com/gwen001/bb-reports-templates)
 
 ## Updates/Discussion/References
 Index | Updates/Discussion/References
 --- | ---
-1. | [Intigriti Bug Bytes #175 (END)](https://blog.intigriti.com/2022/)
-2. | [AppSec Ezine - 435th Edition](https://pathonproject.com/zb/?01ed708654f8086d#1TzuE7BMrpzYqHJVboPuVOP2/kXM4hSnawN/qyJcttQ=)
-3. | [Bug-References](https://github.com/ngalongc/bug-bounty-reference)
-4. | [BugBountyNotes](https://www.bugbountynotes.com/writeups)
-5. | [Pentesterland Write-ups List](https://pentester.land/list-of-bug-bounty-writeups.html)
-6. | [Bugcrowd Write-ups ](https://forum.bugcrowd.com/t/researcher-resources-bounty-bug-write-ups/1137)
-7. | [Reddit Netsec ](https://www.reddit.com/r/netsec/)
-8. | [Bug Bounty World Slack Archive ](https://bugbountyworld.com/slack-archives/)
-9. | [Infosec Write-ups](https://medium.com/bugbountywriteup)
-10. | [Hacker1 Hacktivity - All popular disclosed reports but you can sort by age to see the latest reports first.](https://hackerone.com/hacktivity)
-11. | [Unofficial Hackerone POC timeline](http://h1.nobbd.de/)
+**1** | [Intigriti Bug Bytes #175 (END)](https://blog.intigriti.com/2022/)
+**2** | [AppSec Ezine - 435th Edition](https://pathonproject.com/zb/?01ed708654f8086d#1TzuE7BMrpzYqHJVboPuVOP2/kXM4hSnawN/qyJcttQ=)
+**3** | [Bug-References](https://github.com/ngalongc/bug-bounty-reference)
+**4** | [BugBountyNotes](https://www.bugbountynotes.com/writeups)
+**5** | [Pentesterland Write-ups List](https://pentester.land/list-of-bug-bounty-writeups.html)
+**6**| [Bugcrowd Write-ups ](https://forum.bugcrowd.com/t/researcher-resources-bounty-bug-write-ups/1137)
+**7** | [Reddit Netsec ](https://www.reddit.com/r/netsec/)
+**8**| [Bug Bounty World Slack Archive ](https://bugbountyworld.com/slack-archives/)
+**9**| [Infosec Write-ups](https://medium.com/bugbountywriteup)
+**10** | [Hacker1 Hacktivity - All popular disclosed reports but you can sort by age to see the latest reports first.](https://hackerone.com/hacktivity)
+**11**| [Unofficial Hackerone POC timeline](http://h1.nobbd.de/)
 
 ##  News
 Index |  Cybersecutiy News Sites
@@ -294,6 +294,9 @@ The following list does not exclusively contains Bug Bounty themed Accounts but 
 |[@zeroxyele](https://twitter.com/zeroxyele) | xyele | 🇹🇷https://t.co/PEtNHYrIVKhttps://t.co/p67rsc3GE9
 |[@zseano](https://twitter.com/zseano) | @zseano | webapp hacker and also that annoying lucio 🐸 Recognised by @Amazon in 2018 for my security research work. ~busy working on @bugbountynotes v2!~
 
+## Telegram Channels 
+Updating Soon
+
 ## Discord Servers
 - [Nahamsec](https://discord.gg/d6dENAq)
 - [Hacker101](https://discord.gg/WrCTm8h)
@@ -318,7 +321,7 @@ The following list does not exclusively contains Bug Bounty themed Accounts but 
 - [rwxrob](https://www.twitch.tv/rwxrob) - Linux God
 - [bug Bounty Reports Explained](https://www.youtube.com/c/bugbountyreportsexplained/)
 
-## Streamers
+## Twitch Streamers
 - [Nahamsec](https://www.twitch.com/nahamsec) on Twitch
 - [d0nutptr](https://www.twitch.tv/d0nutptr/) on Twitch
 - [TheCyberMentor](https://twitch.tv/thecybermentor) on Twitch
@@ -331,7 +334,7 @@ The following list does not exclusively contains Bug Bounty themed Accounts but 
 - [The Red Team Village](https://www.twitch.tv/redteamvillage)
 
 ## Podcasts
-Index | Tools collection 
+Index | Podcasts
 -- | ---
 **1.** | [Darknet Diaries](https://darknetdiaries.com/) by [Jack Rhysider](https://twitter.com/jackrhysider)
 **2** | [Episode 60 with dawgyg](https://darknetdiaries.com/episode/60/)
@@ -357,37 +360,37 @@ Index | Tools collection
 ## Ebooks
 Index | Ebooks
 --- | ---
-1. | [Breaking into Information Security Andy Gill]()
-2. | [Web Application Hacker's Handbook 2 Dafydd Stuttard and Marcus Pinto]()
-3. | [Mastering Modern Web Penetration Testing Prakhar Prasad]()
-4. | [Real World Bug Hunting Peter Yaworski](https://www.amazon.com/Real-World-Bug-Hunting-Field-Hacking/dp/1593278616) by [Peter Yaworski](https://twitter.com/yaworsk)
-5. | [The Tangled Web Michał Zalewski](https://www.amazon.com/Tangled-Web-Securing-Modern-Applications/dp/1593273886) by Michal Zalewski
-6. | [The Hacker Playbook - 1,2,3 Peter Kim](https://www.amazon.com/Web-Application-Hackers-Handbook-Exploiting/dp/1118026470/) by Dafydd Stuttard & Marcus Pinto
-7. | [OWASP Testing Guide 4]()
-8. | [OWASP Top 10 (2010 - 2013 - 2017]()
-9. | [Hacking Exposed Web Application -1,2,3]()
-10. | [Web Hacking 101 = Peter Yaworski](https://leanpub.com/web-hacking-101) by [Peter Yaworski](https://twitter.com/yaworsk)
-11. | [Bug Bounty Hunting Essentials = Lozano and Amir]()
-12. | [Bug Bounty Hunting For Web Security = Sanjib Sinha]()
-13. | [Hands-On Bug Hunting For Pentesters = Joseph Marshall]()
-14. | [The Basics of Hacking and Penetration Testing by Patrick Engebreston]()
-15. | [Ethical Hacking and Penetration Test by Rafy Baloch]()
-16. | [Hacking Exposed 7 Network Security]()
-17. | [The Browser Hacker’s Handbook]()
-18. | [Metasploit The Penetration Tester's Guide = David Kennedy]()
-19. | [Penetration Testing: A Hands-On Introduction to Hacking = Georgia Weidman]()
-20. | [Red Team Field Manual]()
-21. | [Black Hat Python = Justin Seitz](https://nostarch.com/blackhatpython) by Justin Seitz
-22. | [Violent Python = TJ O'Connor]()
-23. | [Hacking The Art of Exploitation = Jon Erickson]()
-24. | [Google Hacking for Penetration Testers 3]()
-25. | [Reversing: Secrets to reverse Engineering Eldad Eilam]()
-26. | [Bug Hunter's Diary = Tobias Klein]()
-27. | [Gray Hat Hacking 5]()
-28. | [Burp Suite Cookbook =Sunny Wear]()
-29. | [Kali Linux Revealed]()
-30. | [Nmap Essentials David Shaw]()
-31. | [Black Hat Go](https://nostarch.com/blackhatgo) by Tom Steele, Chris Patten, and Dan Kottmann
-32. | [The Linux Command Line](https://nostarch.com/tlcl2) by William Shotts
+**1** | [Breaking into Information Security Andy Gill]()
+**2** | [Web Application Hacker's Handbook 2 Dafydd Stuttard and Marcus Pinto]()
+**3**. | [Mastering Modern Web Penetration Testing Prakhar Prasad]()
+**4** | [Real World Bug Hunting Peter Yaworski](https://www.amazon.com/Real-World-Bug-Hunting-Field-Hacking/dp/1593278616) by [Peter Yaworski](https://twitter.com/yaworsk)
+**5**. | [The Tangled Web Michał Zalewski](https://www.amazon.com/Tangled-Web-Securing-Modern-Applications/dp/1593273886) by Michal Zalewski
+**6**. | [The Hacker Playbook - 1,2,3 Peter Kim](https://www.amazon.com/Web-Application-Hackers-Handbook-Exploiting/dp/1118026470/) by Dafydd Stuttard & Marcus Pinto
+**7** | [OWASP Testing Guide 4]()
+**8** | [OWASP Top 10 (2010 - 2013 - 2017]()
+**9** | [Hacking Exposed Web Application -1,2,3]()
+**10** | [Web Hacking 101 = Peter Yaworski](https://leanpub.com/web-hacking-101) by [Peter Yaworski](https://twitter.com/yaworsk)
+**11** | [Bug Bounty Hunting Essentials = Lozano and Amir]()
+**12** | [Bug Bounty Hunting For Web Security = Sanjib Sinha]()
+**13** | [Hands-On Bug Hunting For Pentesters = Joseph Marshall]()
+**14** | [The Basics of Hacking and Penetration Testing by Patrick Engebreston]()
+**15** | [Ethical Hacking and Penetration Test by Rafy Baloch]()
+**16** | [Hacking Exposed 7 Network Security]()
+**17** | [The Browser Hacker’s Handbook]()
+**18** | [Metasploit The Penetration Tester's Guide = David Kennedy]()
+**19** | [Penetration Testing: A Hands-On Introduction to Hacking = Georgia Weidman]()
+**20** | [Red Team Field Manual]()
+**21** | [Black Hat Python = Justin Seitz](https://nostarch.com/blackhatpython) by Justin Seitz
+**22** | [Violent Python = TJ O'Connor]()
+**23** | [Hacking The Art of Exploitation = Jon Erickson]()
+**24** | [Google Hacking for Penetration Testers 3]()
+**25** | [Reversing: Secrets to reverse Engineering Eldad Eilam]()
+**26**. | [Bug Hunter's Diary = Tobias Klein]()
+**27** | [Gray Hat Hacking 5]()
+**28** | [Burp Suite Cookbook =Sunny Wear]()
+**29** | [Kali Linux Revealed]()
+**30** | [Nmap Essentials David Shaw]()
+**31** | [Black Hat Go](https://nostarch.com/blackhatgo) by Tom Steele, Chris Patten, and Dan Kottmann
+**32** | [The Linux Command Line](https://nostarch.com/tlcl2) by William Shotts
 
 
