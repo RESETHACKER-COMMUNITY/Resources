@@ -71,26 +71,3 @@ Index | Pentesting & Bug Hunting Resources - How to Start ?
 22. | [Web Application Penetration Testing Course](https://hackingresources.com/web-application-penetration-testing-course/)
 23. | [So you Want to be a Security Engineer?](https://medium.com/@niruragu/so-you-want-to-be-a-security-engineer-d8775976afb7)
 
-Index | Learning Resources 
---- | ---
-1. | [Owasp](https://www.owasp.org/)
-2. | [Knowledge Base Entersoft](http://kb.entersoft.co.in)
-3. | [Hacker 101](https://www.hacker101.com)
-4. | [Bugcrowd Universty](https://www.bugcrowd.com/hackers/bugcrowd-university)
-5. | [Portswigger Academy](https://portswigger.net/web-security)
-6. | [Red Teaming Experiments](https://ired.team)
-7. | [Hacksplaining](https://www.hacksplaining.com/lessons)
-8. | [Security Idiots](http://www.securityidiots.com)
-9. | [Web App Security Testing Resources **](https://danielmiessler.com/projects/webappsec_testing_resources)
-10. | [OWASP Cheat sheet ](https://cheatsheetseries.owasp.org)
-11. | [Ippsec ](https://ippsec.rock)
-12. | [Security Online ](https://securityonline.info)
-13. | [Phrack Magazine ](http://phrack.org/issues/1/1.html)
-14. | [AppSecWiki ](https://appsecwiki.com)
-15. | [Web Application Pentesting Notes**](https://techvomit.net/web-application-penetration-testing-notes)
-16. | [Sans Cyber Aces Tutorial ](https://tutorials.cyberaces.org/tutorials.html)
-17. | [Metasploit Unleashed ](https://www.offensive-security.com/metasploit-unleashed)
-18. | [Pentesterland Newsletter ](https://pentester.land/newsletter)
-19. | [Vincent Red Team Tips ](https://vincentyiu.com/)
-20. | [ZeroDaySecurity Pentesting Methodology ](http://www.0daysecurity.com/pentest.html)
-
