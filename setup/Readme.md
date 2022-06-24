@@ -5,7 +5,7 @@ Conference, Writeups, Tutorials, Bugbounty tips, How to get started etc.
 
 Index | Contents 
 --- | ---
-Nahamsec - Recon_profile | [help create easy aliases to run via an SSH/terminal.](https://github.com/nahamsec/recon_profile)
+Nahamsec - Recon_profile | [Create easy aliases to run via an SSH/terminal.](https://github.com/nahamsec/recon_profile)
 Nahamsec - BugBounty Tookit| [BBHT is a script to install the most popular tools](https://github.com/nahamsec/bbht)
 Aseem Shrey - Bug bounty Setups in any VPS | [Quick script to install and setups Setup Bug Bounty Tools on AWS instance / any VPS for that matter](https://gist.github.com/LuD1161/66f30da6d8b6c1c05b9f6708525ea885)
 HackerSploit - Docker for Bug Hunters | [Docker For Pentesting & Bug Bounty Hunting](https://www.youtube.com/watch?v=rfXadJ72dhg)
