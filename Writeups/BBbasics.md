@@ -4,14 +4,34 @@ Index | Linux Distributions
 **2.** | [Parrot](https://www.parrotsec.org)
 **3.** | [Blackarch](https://blackarch.org)
 
-Index | Ethical Alternative for tools
--- | ---
-**1** | [Ethical Alternative](https://ethical.net/resources/)
-
 Index | Basic Understanding of web application before you start Hunting
 ---|---
 **0** Pentesterlabs | [Web pentesting part 1](https://pentesterlab.com/exercises/web_for_pentester/course)
 **0** Pentesterlabs | [Web pentesting part 2](https://pentesterlab.com/exercises/web_for_pentester_ii/course)
+
+## Learning resources
+Index | Learning Resources 
+--- | ---
+1. | [Owasp](https://www.owasp.org/)
+2. | [Knowledge Base Entersoft](http://kb.entersoft.co.in)
+3. | [Hacker 101](https://www.hacker101.com)
+4. | [Bugcrowd Universty](https://www.bugcrowd.com/hackers/bugcrowd-university)
+5. | [Portswigger Academy](https://portswigger.net/web-security)
+6. | [Red Teaming Experiments](https://ired.team)
+7. | [Hacksplaining](https://www.hacksplaining.com/lessons)
+8. | [Security Idiots](http://www.securityidiots.com)
+9. | [Web App Security Testing Resources **](https://danielmiessler.com/projects/webappsec_testing_resources)
+10. | [OWASP Cheat sheet ](https://cheatsheetseries.owasp.org)
+11. | [Ippsec ](https://ippsec.rock)
+12. | [Security Online ](https://securityonline.info)
+13. | [Phrack Magazine ](http://phrack.org/issues/1/1.html)
+14. | [AppSecWiki ](https://appsecwiki.com)
+15. | [Web Application Pentesting Notes**](https://techvomit.net/web-application-penetration-testing-notes)
+16. | [Sans Cyber Aces Tutorial ](https://tutorials.cyberaces.org/tutorials.html)
+17. | [Metasploit Unleashed ](https://www.offensive-security.com/metasploit-unleashed)
+18. | [Pentesterland Newsletter ](https://pentester.land/newsletter)
+19. | [Vincent Red Team Tips ](https://vincentyiu.com/)
+20. | [ZeroDaySecurity Pentesting Methodology ](http://www.0daysecurity.com/pentest.html)
 
 ## Paid Certifications / courses
 Index | paid Certifications / courses ($) 
@@ -55,7 +75,7 @@ Index | Practice platform
 **15** | [Natas](http://overthewire.org/wargames/natas/)
 **16** | [HackMe](https://hack.me/explore/)
 
-## Bug  reports
+## Bug reports
 Index | How to write a Bug Report? 
 --- | ---
 **1** | [How to write Report ](http://10degres.net/bugbounty-howto-write-report/)
@@ -99,8 +119,6 @@ Index |  Cybersecutiy News Sites
 Index | Daily CheckOut
 -- | ---  
 **1.** | [Twitter Members and # Tag's you should Follow #bugbounty  #bugbountytip #bugbountytips #infosec #togetherwehitharder]
-**2.** | [Security Researches List Bugcrowd](https://twitter.com/bugcrowd/lists/security-researchers)
-**3.** | [5 Tips to Make the Most of Twitter as a Pentester or Bug Hunter](https://pentester.land/tips-n-tricks/2018/10/23/5-tips-to-make-the-most-of-twitter-as-a-pentester-or-bug-bounty-hunter.html)
 
 ------------------------------------------------------------------------------------------------
 NAHAMSEC Github | [This Section Has been Copied from Media Resources & Communities Nahamsec](https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters/edit/master/assets/media.md))
@@ -393,4 +411,6 @@ Index | Ebooks
 **31** | [Black Hat Go](https://nostarch.com/blackhatgo) by Tom Steele, Chris Patten, and Dan Kottmann
 **32** | [The Linux Command Line](https://nostarch.com/tlcl2) by William Shotts
 
-
+## Misc
+**1.** | [Security Researches List Bugcrowd](https://twitter.com/bugcrowd/lists/security-researchers)
+**2.** | [5 Tips to Make the Most of Twitter as a Pentester or Bug Hunter](https://pentester.land/tips-n-tricks/2018/10/23/5-tips-to-make-the-most-of-twitter-as-a-pentester-or-bug-bounty-hunter.html)
