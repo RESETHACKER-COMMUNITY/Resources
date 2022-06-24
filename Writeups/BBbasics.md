@@ -13,7 +13,20 @@ Index | Basic Understanding of web application before you start Hunting
 **0** Pentesterlabs | [Web pentesting part 1](https://pentesterlab.com/exercises/web_for_pentester/course)
 **0** Pentesterlabs | [Web pentesting part 2](https://pentesterlab.com/exercises/web_for_pentester_ii/course)
 
-Index | Bug Bounty platforms
+## Paid Certifications / courses
+Index | paid Certifications / courses ($) 
+-- | ---
+1. | [SANS ](https://www.sans.org/courses)
+2. | [Offensive Security ](https://www.offensive-security.com/information-security-certifications/)
+3. | [ElearnSecurity ](https://www.elearnsecurity.com/course/)
+4. | [Pentester Academy ](https://www.pentesteracademy.com/topics)
+5. | [Hakin9 ](https://hakin9.org/online-courses-2/)
+6. | [Eccouncil Road Map](https://eccouncil.com)
+7. | [Cisco read map for Newtowk analysis](https://cisco.com)
+9. | [Cybrary FREE](https://cybrary.com)
+
+## Bug Bounty platforms offers Bounty
+Index | Bug Bounty platforms offers Bounty
 -- | ---
 **1.** | [Hacker1](https://www.hackerone.com)
 **2.** | [Bugcrowd](https://www.bugcrowd.com)
@@ -22,7 +35,7 @@ Index | Bug Bounty platforms
 **5.** | [intigriti](https://www.intigriti.com)
 **6.** | [YesweHack]()
 
-
+## Practice platform 
 Index | Practice platform 
 --- | ---
 1. | [Damn Vulnerable Web Application](http://www.dvwa.co.uk)
@@ -42,6 +55,7 @@ Index | Practice platform
 13. | [Natas](http://overthewire.org/wargames/natas/)
 14. | [HackMe](https://hack.me/explore/)
 
+## Bug  reports
 Index | How to write a Bug Report? 
 --- | ---
 1. | [How to write Report ](http://10degres.net/bugbounty-howto-write-report/)
@@ -55,54 +69,7 @@ Index | How to write a Bug Report?
 9. | [Google Bug Hunter University ](https://sites.google.com/site/bughunteruniversity/)
 10. | [Bug Bounty Reports Templates](https://github.com/gwen001/bb-reports-templates)
 
-
-Index | Ebooks
---- | ---
-1. | [Breaking into Information Security Andy Gill]()
-2. | [Web Application Hacker's Handbook 2 Dafydd Stuttard and Marcus Pinto]()
-3. | [Mastering Modern Web Penetration Testing Prakhar Prasad]()
-4. | [Real World Bug Hunting Peter Yaworski](https://www.amazon.com/Real-World-Bug-Hunting-Field-Hacking/dp/1593278616) by [Peter Yaworski](https://twitter.com/yaworsk)
-5. | [The Tangled Web Michał Zalewski](https://www.amazon.com/Tangled-Web-Securing-Modern-Applications/dp/1593273886) by Michal Zalewski
-6. | [The Hacker Playbook - 1,2,3 Peter Kim](https://www.amazon.com/Web-Application-Hackers-Handbook-Exploiting/dp/1118026470/) by Dafydd Stuttard & Marcus Pinto
-7. | [OWASP Testing Guide 4]()
-8. | [OWASP Top 10 (2010 - 2013 - 2017]()
-9. | [Hacking Exposed Web Application -1,2,3]()
-10. | [Web Hacking 101 = Peter Yaworski](https://leanpub.com/web-hacking-101) by [Peter Yaworski](https://twitter.com/yaworsk)
-11. | [Bug Bounty Hunting Essentials = Lozano and Amir]()
-12. | [Bug Bounty Hunting For Web Security = Sanjib Sinha]()
-13. | [Hands-On Bug Hunting For Pentesters = Joseph Marshall]()
-14. | [The Basics of Hacking and Penetration Testing by Patrick Engebreston]()
-15. | [Ethical Hacking and Penetration Test by Rafy Baloch]()
-16. | [Hacking Exposed 7 Network Security]()
-17. | [The Browser Hacker’s Handbook]()
-18. | [Metasploit The Penetration Tester's Guide = David Kennedy]()
-19. | [Penetration Testing: A Hands-On Introduction to Hacking = Georgia Weidman]()
-20. | [Red Team Field Manual]()
-21. | [Black Hat Python = Justin Seitz](https://nostarch.com/blackhatpython) by Justin Seitz
-22. | [Violent Python = TJ O'Connor]()
-23. | [Hacking The Art of Exploitation = Jon Erickson]()
-24. | [Google Hacking for Penetration Testers 3]()
-25. | [Reversing: Secrets to reverse Engineering Eldad Eilam]()
-26. | [Bug Hunter's Diary = Tobias Klein]()
-27. | [Gray Hat Hacking 5]()
-28. | [Burp Suite Cookbook =Sunny Wear]()
-29. | [Kali Linux Revealed]()
-30. | [Nmap Essentials David Shaw]()
-31. | [Black Hat Go](https://nostarch.com/blackhatgo) by Tom Steele, Chris Patten, and Dan Kottmann
-32. | [The Linux Command Line](https://nostarch.com/tlcl2) by William Shotts
-
-
-Index | paid Certifications / courses ($) 
--- | ---
-1. | [SANS ](https://www.sans.org/courses)
-2. | [Offensive Security ](https://www.offensive-security.com/information-security-certifications/)
-3. | [ElearnSecurity ](https://www.elearnsecurity.com/course/)
-4. | [Pentester Academy ](https://www.pentesteracademy.com/topics)
-5. | [Hakin9 ](https://hakin9.org/online-courses-2/)
-6. | [Eccouncil Road Map](https://eccouncil.com)
-7. | [Cisco read map for Newtowk analysis](https://cisco.com)
-1. | [Cybrary FREE](https://cybrary.com)
-
+## Updates/Discussion/References
 Index | Updates/Discussion/References
 --- | ---
 1. | [Intigriti Bug Bytes #175 (END)](https://blog.intigriti.com/2022/)
@@ -117,7 +84,7 @@ Index | Updates/Discussion/References
 10. | [Hacker1 Hacktivity - All popular disclosed reports but you can sort by age to see the latest reports first.](https://hackerone.com/hacktivity)
 11. | [Unofficial Hackerone POC timeline](http://h1.nobbd.de/)
 
-
+##  News
 Index |  Cybersecutiy News Sites
 --- | ---
 **1.** | [The Hacker News](https://thehackernews.com)
@@ -142,7 +109,7 @@ NAHAMSEC Github | [This Section Has been Copied from Media Resources & Communiti
 
 The following list does not exclusively contains Bug Bounty themed Accounts but a broad variety of InfoSec and Hacking.<br>
 
-### Members
+### Twitter Members
 | handle | name | description |
 |--------|------|-------------|
 |[@0x0luke](https://twitter.com/0x0luke) | Luke | MSc Cyber Security | BSc Computer Forensics and Security | Web/Hardware hacker. HoF @Tesla @Apple @DeptofDefense @Uber @RockstarGames @Cloudinary @Dell
@@ -339,7 +306,6 @@ The following list does not exclusively contains Bug Bounty themed Accounts but 
 - [InsiderPhD](https://discord.gg/rdQcSk7a)
 
 ## Youtube Channels
-- [Curated List of YT Channels](https://threader.app/thread/1248351836672872456) by TCM
 - [Nahamsec](https://www.youtube.com/nahamsec) - Educational Videos and VODs of his Stream, Vlogs
 - [STÖK](https://www.youtube.com/channel/UCQN2DsjnYH60SFBIA6IkNwg) - Videos About Hacking, Live Events, Bug Bounty Tips & Vlogs
 - [LiveOverflow](https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w) - Educational Videos about CTFs, Hacking in General
@@ -365,15 +331,18 @@ The following list does not exclusively contains Bug Bounty themed Accounts but 
 - [The Red Team Village](https://www.twitch.tv/redteamvillage)
 
 ## Podcasts
-- [Darknet Diaries](https://darknetdiaries.com/) by [Jack Rhysider](https://twitter.com/jackrhysider)
-    - [Episode 60 with dawgyg](https://darknetdiaries.com/episode/60/)
-- [The Bug Bounty Podcast](https://open.spotify.com/show/3yTTlfXH1avrI3FsXZyCpv) by Fisher
-    - [Episode 3 with nahamsec](https://anchor.fm/bugbountypodcast/episodes/Episode-3-ft--NahamSec-ebl392)
-- [Bug Hunter Podcast](https://anchor.fm/bughunter)
+Index | Tools collection 
+-- | ---
+**1.** | [Darknet Diaries](https://darknetdiaries.com/) by [Jack Rhysider](https://twitter.com/jackrhysider)
+**2** | [Episode 60 with dawgyg](https://darknetdiaries.com/episode/60/)
+**3** |  [The Bug Bounty Podcast](https://open.spotify.com/show/3yTTlfXH1avrI3FsXZyCpv) by Fisher
+**4** |  [Episode 3 with nahamsec](https://anchor.fm/bugbountypodcast/episodes/Episode-3-ft--NahamSec-ebl392)
+**5** | [Bug Hunter Podcast](https://anchor.fm/bughunter)
 - [CRE](https://cre.fm/) German Podcast - CRE ist ein unregelmäßig erscheinender Interview-Podcast mit Tim Pritlove zu Themen aus den Bereichen Technik, Kultur und Gesellschaft.
-    - [CRE197 IPv6](https://cre.fm/cre197-ipv6) Episode revolving around IPv6
-- [CCC Luxembourg Podcast](http://wiki.c3l.lu/doku.php?id=projects:entr0py_encore) Luxembourgish Podcast from CCC Lux.
+**6** | [CRE197 IPv6](https://cre.fm/cre197-ipv6) Episode revolving around IPv6
+**7** |  [CCC Luxembourg Podcast](http://wiki.c3l.lu/doku.php?id=projects:entr0py_encore) Luxembourgish Podcast from CCC Lux.
 
+## Tools
 Index | Tools collection 
 -- | ---
 **1.** | [Research Tools (Bugcrowd)](https://forum.bugcrowd.com/t/researcher-resources-tools/167)
@@ -384,4 +353,41 @@ Index | Tools collection
 **6.** | [Awesome Hacking Tools](https://github.com/m4ll0k/Awesome-Hacking-Tools)
 **7.** | [Bugbountyforum Suggested tools](https://bugbountyforum.com/tools/)
 **8.** | [Web Penetration Testing Arsenal](https://pastebin.com/5mBudvMt)
+
+## Ebooks
+Index | Ebooks
+--- | ---
+1. | [Breaking into Information Security Andy Gill]()
+2. | [Web Application Hacker's Handbook 2 Dafydd Stuttard and Marcus Pinto]()
+3. | [Mastering Modern Web Penetration Testing Prakhar Prasad]()
+4. | [Real World Bug Hunting Peter Yaworski](https://www.amazon.com/Real-World-Bug-Hunting-Field-Hacking/dp/1593278616) by [Peter Yaworski](https://twitter.com/yaworsk)
+5. | [The Tangled Web Michał Zalewski](https://www.amazon.com/Tangled-Web-Securing-Modern-Applications/dp/1593273886) by Michal Zalewski
+6. | [The Hacker Playbook - 1,2,3 Peter Kim](https://www.amazon.com/Web-Application-Hackers-Handbook-Exploiting/dp/1118026470/) by Dafydd Stuttard & Marcus Pinto
+7. | [OWASP Testing Guide 4]()
+8. | [OWASP Top 10 (2010 - 2013 - 2017]()
+9. | [Hacking Exposed Web Application -1,2,3]()
+10. | [Web Hacking 101 = Peter Yaworski](https://leanpub.com/web-hacking-101) by [Peter Yaworski](https://twitter.com/yaworsk)
+11. | [Bug Bounty Hunting Essentials = Lozano and Amir]()
+12. | [Bug Bounty Hunting For Web Security = Sanjib Sinha]()
+13. | [Hands-On Bug Hunting For Pentesters = Joseph Marshall]()
+14. | [The Basics of Hacking and Penetration Testing by Patrick Engebreston]()
+15. | [Ethical Hacking and Penetration Test by Rafy Baloch]()
+16. | [Hacking Exposed 7 Network Security]()
+17. | [The Browser Hacker’s Handbook]()
+18. | [Metasploit The Penetration Tester's Guide = David Kennedy]()
+19. | [Penetration Testing: A Hands-On Introduction to Hacking = Georgia Weidman]()
+20. | [Red Team Field Manual]()
+21. | [Black Hat Python = Justin Seitz](https://nostarch.com/blackhatpython) by Justin Seitz
+22. | [Violent Python = TJ O'Connor]()
+23. | [Hacking The Art of Exploitation = Jon Erickson]()
+24. | [Google Hacking for Penetration Testers 3]()
+25. | [Reversing: Secrets to reverse Engineering Eldad Eilam]()
+26. | [Bug Hunter's Diary = Tobias Klein]()
+27. | [Gray Hat Hacking 5]()
+28. | [Burp Suite Cookbook =Sunny Wear]()
+29. | [Kali Linux Revealed]()
+30. | [Nmap Essentials David Shaw]()
+31. | [Black Hat Go](https://nostarch.com/blackhatgo) by Tom Steele, Chris Patten, and Dan Kottmann
+32. | [The Linux Command Line](https://nostarch.com/tlcl2) by William Shotts
+
 
