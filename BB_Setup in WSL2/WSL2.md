@@ -1,6 +1,6 @@
-- INSTALL WSL 2
+- **INSTALL WSL 2**
 
-- RUN POWERSHELL as administrator
+- RUN **POWERSHELL as administrator**
 
 ⚙️ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 
@@ -12,13 +12,13 @@
 
 - RESTART POWERSHELL and RUN cmd in powershell
 
-- SET DEFAULT TO WSL 2
+- **SET DEFAULT TO WSL 2**
 ⚙️ wsl --set-default-version 2 	(Type this in adminstrator mode powershell)
 
-- DOWNLOAD & INSTALL UBANTU 
+- **DOWNLOAD & INSTALL UBUNTU**
 Download Linux Kernel: https://aka.ms/wsl2kernel​
 go to search 
-type Ubantu 20.04 Linux & open. it'll take few minutes.
+type Ubuntu 20.04 Linux & open. it'll take few minutes.
 then it'll ask for username & Password.
 
 - CHECK VERSION 
@@ -35,11 +35,11 @@ then it'll ask for username & Password.
 ⚙️ wsl --help            //Type this in adminstrator mode powershell
 
 - Note: 
-- 1. You're installing WSL2 in Powershell not in Ubantu.
+- 1. You're installing WSL2 in Powershell not in Ubuntu.
 - 2. Type "cd /mnt" t get access to Window system and cd to go back to UBANTU
 -------------------------------------------------
 
-- Ubantu GUI (Ref: https://www.youtube.com/watch?v=IL7Jd9rjgrM)
+- **Ubantu GUI (Ref: https://www.youtube.com/watch?v=IL7Jd9rjgrM)**
 
 Open Remote Desktop Connection(RDC)
 Enter 	localhost:3390
@@ -71,7 +71,7 @@ Video 3 (this) - Using Windows Terminal//
 ⚙️ sudo apt install python3-venv
 
 - Note:
-1. Install virtual stdio code
+1. Install virtual studio code
 //VS Code is also available for Linux, but Windows Subsystem for Linux does not support GUI apps, so we need to install it on Windows. Not to worry, you'll still be able to integrate with your Linux command line and tools using the Remote - WSL Extension.//
 2. Add WSL extention
 Close it.
@@ -82,7 +82,7 @@ Now open UBANTU 20.4 terminal and make a directory 📂
 //open downloaded or saved project from this file//
 code .
 
-Inside Visual stdio code open new terminal(ctrl + shift + `) and type  
+Inside Visual studio code open new terminal(ctrl + shift + `) and type  
 ⚙️ python3 -m venv .venv
 ⚙️ source .venv/bin/activate
 
