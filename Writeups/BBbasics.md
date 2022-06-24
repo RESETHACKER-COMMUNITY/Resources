@@ -1,3 +1,5 @@
+# Idea behind creating this page: Bug hunter take time to explore each section rather than just scroling the Resources.
+
 Index | Linux Distributions  
 -- | ---
 **1.** | [Kali Linux](https://www.kali.org)
