@@ -13,8 +13,8 @@ Raj Chandel - Burpsuite Setup and useses | [Penetration Testing with Burp (Liste
 
 Index | Contents 
 --- | ---
-Raj Chandel - Cloud Computing Setup | [Penetration Testing Lab Setup:Cloud Computing setups(Apache2,MariaDB Server,PHP and its modules, Create OwnCloud  Database, Owncloud and configuration using Ubuntu, docker and VM](https://www.hackingarticles.in/penetration-testing-lab-setupcloud-computing/)
-Raj Chandel - Web Server Lab Setup | [Penetration Testing Lab Setup:Web Server (Apache,PHP,MySQL,phpMyAdmin) in Ubuntu, docker and VM](https://www.hackingarticles.in/web-server-lab-setup-for-penetration-testing/)
+Raj Chandel - Cloud Computing Setup | [Penetration Testing Lab Setup: Apache2, MariaDB Server,PHP and its modules, Create OwnCloud Database  setup and configuration using Ubuntu, docker and VM](https://www.hackingarticles.in/penetration-testing-lab-setupcloud-computing/)
+Raj Chandel - Web Server Lab Setup | [Penetration Testing Lab Setup: Apache, PHP, MySQL, phpMyAdmin setup and configuration  using Ubuntu, docker and VM](https://www.hackingarticles.in/web-server-lab-setup-for-penetration-testing/)
 Jayson Grace - GCP Setups | [DevSecOps lab SetUp:Install gcloud on MacOS & Ubuntu](https://techvomit.net/gcp-cheatsheet/)
 Jayson Grace - AZURE Setups | [DevSecOps lab SetUp:Install AZURE CLI on MacOS & Linux](https://techvomit.net/azure-cheatsheet/)
 Jayson Grace - Elasticsearch Setup | [DevSecOps lab SetUp:Install Elasticsearch - a search engine based on the Lucene library.](https://techvomit.net/elk/)
