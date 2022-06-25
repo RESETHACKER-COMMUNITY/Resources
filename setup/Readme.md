@@ -1,8 +1,5 @@
 # SetupHelpDesk
 
-This Contains all kind of resources for learning purpose which includes
-Conference, Writeups, Tutorials, Bugbounty tips, How to get started etc.
-
 Index | Contents 
 --- | ---
 Nahamsec - Recon_profile | [Create easy aliases to run via an SSH/terminal.](https://github.com/nahamsec/recon_profile)
@@ -10,8 +7,21 @@ Nahamsec - BugBounty Tookit| [BBHT is a script to install the most popular tools
 Aseem Shrey - Bug bounty Setups in any VPS | [Quick script to install and setups Setup Bug Bounty Tools on AWS instance / any VPS for that matter](https://gist.github.com/LuD1161/66f30da6d8b6c1c05b9f6708525ea885)
 HackerSploit - Docker for Bug Hunters | [Docker For Pentesting & Bug Bounty Hunting](https://www.youtube.com/watch?v=rfXadJ72dhg)
 Vikram - BB_Setup in Windows(WSL2) | [Bug Bug setup in Window 10 & 11 with WSL2 ](https://github.com/RESETHACKER-COMMUNITY/Resources/tree/main/BB_Setup%20in%20WSL2)
-Jayson Grace - GCP Setups | [Install gcloud on MacOS & Ubuntu](https://techvomit.net/gcp-cheatsheet/)
-Jayson Grace - AZURE Setups | [Install AZURE CLI on MacOS & Linux](https://techvomit.net/azure-cheatsheet/)
-Jayson Grace - Elasticsearch Setups | [Install Elasticsearch - a search engine based on the Lucene library.](https://techvomit.net/elk/)
-Jayson Grace - Password Managers Setups | [Install Keeper CLI client & LastPass](https://techvomit.net/password-managers/)
-Jayson Grace - Terraform Setups | [Install Terraform on Ubuntu 20.04](https://techvomit.net/terraform-cheatsheet/)
+Raj Chandel - Burpsuite Setup and useses | [Penetration Testing with Burp (Listed created by @Ignitetechnologies)](https://github.com/Ignitetechnologies/BurpSuite-For-Pentester)
+
+
+Index | Contents 
+--- | ---
+Raj Chandel - Cloud Computing Setup | [Penetration Testing Lab Setup:Cloud Computing setups(Apache2,MariaDB Server,PHP and its modules, Create OwnCloud  Database, Owncloud and configuration using Ubuntu, docker and VM](https://www.hackingarticles.in/penetration-testing-lab-setupcloud-computing/)
+Raj Chandel - Web Server Lab Setup | [Penetration Testing Lab Setup:Web Server (Apache,PHP,MySQL,phpMyAdmin) in Ubuntu, docker and VM](https://www.hackingarticles.in/web-server-lab-setup-for-penetration-testing/)
+Jayson Grace - GCP Setups | [DevSecOps lab SetUp:Install gcloud on MacOS & Ubuntu](https://techvomit.net/gcp-cheatsheet/)
+Jayson Grace - AZURE Setups | [DevSecOps lab SetUp:Install AZURE CLI on MacOS & Linux](https://techvomit.net/azure-cheatsheet/)
+Jayson Grace - Elasticsearch Setup | [DevSecOps lab SetUp:Install Elasticsearch - a search engine based on the Lucene library.](https://techvomit.net/elk/)
+Raj Chandel - Jenkin Steup | [DevSecOps Lab Setup:Install Java and setup Jenkin in Ubuntu](https://www.hackingarticles.in/penetration-testing-lab-setup-jenkins/)
+Jayson Grace - Password Managers Setups | [DevSecOps Lab Setup:Install Keeper CLI client & LastPass](https://techvomit.net/password-managers/)
+Jayson Grace - Terraform Setup | [DevSecOps Lab Setup:Install Terraform on Ubuntu 20.04](https://techvomit.net/terraform-cheatsheet/)
+Raj Chandel - Apache Tomcat setup | [Penetration Testing Lab Setup:Tomcat on any Linux Machine](https://www.hackingarticles.in/penetration-testing-lab-setuptomcat/)
+Raj Chandel - Memcached lab setup | [Penetration Testing Lab Setup: pen-testing in Memcached (Ubuntu 18.04.) ](https://www.hackingarticles.in/penetration-testing-lab-setup-memcached/)
+Raj Chandel - Web Proxy Lab Setup Testing using Squid | [Penetration Testing Lab Setup: Squid Proxy](https://www.hackingarticles.in/penetration-testing-lab-setup-squid-proxy/))
+Raj Chandel - Microsocks Lab setup | [Penetration Testing Lab Setup: Microsocks](https://www.hackingarticles.in/penetration-testing-lab-setup-microsocks/)
+Raj Chandel - telnetd Setup & configure | [Penetration Testing on Telnet (Port 23)](https://www.hackingarticles.in/penetration-testing-lab-setuptomcat/)
