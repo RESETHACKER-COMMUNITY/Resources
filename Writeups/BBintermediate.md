@@ -21,7 +21,7 @@ Index | Vulnerabilty Assesment
 ## Web Pentesting Methodology/Reconnaissance
 Index | Bugbounty Methodology/Reconnaissance
 --- | ---
-0.| [Power of Automation & Recon - Mohamed Eldeeb)]() 
+0. | [Power of Automation & Recon - Mohamed Eldeeb)]() 
 0. | [Nahamsec How to Recon & Content Discovery](https://www.hackerone.com/blog/) 
 1. | [How To Do Your Reconnaissance](https://medium.com/bugbountywriteup/guide-to-basic-recon-bug-bounties-recon-728c5242a115)
 2. | [My Guide to Basic Recon](https://blog.securitybreached.org/2017/11/25/guide-to-basic-recon-for-bugbounty/)
