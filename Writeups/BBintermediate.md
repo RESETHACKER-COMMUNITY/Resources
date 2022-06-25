@@ -1,24 +1,27 @@
 # Idea behind creating this page: Bug hunter take time to explore each section rather than just scroling the Resources.
 This contains the Reports, disclosed, write-ups on IT sectors.
 
-
+## Bugbounty Reports/Disclosures 
 Index | Bugbounty Reports/Disclosures 
 --- | ---
 **1** | [The Unofficial Hackerone Disclosure Timeline](http://h1.nobbd.de/)
 **2** | [BugReader](https://bugreader.com/)
 **3** | [Bug Bounty Reference](https://github.com/ngalongc/bug-bounty)
 
+## Web Pentesting MindMaps
 Index | Web Pentesting MindMaps 
 --- | ---
 **1** | [Web Pentesting/Bug Bounty Mindmaps](https://workbook.securityboat.in/mindmaps/web-app-pen-test-mindmap)
 
-Index | Web security Testing Writeups
+## Vulnerabilty Assesment
+Index | Vulnerabilty Assesment
 --- | ---
 **1** | [Web Application Security & Bug Bounty - Methodology, Reconnaissance, Vulnerabilities, Reporting)](https://blog.usejournal.com/web-application-security-bug-bounty-methodology-reconnaissance-vulnerabilities-reporting-635073cddcf2)
 
+## Web Pentesting Methodology/Reconnaissance
 Index | Bugbounty Methodology/Reconnaissance
 --- | ---
-0.| [Power of Automation & Recon - Mohamed Eldeeb)](KL5kvTusBGW2os) 
+0.| [Power of Automation & Recon - Mohamed Eldeeb)]() 
 0. | [Nahamsec How to Recon & Content Discovery](https://www.hackerone.com/blog/) 
 1. | [How To Do Your Reconnaissance](https://medium.com/bugbountywriteup/guide-to-basic-recon-bug-bounties-recon-728c5242a115)
 2. | [My Guide to Basic Recon](https://blog.securitybreached.org/2017/11/25/guide-to-basic-recon-for-bugbounty/)
@@ -28,7 +31,7 @@ Index | Bugbounty Methodology/Reconnaissance
 6. | [Holdswarth Penetration Testing Methodology -part 1,2 ](https://medium.com/dvlpr/penetration-testing-methodology-part-1-6-recon-9296c4d07c8a)
 7. | [Wired](https://www.wired.com/category)
 
-
+## Bug Bounty YT Talks
 Index | Talks (Old but Gold Bug Bounty) 
 -- | ---
 1. | [Bug Bounty Field Manual -Adam Bacchus](https://www.youtube.com/watch?v=aNyK1yVLLRI)
@@ -45,7 +48,7 @@ Index | Talks (Old but Gold Bug Bounty)
 12. | [Hunting for Top Bounties (Nicolas Grégoire](https://www.youtube.com/watch?v=mQjTgDuLsp4)
 
 
-
+## Pentesting & Bug Hunting Resources - How to Start ?
 Index | Pentesting & Bug Hunting Resources - How to Start ? 
 --- | ---
 1. | [Ebrahim Hegazy Guide](http://security4arabs.com/2015/04/03/how-to-start-in-webapps-security/)
