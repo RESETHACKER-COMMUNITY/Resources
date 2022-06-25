@@ -1,4 +1,4 @@
-# SetupHelpDesk
+# SetupHelpDesk(Under Development)
 
 Index | Contents 
 --- | ---
@@ -9,6 +9,7 @@ HackerSploit - Docker for Bug Hunters | [Docker For Pentesting & Bug Bounty Hunt
 Vikram - BB_Setup in Windows(WSL2) | [Bug Bug setup in Window 10 & 11 with WSL2 ](https://github.com/RESETHACKER-COMMUNITY/Resources/tree/main/BB_Setup%20in%20WSL2)
 Raj Chandel - Burpsuite Setup and useses | [Penetration Testing with Burp (Listed created by @Ignitetechnologies)](https://github.com/Ignitetechnologies/BurpSuite-For-Pentester)
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Index | Contents 
 --- | ---
@@ -25,3 +26,8 @@ Raj Chandel - Memcached lab setup | [Penetration Testing Lab Setup: pen-testing 
 Raj Chandel - Web Proxy Lab Setup Testing using Squid | [Penetration Testing Lab Setup: Squid Proxy](https://www.hackingarticles.in/penetration-testing-lab-setup-squid-proxy/))
 Raj Chandel - Microsocks Lab setup | [Penetration Testing Lab Setup: Microsocks](https://www.hackingarticles.in/penetration-testing-lab-setup-microsocks/)
 Raj Chandel - telnetd Setup & configure | [Penetration Testing on Telnet (Port 23)](https://www.hackingarticles.in/penetration-testing-lab-setuptomcat/)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Index | Contents 
+--- | ---
+Philippe Lagadec - security hardening guides | [A collection of awesome security hardening guides, best practices, checklists, benchmarks, tools and other resources.](https://github.com/decalage2/awesome-security-hardening)
