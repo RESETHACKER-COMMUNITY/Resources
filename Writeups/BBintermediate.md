@@ -17,6 +17,10 @@ Index | Web Pentesting MindMaps
 Index | Vulnerabilty Assesment
 --- | ---
 **1** | [Web Application Security & Bug Bounty - Methodology, Reconnaissance, Vulnerabilities, Reporting)](https://blog.usejournal.com/web-application-security-bug-bounty-methodology-reconnaissance-vulnerabilities-reporting-635073cddcf2)
+**2.** | [King of Bugbounty - One Liner Tips](https://github.com/KingOfBugbounty/KingOfBugBountyTips)                           
+**3.** | [Awesome-oneliner-bugbounty - One Liner Tips](https://github.com/attrib07/awesome-oneliner-bugbounty)
+**4.** | [Dork Collection for different search engine:](https://github.com/cipher387/Dorks-collections-list)
+
 
 ## Web Pentesting Methodology/Reconnaissance
 Index | Bugbounty Methodology/Reconnaissance
@@ -74,4 +78,5 @@ Index | Pentesting & Bug Hunting Resources - How to Start ?
 21. | [How to Become a Security Specialist ]( https://www.youtube.com/playlist?list=PLkpG3YKjv6p7vb5suZY3mhBCJDSbflmhT)
 22. | [Web Application Penetration Testing Course](https://hackingresources.com/web-application-penetration-testing-course/)
 23. | [So you Want to be a Security Engineer?](https://medium.com/@niruragu/so-you-want-to-be-a-security-engineer-d8775976afb7)
+
 
