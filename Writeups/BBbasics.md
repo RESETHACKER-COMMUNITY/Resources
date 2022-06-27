@@ -62,7 +62,7 @@ Index | Practice platform
 --- | ---
 **1** | [Damn Vulnerable Web Application](http://www.dvwa.co.uk)
 **2** | [OWASP WebGoat Project](https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project)
-**3** | [OWASP Juice Shop Project](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project)
+**3** | [OWASP Juice Shop](http://juice-shop.herokuapp.com/)
 **4** | [Vulnhub](https://www.vulnhub.com)
 **5** | [bWAAP](http://www.itsecgames.com)
 **6** | [Metasploitable 2](https://metasploit.help.rapid7.com/docs/metasploitable-2)
@@ -81,9 +81,9 @@ Index | Practice platform
 **19** | [XSS Game](https://xss-game.appspot.com/)
 **20** | [Google Gruyere](https://google-gruyere.appspot.com/)
 **21** | [flAWS Cloud](http://flaws.cloud/)
-**12** | [OWASP Mutillidae](https://www.owasp.org/index.php/OWASP_Mutillidae_2_Project)
+**22** | [OWASP Mutillidae](https://www.owasp.org/index.php/OWASP_Mutillidae_2_Project)
 
-**2** | [OWASP Juice Shop](http://juice-shop.herokuapp.com/)
+
 
 
 
