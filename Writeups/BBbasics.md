@@ -57,7 +57,7 @@ Index | Bug Bounty platforms offers Bounty
 **5** | [intigriti](https://www.intigriti.com)
 **6** | [YesweHack]()
 
-## Practice platform 
+## Practice platform for Bugbounty/cybersecurity
 Index | Practice platform 
 --- | ---
 **1** | [Damn Vulnerable Web Application](http://www.dvwa.co.uk)
@@ -74,8 +74,19 @@ Index | Practice platform
 **12** | [Rootme](https://www.root-me.org/?lang=en)
 **13** | [Enigmagroup Challenges](https://www.enigmagroup.org/pages/challenges)
 **14** | [Hackxor](https://hackxor.net)
-**15** | [Natas](http://overthewire.org/wargames/natas/)
-**16** | [HackMe](https://hack.me/explore/)
+**15** | [Hack Me](https://hack.me) 
+**16** | [Hack Yourself First](http://hackyourselffirst.troyhunt.com/)
+**17** | [Natas](http://overthewire.org/wargames/natas/)
+**18** | [CTF 365](https://ctf365.com)
+**19** | [XSS Game](https://xss-game.appspot.com/)
+**20** | [Google Gruyere](https://google-gruyere.appspot.com/)
+**21** | [flAWS Cloud](http://flaws.cloud/)
+**12** | [OWASP Mutillidae](https://www.owasp.org/index.php/OWASP_Mutillidae_2_Project)
+
+**2** | [OWASP Juice Shop](http://juice-shop.herokuapp.com/)
+
+
+
 
 ## Bug reports
 Index | How to write a Bug Report? 
