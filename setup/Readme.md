@@ -13,6 +13,7 @@ Vikram - Burpsuite Setup and useses | [Penetration Testing with Burp (ft.: Raj c
 
 Index | Contents 
 --- | ---
+Sleeplessbeastie's Notes | [Install CouchDB](https://sleeplessbeastie.eu/2020/03/20/how-to-install-couchdb/)
 Raj Chandel - Cloud Computing Setup | [Penetration Testing Lab Setup: Apache2, MariaDB Server,PHP and its modules, Create OwnCloud Database  setup and configuration using Ubuntu, docker and VM](https://www.hackingarticles.in/penetration-testing-lab-setupcloud-computing/)
 Raj Chandel - Web Server Lab Setup | [Penetration Testing Lab Setup: Apache, PHP, MySQL, phpMyAdmin setup and configuration  using Ubuntu, docker and VM](https://www.hackingarticles.in/web-server-lab-setup-for-penetration-testing/)
 Jayson Grace - GCP Setups | [DevSecOps lab SetUp:Install gcloud on MacOS & Ubuntu](https://techvomit.net/gcp-cheatsheet/)
