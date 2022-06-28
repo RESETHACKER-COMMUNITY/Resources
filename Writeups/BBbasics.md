@@ -50,6 +50,7 @@ Index | paid Certifications / courses ($)
 ## Bug Bounty platforms offers Bounty
 Index | Bug Bounty platforms offers Bounty
 -- | ---
+**0** | [Hourly-updated data dumps of bug bounty platform scopes (like Hackerone/Bugcrowd/Intigriti/etc) that are eligible for reports](https://github.com/arkadiyt/bounty-targets-data)
 **1** | [Hacker1](https://www.hackerone.com)
 **2** | [Bugcrowd](https://www.bugcrowd.com)
 **3** | [Synack](https://www.synack.com)
@@ -84,10 +85,6 @@ Index | Practice platform
 **22** | [OWASP Mutillidae](https://www.owasp.org/index.php/OWASP_Mutillidae_2_Project)
 
 
-
-
-
-
 ## Bug reports
 Index | How to write a Bug Report? 
 --- | ---
@@ -110,12 +107,13 @@ Index | Updates/Discussion/References
 **3** | [Bug-References](https://github.com/ngalongc/bug-bounty-reference)
 **4** | [BugBountyNotes](https://www.bugbountynotes.com/writeups)
 **5** | [Pentesterland Write-ups List](https://pentester.land/list-of-bug-bounty-writeups.html)
-**6**| [Bugcrowd Write-ups ](https://forum.bugcrowd.com/t/researcher-resources-bounty-bug-write-ups/1137)
+**6** | [Bugcrowd Write-ups ](https://forum.bugcrowd.com/t/researcher-resources-bounty-bug-write-ups/1137)
 **7** | [Reddit Netsec ](https://www.reddit.com/r/netsec/)
-**8**| [Bug Bounty World Slack Archive ](https://bugbountyworld.com/slack-archives/)
-**9**| [Infosec Write-ups](https://medium.com/bugbountywriteup)
+**8** | [Bug Bounty World Slack Archive ](https://bugbountyworld.com/slack-archives/)
+**9** | [Infosec Write-ups](https://medium.com/bugbountywriteup)
 **10** | [Hacker1 Hacktivity - All popular disclosed reports but you can sort by age to see the latest reports first.](https://hackerone.com/hacktivity)
-**11**| [Unofficial Hackerone POC timeline](http://h1.nobbd.de/)
+**11** | [Unofficial Hackerone POC timeline](http://h1.nobbd.de/)
+**12** | [Hackeone Top reportd by bug type](https://github.com/reddelexc/hackerone-reports)
 
 ##  News
 Index |  Cybersecutiy News Sites
@@ -375,6 +373,10 @@ Index | Podcasts
 - [CRE](https://cre.fm/) German Podcast - CRE ist ein unregelmäßig erscheinender Interview-Podcast mit Tim Pritlove zu Themen aus den Bereichen Technik, Kultur und Gesellschaft.
 **6** | [CRE197 IPv6](https://cre.fm/cre197-ipv6) Episode revolving around IPv6
 **7** |  [CCC Luxembourg Podcast](http://wiki.c3l.lu/doku.php?id=projects:entr0py_encore) Luxembourgish Podcast from CCC Lux.
+**8** | [🔖Hacked Story](https://open.spotify.com/show/21zZfOy7VCSIIWlJ64DElv?si=uQePe37MQA-piWO14fhwFg)
+**9** | [🔖Bug-bounties-and-cve](https://soundcloud.com/ic0de/bug-bounties-and-cve) by ic0de
+
+
 
 ## Tools
 Index | Tools collection 
