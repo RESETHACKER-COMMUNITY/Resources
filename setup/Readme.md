@@ -2,6 +2,7 @@
 
 Index | Contents 
 --- | ---
+Developer Tools - 0xblackbird [Developer Tools for bugbounty hunters](https://0xblackbird.github.io/blog/post4)
 Nahamsec - Recon_profile | [Create easy aliases to run via an SSH/terminal.](https://github.com/nahamsec/recon_profile)
 Nahamsec - BugBounty Tookit| [BBHT is a script to install the most popular tools](https://github.com/nahamsec/bbht)
 Aseem Shrey - Bug bounty Setups in any VPS | [Quick script to install and setups Setup Bug Bounty Tools on AWS instance / any VPS for that matter](https://gist.github.com/LuD1161/66f30da6d8b6c1c05b9f6708525ea885)
