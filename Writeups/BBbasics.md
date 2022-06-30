@@ -50,6 +50,10 @@ Index | Learning Resources
 20. | [ZeroDaySecurity Pentesting Methodology ](http://www.0daysecurity.com/pentest.html)
 
 ## Paid Certifications / courses
+**Q. Which certifications should I go for?**
+- This is a debatable question, and there is definitely not a single answer for this. Before planning for the certifications, it is best to know what the factors are to consider before choosing/going for any certification.
+![things consider before getting certificates ](https://user-images.githubusercontent.com/25515871/176600864-8f85d919-db19-4993-b15d-30c87fe587f8.png)
+
 Index | paid Certifications / courses ($) 
 -- | ---
 **1** | [SANS ](https://www.sans.org/courses)
