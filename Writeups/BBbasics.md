@@ -14,9 +14,8 @@ Index | Basic Understanding of web application before you start Hunting
 # Community-Contributors
 > A list of all the amazing creators around the world 🌎 and providing free cybersecurity content to the community.
 
-Index | Platforms 
+Index | Platforms StayUptoDate 
 --- | ---
-
 **1** | [Track & stay Up to date](https://github.com/RESETHACKER-COMMUNITY/Community-Contributers/blob/main/StayUptoDate.md)
 **2** | [News](https://github.com/RESETHACKER-COMMUNITY/Community-Contributers/blob/main/news.md)
 **3** | [Podcasts](https://github.com/RESETHACKER-COMMUNITY/Community-Contributers/blob/main/podcasts.md)
