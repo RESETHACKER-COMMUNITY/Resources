@@ -1,4 +1,4 @@
-# Idea behind creating this page: Bug hunter take time to explore each section rather than just scroling the Resources.
+## Idea behind creating this page: Bug hunter take time to explore and take notes from each section rather than just scroling the Resources.
 
 Index | Linux Distributions  
 -- | ---
