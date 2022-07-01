@@ -52,6 +52,32 @@ Today no one directly uses javascript instead they use a framework especially if
 
 ### Understanding ReactJS
 
+## .Net framework (for backend - dev)
+.NET is a software development framework and ecosystem designed and  to allow for easy desktop and web application engineering. it provides the programming environment for most software development phases. .NET best suits businesses that look for a wide range of features like web-based services, desktop software, and cloud infrastructure support.
+
+The .NET Framework released back in 2002 is the first and oldest implementation of the platform. It includes three main application models – WPF, Windows Forms, ASP.NET Forms – and Base Class Library.
+.NET best suits businesses that look for a wide range of features like web-based services, desktop software, and cloud infrastructure support.
+
+![asp net Mvc](https://user-images.githubusercontent.com/25515871/176917424-8c1593cc-1e29-4eb8-a254-71e85f1ba3b6.png)
+  
+   ASP.NET MVC is a web application framework developed by Microsoft that allows software developers to build a web application as a composition of three roles: Model, View and Controller. It is no longer in active development. It provides a distinct separation between the HTML view, the C# model, and the server-based controller. 
+  
+   Windows Presentation Foundation (WPF) is a UI framework used for creating graphical interfaces primarily for desktop client applications on Windows OS. WPF uses the capabilities of Extensible Application Markup Language (XAML).
+
+   Windows Forms is a GUI class library within .NET Framework. Windows Forms are used to develop desktop applications with rich graphics that are easy to update and deploy.
+
+   ASP.NET. While the previous two components are designed for desktop engineering ASP.NET is used to develop dynamic websites and web applications. There is the Common Language Runtime (CLR) in its core that gives developers the opportunity to write ASP.NET code using different .NET languages that we discuss below.
+
+The newest .NET 6 version(in November 2021) delivered a unified platform for building projects across cloud, browser, IoT, mobile, and desktop environments, enabling all to use the same .NET libraries, SDK, and runtime.
+![the-net-6-unified-development-platform](https://user-images.githubusercontent.com/25515871/176915446-82b5a414-3df0-466f-83d6-534b76c03bae.png)
+
+
+REF: 
+https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_breaking_ASP.NET.pdf
+[Still need to review this PDF](https://owasp.org/www-pdf-archive/ASDC12-Hacking_NETC_Applications_The_Black_Arts.pdf)
+
+### Most popular web frameworks:
+![most-popular-web-frameworks-according-to-professional developers](https://user-images.githubusercontent.com/25515871/176917211-3757c0ce-c87f-4426-b8a6-52ad5df6c12c.png)
 
 ## Debugging Javascript code:
  
@@ -62,7 +88,7 @@ Today no one directly uses javascript instead they use a framework especially if
 
 ### Do a Stactic Analysis (Idea is finding vulnerabilty in Js code by understanding the how website is using javascripts then breaking it with payloads):
   
-   Try reading the code by seaching keywords(api, token, http, https:// etc).Sometime Just looking through code can give you endpoints that has admin access.
+   Try reading the code by seaching keywords(api, token, http, https:// etc). Sometime Just looking through code can give you endpoints that has admin access.
    
    You can also goto the wayback machine of page and check the 1st version of code to understand the changes.
    
