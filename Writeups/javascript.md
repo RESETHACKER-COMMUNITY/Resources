@@ -47,7 +47,7 @@ Examples of some Popular Js frameworks:
     Polymer : Pros. Cons. Good for single-page applications.
     
 NotE: Today no one directly uses javascript instead they use a framework especially if you are a company.
-[To Understand this you need to know about pro's and con's](https://hackr.io/blog/best-javascript-frameworks)
+[Why do we have so many framework?  To Understand this you need to know about pro's and con's](https://hackr.io/blog/best-javascript-frameworks)
 
 
 ### Understanding ReactJS
