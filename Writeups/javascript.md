@@ -1,4 +1,4 @@
-# JAVASCRIPT, framework , .NET & Javascripts for hackers
+# JAVASCRIPT, framework , .NET & Javascripts for PRNTESTERS/Hackers
 
 **JavaScript** (or JS for short) is a scripting language used by front end developers to implement and manage dynamic content. 
 JavaScript was initially used only for the client-side but, in more recent times, it has also been used as a server-side programming language.
@@ -50,7 +50,8 @@ Today no one directly uses javascript instead they use a framework especially if
 [Why do we have so many framework?  To Understand this you need to know about pro's and con's of all the framework](https://hackr.io/blog/best-javascript-frameworks)
 
 
-### Understanding ReactJS
+## Understanding ReactJS
+May be in Future
 
 ## .Net framework (for backend - dev)
 .NET is a software development framework and ecosystem designed and  to allow for easy desktop and web application engineering. it provides the programming environment for most software development phases. .NET best suits businesses that look for a wide range of features like web-based services, desktop software, and cloud infrastructure support.
@@ -117,12 +118,12 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
       cat lyftgalactic-js-urls.txt | hakcheckurl
 
  ### Making the gathered JavaScript code readable:
-    Minify JavaScript using UglifyJS,  JS Beautifier , Vs code etc
+ Read Deobfuscated or Minify JavaScript using Deobfuscatedjavascript.com , UglifyJS, JS Beautifier , Vs code etc
 
 
 ## Identifying information that may lead to discovery of security issues
    
-    *Sometime Just looking through code can give you endpoints i.e full URLs, relative paths etc. that potentially lead to admin access file/page/endpoints.*
+   *Sometime Just looking through code can give you endpoints i.e full URLs, relative URL/Paths etc. that potentially lead to admin access file/page/endpoints.*
       
       You can also automate this process: 
       
@@ -130,10 +131,11 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
          LinkFinder by Gerben Javado is quite handy in identifying all the endpoints and their parameters in JavaScript files.
          python linkfinder.py -i https://example.com -d -o cli
          
-         Extract API endpoints from javascript files:
+       Extract API endpoints from javascript files:
          cat file.js | grep -aoP "(?<=(\"|\'|\`))\/[a-zA-Z0-9_?&=\/\-\#\.]*(?=(\"|\'|\`))" | sort -u
          
-         Find hidden GET parameters in javascript files:
+         
+       Find hidden GET parameters in javascript files:
           1. Scour javascript files for variable names, e.g.: var test = "xxx"
           2. Try each of them as a GET parameter to uncover hidden parameters, e.g.: https://example.com/?test=”xsstest
           
@@ -146,9 +148,11 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
         Regex search will be able to identify credentials that are set by users such as usernames and passwords. 
         Entropy based search is effective in identifying sufficiently random secrets such as API keys and tokens.
         DumpsterDiver, Repo-supervisor and truffleHog are some fantastic tools to search for secrets in source code files.
+        
         https://github.com/securing/DumpsterDiver
         python DumpsterDiver -p ~/jsfiles
         [How to use DumpsterDiver](https://latesthackingnews.com/2018/07/10/dumpsterdiver-the-tool-for-finding-hardcoded-secrets/)
+        
         Don’t forget that grep/sed/awk are also quite powerful when searching for specific sensitive information the source code files.
    
    Privious CVE and Outdated component,Outdated framework and Outdated librabey could lead to vulenrability. ( Retire.js is a tool that can identify outdated JavaScript frameworks.Although RetireJS can report some false positives and not everything reported by RetireJS is vulnerable).
@@ -159,7 +163,9 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
    You can brute force endpoints.(but If you understand the Js code then You'll potentially have more success finding the endpoints and creating your own wordlist beacuse Bruteforec use Wordlist and there is highter chance that endpint is not availabe in wordlists.)
 
 ### Reading all the Js files and find something from Js code are hard so 
-
+     
+     Based on different framework or library search for important Js files such as /authProvider.js, config.js, App.js, users.js, /MyUrlField.js, /posts.js, Dashboard.js  etc then only check selected Js files.
+     
      Click on the Global listner from threads and you can see all the POST request that has been made within JS files.
      To Understand about listner and How to use it find vulnerabilty in JS code :
      Recommand you to play here (https://public-firing-range.appspot.com and /dom/index.html)
@@ -186,36 +192,21 @@ Using security linters [ESLint (https://github.com/LewisArdern/eslint-plugin-ang
 
 
 # Bug Bounty — Tips / Tricks / JS (JavaScript Files)
- #[Javascript security vulenrability](https://snyk.io/learn/javascript-security/)
+ #[snyk - Javascript security vulenrability](https://snyk.io/learn/javascript-security/)
 ![Javascript-vulnerability](https://user-images.githubusercontent.com/25515871/176843087-1e7a5d83-144d-4148-967c-b0425900aacd.jpg)
 
 
-[Steal Info JS](https://book.hacktricks.xyz/pentesting-web/xss-cross-site-scripting/steal-info-js)
+[Hacktrick - Steal Information in JS](https://book.hacktricks.xyz/pentesting-web/xss-cross-site-scripting/steal-info-js)
 
 If you know of an endpoint which returns 403 since it’s an admin endpoint but have you ever imagined knowing the correct directories and parameters sometimes can turn 403 into 200 (because of misconfigurations) and then into a SQLi? ;)
-
-
-## Recommended Links for chrome-devtools, Finding vul in javascript
+      
+## Recommended Links for chrome-devtools, Finding vulnerability in javascript
       
       https://developers.google.com/web/tools/chrome-devtools
       https://developers.google.com/web/tools/chrome-devtools/javascript
       https://youtu.be/44D-FSAj3PQ
       https://youtu.be/FTeE3OrTNoA
-      https://blog.appsecco.com/static-analysis-of-client-side-javascript-for-pen-testers-and-bug-bounty-hunters-f1cb1a5d5288
-      Performing JavaScript Static Analysis by Lewis Ardern [Video]
-      https://statuscode.ch/2015/05/static-javascript-analysis-with-burp/
-      http://blog.blueclosure.com/2017/10/javascript-dangerous-functions-part-2_29.html
-      https://reverseengineering.stackexchange.com/questions/4561/how-to-deobfuscate-an-obfuscated-javascript-file-like-this
-      https://labs.detectify.com/2016/12/08/the-pitfalls-of-postmessage/
-      https://angular.io/guide/security
-      https://blog.jse.li/posts/marveloptics-malware/
-      
-Recommended Links for chrome-devtools, Finding vul in javascript
-      
-      https://developers.google.com/web/tools/chrome-devtools
-      https://developers.google.com/web/tools/chrome-devtools/javascript
-      https://youtu.be/44D-FSAj3PQ
-      https://youtu.be/FTeE3OrTNoA
+      https://www.youtube.com/watch?v=NjJ_f1y7Kz4
       https://blog.appsecco.com/static-analysis-of-client-side-javascript-for-pen-testers-and-bug-bounty-hunters-f1cb1a5d5288
       Performing JavaScript Static Analysis by Lewis Ardern [Video]
       https://statuscode.ch/2015/05/static-javascript-analysis-with-burp/
@@ -226,4 +217,6 @@ Recommended Links for chrome-devtools, Finding vul in javascript
       https://blog.jse.li/posts/marveloptics-malware/
       https://thehackerblog.com/i-too-like-to-live-dangerously-accidentally-finding-rce-in-signal-desktop-via-html-injection-in-quoted-replies/index.html
       https://www.infosecmatter.com/bug-bounty-tips-4-aug-03/#2_find_javascript_files_using_gau_and_httpx
+      https://github.com/robre/jsmon (a javascript change monitoring tool for bugbounties )
+      
       
