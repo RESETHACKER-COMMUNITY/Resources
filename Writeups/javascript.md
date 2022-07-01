@@ -44,7 +44,7 @@ Eg: We can easily understand a framework with the example of a collage maker.
     Node. js : Pros. Cons. ...
     Polymer : Pros. Cons. Good for single-page applications.
     
-NotE: 
+Note: 
 Today no one directly uses javascript instead they use a framework especially if you are a company.
 
 [Why do we have so many framework?  To Understand this you need to know about pro's and con's of all the framework](https://hackr.io/blog/best-javascript-frameworks)
@@ -156,11 +156,12 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
         Don’t forget that grep/sed/awk are also quite powerful when searching for specific sensitive information the source code files.
    
    Privious CVE and Outdated component,Outdated framework and Outdated librabey could lead to vulenrability. ( Retire.js is a tool that can identify outdated JavaScript frameworks.Although RetireJS can report some false positives and not everything reported by RetireJS is vulnerable).
-   you can also goto the wayback machine of page and check the 1st version of code to understand the changes.
    
-   From Js request check out the Api endpoint then search the keyword(for eg Api/hello hello is the keyword here) in Js files or code.To understand the Js behavior.
+   you can also goto the wayback machine of page and check the 1st version of code to understand the changes. or Use jsmon(API key needed to push the notification) with corn jobs on daily/weekly/monthy basis to track the changes in code(https://github.com/robre/jsmon)
    
-   You can brute force endpoints.(but If you understand the Js code then You'll potentially have more success finding the endpoints and creating your own wordlist beacuse Bruteforec use Wordlist and there is highter chance that endpint is not availabe in wordlists.)
+   From Js request checkout the Api endpoint then search the keyword(for eg Api/hello hello is the keyword here) in Js files or code.To understand the Js behavior.
+   
+   You can brute force endpoints.(but If you understand the Js code then You'll potentially have more success finding the endpoints and creating your own wordlist beacuse Bruteforec use Wordlist and there is highter chance that endpoint is not availabe in wordlists.)
 
 ### Reading all the Js files and find something from Js code are hard so 
      
