@@ -54,14 +54,19 @@ NotE: Today no one directly uses javascript instead they use a framework especia
 
 
 ## Debugging Javascript code:
-https://developers.google.com/web/tools/chrome-devtools
-https://developers.google.com/web/tools/chrome-devtools/javascript
-https://youtu.be/44D-FSAj3PQ
+Open DevTools(right click and select intercept) > goto Netowrk > Select Js in the Options (Now you have all the Js files)
 
-
+ https://developers.google.com/web/tools/chrome-devtools
+ 
+ https://developers.google.com/web/tools/chrome-devtools/javascript
+ 
+ https://youtu.be/44D-FSAj3PQ
 
 
 # Bug Bounty — Tips / Tricks / JS (JavaScript Files)
+#[Javascript security vulenrability](https://snyk.io/learn/javascript-security/)
+![Javascript-vulnerability](https://user-images.githubusercontent.com/25515871/176843087-1e7a5d83-144d-4148-967c-b0425900aacd.jpg)
+
 
 [Steal Info JS](https://book.hacktricks.xyz/pentesting-web/xss-cross-site-scripting/steal-info-js)
 
