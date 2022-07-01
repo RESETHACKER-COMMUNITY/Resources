@@ -46,15 +46,17 @@ Examples of some Popular Js frameworks:
     Node. js : Pros. Cons. ...
     Polymer : Pros. Cons. Good for single-page applications.
     
-NotE: Today no one directly uses javascript instead they use a framework especially if you are a company.
-[Why do we have so many framework?  To Understand this you need to know about pro's and con's](https://hackr.io/blog/best-javascript-frameworks)
+NotE: 
+Today no one directly uses javascript instead they use a framework especially if you are a company.
+
+[Why do we have so many framework?  To Understand this you need to know about pro's and con's of all the framework](https://hackr.io/blog/best-javascript-frameworks)
 
 
 ### Understanding ReactJS
 
 
 ## Debugging Javascript code:
-Open DevTools(right click and select intercept) > goto Netowrk > Select Js in the Options (Now you have all the Js files)
+Open DevTools(right click and select inspect) > goto Netowrk > Select Js in the Options (Now you have all the Js files)
 
  https://developers.google.com/web/tools/chrome-devtools
  
