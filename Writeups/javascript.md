@@ -1,3 +1,5 @@
+# JAVASCRIPT FOR HACKER
+
 **JavaScript** (or JS for short) is a scripting language used by front end developers to implement and manage dynamic content. 
 JavaScript was initially used only for the client-side but, in more recent times, it has also been used as a server-side programming language.
 
@@ -15,20 +17,24 @@ Not really. Yes, both tools have similar uses, but there are significant differe
 ![JS libraray vs framework](https://user-images.githubusercontent.com/25515871/176824106-79f174ba-ec22-406d-831b-5b78419727c8.png)
 
 Examples of JavaScript Libraries:
+    
     jQuery : DOM Manipulation
     React JS : User Interface framework
-    Data-Driven Documents or D3.js( library to use when you are dealing with data. It manipulates the document based on the content and adds interactivity with the help of HTML, SVG, and CSS. )
+    Data-Driven Documents or D3.js( library to use when you are dealing with data. It manipulates the document based on the content and adds interactivity   with the help of HTML, SVG, and CSS. )
     TaffyDB : Database (JavaScript library that adds database features to our website.)
 
 ## Why do we use framework?
 So a JavaScript Framework is an application skeleton, a complete structure that provides the programmer with the basic tools of creating a website or a web application. 
 They consist of a huge collection of various JavaScript libraries that supplies the programmers with pre-written code and thus allows even those who don’t have a lot of programming knowledge.
 
-EG: 
-We can easily understand a framework with the example of a collage maker. 
+Eg: We can easily understand a framework with the example of a collage maker. 
+
 These applications have some photo frame ideas that you can choose from.
+
 You just have to sit and decide which frame you like the most. 
+
 You don’t have to position them all by yourself which provides faster results. But they have limited choices to select from.
+
 Examples of some Popular Js frameworks:
 
     Angular :  Pros. Cons. Open Source. Single page applications. ...
@@ -39,6 +45,7 @@ Examples of some Popular Js frameworks:
     Mithril : Pros. Cons. Lightweight. ...
     Node. js : Pros. Cons. ...
     Polymer : Pros. Cons. Good for single-page applications.
+    
 NotE: Today no one directly uses javascript instead they use a framework especially if you are a company.
 [To Understand this you need to know about pro's and con's](https://hackr.io/blog/best-javascript-frameworks)
 
