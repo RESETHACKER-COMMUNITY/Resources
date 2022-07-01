@@ -29,13 +29,11 @@ They consist of a huge collection of various JavaScript libraries that supplies 
 
 Eg: We can easily understand a framework with the example of a collage maker. 
 
-These applications have some photo frame ideas that you can choose from.
-
-You just have to sit and decide which frame you like the most. 
-
-You don’t have to position them all by yourself which provides faster results. But they have limited choices to select from.
-
-Examples of some Popular Js frameworks:
+    These applications have some photo frame ideas that you can choose from.
+    You just have to sit and decide which frame you like the most. 
+    You don’t have to position them all by yourself which provides faster results. But they have limited choices to select from.
+    
+ Examples of some Popular Js frameworks:
 
     Angular :  Pros. Cons. Open Source. Single page applications. ...
     React : Pros. Cons. Easy to learn. Reusable components. ...
@@ -56,17 +54,42 @@ Today no one directly uses javascript instead they use a framework especially if
 
 
 ## Debugging Javascript code:
-Open DevTools(right click and select inspect) > goto Netowrk > Select Js in the Options (Now you have all the Js files)
-
- https://developers.google.com/web/tools/chrome-devtools
  
- https://developers.google.com/web/tools/chrome-devtools/javascript
- 
- https://youtu.be/44D-FSAj3PQ
+  Open DevTools(right click and select inspect) > goto Netowrk 
+    
+    Select Js in the Options : In case you want to See all the Js files)
+    Select XHR(XML HTTP Request or Simply fetching remote file with javascript) : In case you want to See Request made by javascript.
 
+### Do a Stactic Analysis (Idea is finding vulnerabilty in Js code by understanding the how website is using javascripts then breaking it with payloads):
+  
+   Try reading the code by seaching keywords(api, token, http, https:// etc).Sometime Just looking through code can give you endpoints that has admin access.
+   
+   You can also goto the wayback machine of page and check the 1st version of code to understand the changes.
+   
+   From Js request check out the Api endpoint then search the keyword(for eg Api/hello hello is the keyword here) in Js files or code.
+   
+   You can brute force endpoints.(but If you understand the Js code then You'll potentially have more success finding the endpoints and creating your own wordlist beacuse Bruteforec use Wordlist and there is highter chance that endpint is not availabe in wordlists.)
+
+### Reading all the Js files and find something from Js code are hard so 
+
+     Click on the Global listner from threads and you can see all the POST request that has been made within JS files.
+     To Understand about listner and How to use it find vulnerabilty in JS code :
+     Recommand you to play here (https://public-firing-range.appspot.com and /dom/index.html)
+
+ Impact:
+
+    Vulnerably in Javascript code could lead you DOM XSS(or client side XSS).(To the DOM XSS reports site:hackerone.com intext:dom XSS )
+    You can also use open source tools to fetch all the Js link/file from waybackurl and use automated tools to chaeck for vulenerabilty.
+
+Recommended Links for chrome-devtools, Finding vul in javascript
+      
+      https://developers.google.com/web/tools/chrome-devtools
+      https://developers.google.com/web/tools/chrome-devtools/javascript
+      https://youtu.be/44D-FSAj3PQ
+      https://youtu.be/FTeE3OrTNoA
 
 # Bug Bounty — Tips / Tricks / JS (JavaScript Files)
-#[Javascript security vulenrability](https://snyk.io/learn/javascript-security/)
+ #[Javascript security vulenrability](https://snyk.io/learn/javascript-security/)
 ![Javascript-vulnerability](https://user-images.githubusercontent.com/25515871/176843087-1e7a5d83-144d-4148-967c-b0425900aacd.jpg)
 
 
