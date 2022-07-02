@@ -125,7 +125,7 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
    
    *Sometime Just looking through code can give you endpoints i.e full URLs, relative URL/Paths etc. that potentially lead to admin access file/page/endpoints.*
       
-      You can also automate this process: 
+      You can automate this process: 
       
          Using relative-url-extractor to extract relative paths from remote JS file
          LinkFinder by Gerben Javado is quite handy in identifying all the endpoints and their parameters in JavaScript files.
@@ -147,7 +147,7 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
           You can brute force endpoints.(but If you understand the Js code then You'll potentially have more success finding the endpoints and creating your own wordlist beacuse Bruteforec use Wordlist and there is highter chance that endpoint is not availabe in wordlists.)
    
    
-    Try reading the js file/code by seaching sensative keywords(api, token, http, https://,key, //# sourceMappingURL=*.js.map etc). 
+       Try reading the js file/code by seaching sensative keywords(api, token, http, https://,key, //# sourceMappingURL=*.js.map etc). 
     
         we can identify secrets in source code files using either regex or entropy. 
         
@@ -161,7 +161,7 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
         
         Don’t forget that grep/sed/awk are also quite powerful when searching for specific sensitive information the source code files.
    
-   Privious CVE and Outdated component,Outdated framework and Outdated librabey could lead to vulenrability. 
+   *Privious CVE and Outdated component,Outdated framework and Outdated librabey could lead to vulenrability. 
    ( Retire.js is a tool that can identify outdated JavaScript frameworks.Although RetireJS can report some false positives and not everything reported by RetireJS is vulnerable).
    
    you can also goto the wayback machine of page and check the 1st version of code to understand the changes. or Use jsmon(API key needed to push the notification) with corn jobs on daily/weekly/monthy basis to track the changes in code(https://github.com/robre/jsmon)
@@ -177,26 +177,31 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
      
 ### When looking into JavaScript files, it is important to identify what frameworks are being used, identify dangerous functions in the framework and then look for them in the source code i.e. places where developers tend to make mistakes that will lead to potential security issues.
 
-        Usage of innerHTML indicates that there might be possible XSS issue. In the modern client-side JavaScript frameworks innerHTML equivalents do exist such as the aptly named dangerouslytSetInnerHTML in React framework and they did result in serious security vulnerabilities in the past .
-        Improper usage of bypassSecurityTrustX methods in Angular can also lead to XSS issues.
-        eval function is another place where things can go wrong both on client-side and server side.
+        a. Usage of innerHTML indicates that there might be possible XSS issue. In the modern client-side JavaScript frameworks innerHTML equivalents do exist such as the aptly named dangerouslytSetInnerHTML in React framework and they did result in serious security vulnerabilities in the past .
+        b. Improper usage of bypassSecurityTrustX methods in Angular can also lead to XSS issues.
+        c. eval function is another place where things can go wrong both on client-side and server side.
+        
         List of bypassSecurityTrustX methods in Angular:
         ![Getting deeper with JS code review](https://user-images.githubusercontent.com/25515871/176961444-9cd0b727-897e-4c15-b7cf-cd971fb956e7.png)
         
-        postMessage API is an alternative to JSONP, XHR with CORS headers and other methods enabling sending data between origins by bypassing Same Origin Policy(SOP). The idea of bypassing SOP and communicating with different origin should be of interest to attackers. There are various security pitfalls when using postMessage. Once you understand the possible security issues associated with postMessage, you can look for the implementation in JavaScript files. On the message sender side, look for window.postMessage and on the receiver end look for a listener window.addEventListener . You’ll have to keep in mind that a lot of frameworks implement wrappers around postMessage
+        **postMessage** API is an alternative to JSONP, XHR with CORS headers and other methods enabling sending data between origins by bypassing Same Origin Policy(SOP). The idea of bypassing SOP and communicating with different origin should be of interest to attackers. There are various security pitfalls when using postMessage. Once you understand the possible security issues associated with postMessage, you can look for the implementation in JavaScript files. On the message sender side, look for window.postMessage and on the receiver end look for a listener window.addEventListener . You’ll have to keep in mind that a lot of frameworks implement wrappers around postMessage
         
-        localStorage and sessionStorage are HTML Web Storage Objects. With web storage, web applications can store data locally within the user’s browser. It is important to identify what is being stored using the Web Storage especially storing anything sensitive can lead to potential security issues. In the JavaScript, you can look for window.localStorage and window.sessionStorage.
+        **localStorage and sessionStorage** are HTML Web Storage Objects. With web storage, web applications can store data locally within the user’s browser. It is important to identify what is being stored using the Web Storage especially storing anything sensitive can lead to potential security issues. In the JavaScript, you can look for window.localStorage and window.sessionStorage.
 
-Using security linters [ESLint (https://github.com/LewisArdern/eslint-plugin-angularjs-security-rules)- easily customisable by adding custom security rules] and static security scanners(**JSPrime**) will make it easy to identify low hanging vulnerabilities in JavaScript code but the project hasn’t been updated in a while.
+
+*Using security linters [ESLint (https://github.com/LewisArdern/eslint-plugin-angularjs-security-rules)- easily customisable by adding custom security rules] and 
+
+*static security scanners(**JSPrime**) will make it easy to identify low hanging vulnerabilities in JavaScript code but the project hasn’t been updated in a while.
 
 
 ## Outcome (content discovery):
-    Information Leakage such as API,keys , secret, database, logs, source code, endpints,credentials leak, etc.
-    Vulnerably in Javascript code such as DOM XSS(or client side XSS).(To the DOM XSS reports site:hackerone.com intext:dom XSS )
-    you can extract endpoints to automate XSS, SQL, RCE, open redirectory etc or for manual purpose.
-    Create your own wordlist with endpoint.
-    Misconfiguration function, Js version recent vulnerabilty and exploits. 
-
+    
+    1. Information Leakage such as API,keys , secret, database, logs, source code, endpints,credentials leak, etc.
+    2. Vulnerably in Javascript code such as DOM XSS(or client side XSS).(To the DOM XSS reports site:hackerone.com intext:dom XSS )
+    3. you can extract endpoints to automate XSS, SQL, RCE, open redirectory etc or for manual purpose.
+    4. Create your own wordlist with endpoint and bruteforce the end points.
+    5. Misconfiguration , Js version recent vulnerabilty and exploits. 
+    6. If you know of an endpoint which returns 403 since it’s an admin endpoint but have you ever imagined knowing the correct directories and parameters sometimes can turn 403 into 200 (because of misconfigurations) and then into a SQLi? ;)
       
 
 # Bug Bounty — Tips / Tricks / JS (JavaScript Files)
@@ -206,7 +211,6 @@ Using security linters [ESLint (https://github.com/LewisArdern/eslint-plugin-ang
 
 [Hacktrick - Steal Information in JS](https://book.hacktricks.xyz/pentesting-web/xss-cross-site-scripting/steal-info-js)
 
-If you know of an endpoint which returns 403 since it’s an admin endpoint but have you ever imagined knowing the correct directories and parameters sometimes can turn 403 into 200 (because of misconfigurations) and then into a SQLi? ;)
       
 ## Recommended Links for chrome-devtools, Finding vulnerability in javascript
       
