@@ -88,7 +88,7 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
     Select Js in the Options : In case you want to See all the Js files)
     Select XHR(XML HTTP Request or Simply fetching remote file with javascript) : In case you want to See Request made by javascript.
 
-## Do a Stactic Analysis (Idea is to finding vulnerabilty in Js code by understanding the how website is using javascripts then breaking it):
+## Do a Stactic Analysis (Idea is to finding vulnerabilty in Js code by understanding "How JavaScript is used in website? then breaking it):
   
   #### Identifying and gathering JavaScript files in an application.
      
@@ -136,15 +136,21 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
          
          
        Find hidden GET parameters in javascript files:
-          1. Scour javascript files for variable names, e.g.: var test = "xxx"
+          1. To clean  javascript files for variable names, e.g.: var test = "xxx"
           2. Try each of them as a GET parameter to uncover hidden parameters, e.g.: https://example.com/?test=”xsstest
           
          One Liner to finds all variable names and appends them as parameters:
           assetfinder example.com | gau | egrep -v '(.css|.png|.jpeg|.jpg|.svg|.gif|.wolf)' | while read url; do vars=$(curl -s $url | grep -Eo "var [a-zA-Z0-9]+" | sed -e 's,'var','"$url"?',g' -e 's/ //g' | grep -v '.js' | sed 's/.*/&=xss/g'); echo -e "\e[1;33m$url\n\e[1;32m$vars"; done
+          
+          From Js request checkout the Api endpoint then search the keyword(for eg Api/hello hello is the keyword here) in Js files or code.To understand the Js behavior.
    
-    Try reading the code by seaching sensative keywords(api, token, http, https://,key, etc). 
+          You can brute force endpoints.(but If you understand the Js code then You'll potentially have more success finding the endpoints and creating your own wordlist beacuse Bruteforec use Wordlist and there is highter chance that endpoint is not availabe in wordlists.)
+   
+   
+    Try reading the js file/code by seaching sensative keywords(api, token, http, https://,key, //# sourceMappingURL=*.js.map etc). 
     
         we can identify secrets in source code files using either regex or entropy. 
+        
         Regex search will be able to identify credentials that are set by users such as usernames and passwords. 
         Entropy based search is effective in identifying sufficiently random secrets such as API keys and tokens.
         DumpsterDiver, Repo-supervisor and truffleHog are some fantastic tools to search for secrets in source code files.
@@ -155,13 +161,11 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
         
         Don’t forget that grep/sed/awk are also quite powerful when searching for specific sensitive information the source code files.
    
-   Privious CVE and Outdated component,Outdated framework and Outdated librabey could lead to vulenrability. ( Retire.js is a tool that can identify outdated JavaScript frameworks.Although RetireJS can report some false positives and not everything reported by RetireJS is vulnerable).
+   Privious CVE and Outdated component,Outdated framework and Outdated librabey could lead to vulenrability. 
+   ( Retire.js is a tool that can identify outdated JavaScript frameworks.Although RetireJS can report some false positives and not everything reported by RetireJS is vulnerable).
    
    you can also goto the wayback machine of page and check the 1st version of code to understand the changes. or Use jsmon(API key needed to push the notification) with corn jobs on daily/weekly/monthy basis to track the changes in code(https://github.com/robre/jsmon)
    
-   From Js request checkout the Api endpoint then search the keyword(for eg Api/hello hello is the keyword here) in Js files or code.To understand the Js behavior.
-   
-   You can brute force endpoints.(but If you understand the Js code then You'll potentially have more success finding the endpoints and creating your own wordlist beacuse Bruteforec use Wordlist and there is highter chance that endpoint is not availabe in wordlists.)
 
 ### Reading all the Js files and find something from Js code are hard so 
      
