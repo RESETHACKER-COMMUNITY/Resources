@@ -79,4 +79,7 @@ Index | Pentesting & Bug Hunting Resources - How to Start ?
 22. | [Web Application Penetration Testing Course](https://hackingresources.com/web-application-penetration-testing-course/)
 23. | [So you Want to be a Security Engineer?](https://medium.com/@niruragu/so-you-want-to-be-a-security-engineer-d8775976afb7)
 
-
+# Beginner Guide to 0day/CVE :
+Index |  Guide to 0day/CVE - How to Start ? 
+--- | ---
+**1** | [0day appsec Beginner Guide](https://0xboku.com/2021/09/14/0dayappsecBeginnerGuide.html)
