@@ -147,7 +147,7 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
           You can brute force endpoints.(but If you understand the Js code then You'll potentially have more success finding the endpoints and creating your own wordlist beacuse Bruteforec use Wordlist and there is highter chance that endpoint is not availabe in wordlists.)
    
    
-       Try reading the js file/code by seaching sensative keywords(api, token, http, https://,key, //# sourceMappingURL=*.js.map etc). 
+       Try reading the js file/code by seaching sensative keywords(api, token, http, https://,key, //# sourceMappingURL=*.js.map etc). Burp-suite Extension(https://github.com/BitTheByte/BitMapper) For finding .map files inside Javascripts.
     
         we can identify secrets in source code files using either regex or entropy. 
         
