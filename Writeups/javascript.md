@@ -51,7 +51,7 @@ Today no one directly uses javascript instead they use a framework especially if
 
 
 ## Understanding ReactJS
-May be in Future
+Updating Soon
 
 ## .Net framework (for backend - dev)
 .NET is a software development framework and ecosystem designed and  to allow for easy desktop and web application engineering. it provides the programming environment for most software development phases. .NET best suits businesses that look for a wide range of features like web-based services, desktop software, and cloud infrastructure support.
@@ -90,7 +90,7 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
 
 ## Do a Stactic Analysis (Idea is to finding vulnerabilty in Js code by understanding "How JavaScript is used in website? then breaking it):
   
-  #### Identifying and gathering JavaScript files in an application.
+  ### Identifying and gathering JavaScript files in an application.
      
      BurpSuite > proxy > HTTP history and use the display filters to only display the Js files used by the application > copy the URLs for all the JavaScript files displayed.
      Export all the scripts. Under Target > Site map right click on the site of interest and select Engagement tools > Find scripts . Using this feature you  can export all the scripts in that application and also copy URLs.
