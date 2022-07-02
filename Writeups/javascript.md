@@ -231,4 +231,4 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
       https://www.infosecmatter.com/bug-bounty-tips-4-aug-03/#2_find_javascript_files_using_gau_and_httpx
       https://github.com/robre/jsmon (a javascript change monitoring tool for bugbounties )
       
-      
+## If you have any suggestion, or have ideas for improvements, please feel free to raise an issue on Github. 
