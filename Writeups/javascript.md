@@ -169,7 +169,7 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
 
 ### Reading all the Js files and find something from Js code are hard so 
      
-     Based on different framework or library search for important Js files such as /authProvider.js, config.js, App.js, users.js, /MyUrlField.js, /posts.js, Dashboard.js  etc then only check selected Js files.
+     Google important Js file in different framework/Libraries for example important Js files in Reac Js are /authProvider.js, config.js, App.js, users.js, /MyUrlField.js, /posts.js, Dashboard.js  etc then only check selected Js files.
      
      Click on the Global listner from threads and you can see all the POST request that has been made within JS files.
      To Understand about listner and How to use it find vulnerabilty in JS code :
