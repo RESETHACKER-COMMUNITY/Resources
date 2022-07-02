@@ -190,11 +190,14 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
 Using security linters [ESLint (https://github.com/LewisArdern/eslint-plugin-angularjs-security-rules)- easily customisable by adding custom security rules] and static security scanners(**JSPrime**) will make it easy to identify low hanging vulnerabilities in JavaScript code but the project hasn’t been updated in a while.
 
 
- Impact:
-    Information Leakage(API,keys source code, endpints etc)
+## Outcome (content discovery):
+    Information Leakage such as API,keys , secret, database, logs, source code, endpints,credentials leak, etc.
     Vulnerably in Javascript code such as DOM XSS(or client side XSS).(To the DOM XSS reports site:hackerone.com intext:dom XSS )
- 
+    you can extract endpoints to automate XSS, SQL, RCE, open redirectory etc or for manual purpose.
+    Create your own wordlist with endpoint.
+    Misconfiguration function, Js version recent vulnerabilty and exploits. 
 
+      
 
 # Bug Bounty — Tips / Tricks / JS (JavaScript Files)
  #[snyk - Javascript security vulenrability](https://snyk.io/learn/javascript-security/)
