@@ -92,7 +92,7 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
   
   ### Identifying and gathering JavaScript files in an application.
      
-     BurpSuite > proxy > HTTP history and use the display filters to only display the Js files used by the application > copy the URLs for all the JavaScript files displayed.
+     'BurpSuite' > proxy > HTTP history and use the display filters to only display the Js files used by the application > copy the URLs for all the JavaScript files displayed.
      Export all the scripts. Under Target > Site map right click on the site of interest and select Engagement tools > Find scripts . Using this feature you  can export all the scripts in that application and also copy URLs.
 
   ### Getting Js files from wayback Urls:
@@ -103,22 +103,31 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
        https://github.com/lc/gau
        echo target.com | gau | grep '\.js$' | httpx -status-code -mc 200 -content-type | grep 'application/javascript'
 
-    It will collect the Js files from waybackurls:
+    It will collect the Js files from 'waybackurls' :
     
       go get github.com/tomnomnom/waybackurls
       waybackurls internet.org | grep "\.js" | uniq | sort
    
-   To avoide the false potive or dead server/ pages.
+   To avoide the 'false potive' or dead server/ pages.
     
       cat js_files_url_list.txt | parallel -j50 -q curl -w 'Status:%{http_code}\t Size:%{size_download}\t %{url_effective}\n' -o /dev/null -sk
    
-   Using curl or hakcheckurl to check for the status of the JavaScript files on the server could be cumbersome. 
+   Using 'curl or hakcheckurl' to check for the status of the JavaScript files on the server could be cumbersome. 
     
       go get github.com/hakluke/hakcheckurl
       cat lyftgalactic-js-urls.txt | hakcheckurl
 
  ### Making the gathered JavaScript code readable:
  Read Deobfuscated or Minify JavaScript using Deobfuscatedjavascript.com , UglifyJS, JS Beautifier , Vs code etc
+ 
+   To 'Install Js Beautifier' using PIP : pip install jsbeautifier
+ 
+      To use it : 
+      jsbeautifier -o output.txt javascriptfiles.txt 
+      Search juicy keyword on output.txt (after using Jsbeautifier on javascriptfiles.txt ) using GREP : 
+      grep -color -i JUICYKEYWORD output.txt
+      Here -color : to highlight "JUICYKEYWORD" and -i to support Upper and lower letter.
+      JUICYKEYWORD Such as : token, session api, key, csrf etc
 
 
 ## Identifying information that may lead to discovery of security issues
@@ -196,7 +205,7 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
 
 ## Outcome (content discovery):
     
-    1. Information Leakage such as API,keys , secret, database, logs, source code, endpints,credentials leak, etc.
+    1. Information Leakage such as API, key ,token, passowrd, admin, src strict ,csrf, session, secret, database, logs, , .map , endpints,credentials leak, etc.
     2. Vulnerably in Javascript code such as DOM XSS(or client side XSS).(To the DOM XSS reports site:hackerone.com intext:dom XSS )
     3. you can extract endpoints to automate XSS, SQL, RCE, open redirectory etc or for manual purpose.
     4. Create your own wordlist with endpoint and bruteforce the end points.
@@ -228,6 +237,7 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
       https://angular.io/guide/security
       https://blog.jse.li/posts/marveloptics-malware/
       https://thehackerblog.com/i-too-like-to-live-dangerously-accidentally-finding-rce-in-signal-desktop-via-html-injection-in-quoted-replies/index.html
+      https://medium.com/@alex.birsan/the-bug-that-exposed-your-paypal-password-539fc2896da9
       https://www.infosecmatter.com/bug-bounty-tips-4-aug-03/#2_find_javascript_files_using_gau_and_httpx
       https://github.com/robre/jsmon (a javascript change monitoring tool for bugbounties )
       
