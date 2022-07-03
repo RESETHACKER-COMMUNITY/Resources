@@ -7,30 +7,35 @@ difference between WWW, HTTP protocol, TCP connection, ports, URLS, URI, webpage
 
   Front End (Web UI) <-> BackEnd (API) <-> Web server (web page and graphics files) <-> Load Balancer  <-> Application Server(Templete pages code & data)  <->  DataBase (Couch DB + MySql + Elasstic DB + MongoDB + Firebase )
 
-## 1. Web Server: Web server will receive all the requests from sent by visitors visiting your website and also forward only the business requests to application server. The static assets (like CSS, JS components , Web components eg Common images, resources files and html components) will be served from your web server itself. 
-Web server runs on Microsoft IIS:ASP(.NET), Apache: Php/CGI, Apache Tomcat: Servlet, Nginx, HTTPD ,Jetty: Servlet
-or even Python's Simple HTTPServer etc.
-Web servers primarily respond to HTTP / HTTPS requests however isn't restricted to simply communications protocol. It may be provided alternative protocol support like RMI/RPC.
+## 1. Web Server: 
 
-## 2. Application server: Application server is the server that works between Web server and database server and basically Generate (dynamic content/assets by executing server side code eg JSP, servlet or EJB), manages(
-â€¢ Transaction Support, Messaging support etc), processes the data(connection Pooling, object pooling etc) and host application etc and application server will be responsible for only business requests (like Login, Fetching details and etc,. )
-		â—‹ MTS: COM+
-		â—‹ Email server
-		â—‹ WAS: EJB
-		â—‹ JBoss: EJB
-		â—‹ WebLogic Application Server: EJB
-		â—‹ Google maps servers
-		â—‹ Google search servers
-		â—‹ Google docs servers
-		â—‹ Microsoft 365 servers
-		â—‹ Microsoft computer vision servers for AI.
-â€¢ Application servers 
-Application Server can do whatever Web Server is capable and respond to any number of protocols depending on the application business logic.
+	Web server will receive all the requests from sent by visitors visiting your website and also forward only the business requests to application server. 
+	The static assets (like CSS, JS components , Web components eg Common images, resources files and html components) will be served from your web server itself. 
+		
+	Web server runs on Microsoft IIS:ASP(.NET), Apache: Php/CGI, Apache Tomcat: Servlet, Nginx, HTTPD ,Jetty: Servlet or even Python's Simple HTTPServer etc.
+	Web servers primarily respond to HTTP / HTTPS requests however isn't restricted to simply communications protocol. It may be provided alternative protocol support like RMI/RPC.
 
-## 3. Database Server: Database server handles database queries and It can only accessed by application server. It runs on MySQL, PostgreSQL, MariaDB, etc.
-Database servers use protocols ODBC, JDBC, etc.
+## 2. Application server: 
+	Application server is the server that works between Web server and database server and basically Generate (dynamic content/assets by executing server side code eg JSP, servlet or EJB), manages(Transaction Support, Messaging support etc),processes the data(connection Pooling, object pooling etc) and host application etc and application server will be responsible for only business requests (like Login, Fetching details and etc,. )
+		
+		MTS: COM+
+		Email server
+		WAS: EJB
+		JBoss: EJB
+		WebLogic Application Server: EJB
+		Google maps servers
+		Google search servers
+		Google docs servers
+		Microsoft 365 servers
+		Microsoft computer vision servers for AI.
+Application servers :
+	Application Server can do whatever Web Server is capable and respond to any number of protocols depending on the application business logic.
+
+## 3. Database Server: 
+	Database server handles database queries and It can only accessed by application server. It runs on MySQL, PostgreSQL, MariaDB, etc.
+	Database servers use protocols ODBC, JDBC, etc.
 --------------------------------------------------------------------------------
-Please note:
+	Please note:
 	â€¢ Web Server is designed to serve HTTP static Content like HTML, images etc. and for the dynamic content have plugins to support scripting languages like Perl, PHP, ASP, JSP etc
 	â€¢ Web container is a part of Web Server and the Web Server is a part of Application Server.
 	â€¢ A Web Server in java is also known as a web container or a servlet container which has a limited set of Java EE features like Servlets, JSP etc. Ex: Apache Tomcat.
