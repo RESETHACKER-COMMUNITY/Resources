@@ -50,10 +50,16 @@ Today no one directly uses javascript instead they use a framework especially if
 [Why do we have so many framework?  To Understand this you need to know about pro's and con's of all the framework](https://hackr.io/blog/best-javascript-frameworks)
 
 
-## Understanding ReactJS
+## Understanding ReactJS (for frontend - dev)
 Updating Soon
 
-## .Net framework (for backend - dev)
+## Understanding NodeJS(for backend - dev)
+Updating Soon
+
+## Understanding Express (for backend - dev)
+Updating Soon
+
+## Understanding .Net framework (for backend - dev)
 .NET is a software development framework and ecosystem designed and  to allow for easy desktop and web application engineering. it provides the programming environment for most software development phases. .NET best suits businesses that look for a wide range of features like web-based services, desktop software, and cloud infrastructure support.
 
 The .NET Framework released back in 2002 is the first and oldest implementation of the platform. It includes three main application models – WPF, Windows Forms, ASP.NET Forms – and Base Class Library.
