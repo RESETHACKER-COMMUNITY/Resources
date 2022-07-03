@@ -81,6 +81,19 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
 ![most-popular-web-frameworks-according-to-professional developers](https://user-images.githubusercontent.com/25515871/176917211-3757c0ce-c87f-4426-b8a6-52ad5df6c12c.png)
 
 # JAVASCRIPT FOR Pentesters and Hackers:
+
+ ## 1. Debugging Javascript code:
+ ## 2. Do a Stactic Analysis (Idea is to finding vulnerabilty in Js code by understanding "How JavaScript is used in website? then breaking it):
+   ### 1. Identifying, gathering and automating JavaScript files in an application.
+   ### 2. Making the gathered JavaScript code readable:
+   ### 3. Reading all the Js files and find something from Js code are hard so 
+   ### 4. When looking into JavaScript files, it is important to identify what frameworks are being used, identify dangerous functions in the framework and then look for them in the source code i.e. places where developers tend to make mistakes that will lead to potential security issues.
+
+ ## 3. Outcome (content discovery):
+
+  ## 1. Bug Bounty — Tips / Tricks / JS (JavaScript Files)
+  ## 1. Recommended Links for chrome-devtools, Finding vulnerability in javascript.
+----------------------------------------------------------------------------------------------
 ## Debugging Javascript code:
  
   Open DevTools(right click and select inspect) > goto Netowrk 
