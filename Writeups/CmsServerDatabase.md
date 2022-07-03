@@ -42,7 +42,7 @@ Please note:
 	â€¢ Application server can only accessed via web server, database server can only accessed by application server. 
 	â€¢ If you want to solve web server and application server  purposes in one server, I would like to prefer you VPS hosting servers and dedicated hosting servers. It is because they host volumes of web projects and applications with a higher uptime.
 
-From <https://www.quora.com/Whats-the-diference-between-an-application-server-and-a-web-server> 
+Credit: <https://www.quora.com/Whats-the-diference-between-an-application-server-and-a-web-server> 
  https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines
  
 
@@ -111,7 +111,8 @@ From <https://www.quora.com/Whats-the-diference-between-an-application-server-an
 		j. Using other programming workarounds, especially if dynamic content is involved.
 		Using latest efficient versions of HTTP (e.g. beyond using common HTTP/1.1)
 		
-	## Basic Hacking CMS: 
+## Basic Hacking CMS:
+	
 	1. WORDPRESS (60%):
 		As of right now over a quarter (25%) of the internet is built using WordPress. This is useful to know because that means a single exploit has the potential to impact a large portion of your targetâ€™s assets. There are in fact hundreds of exploits and misconfigurations impacting WordPress and its associated plugins. One common tool to scan for these vulnerabilities is wpscan: 
 		
@@ -142,13 +143,13 @@ From <https://www.quora.com/Whats-the-diference-between-an-application-server-an
 		There are Hundred's of different CMS to know about all 
 		â— https;//wappalyzer.com/technologies
 		
-	## Conclusion:
+	### Conclusion:
 		When you do find a CMS, you donâ€™t want to waste time manually testing the endpoint, you want to test for known CVEs and misconfigurations. The best way and 1st step to do this is to find some sort of CMS specific vulnerability scanner. If you can find that you can try searching exploit-db and google for known CVEs.
 		
 		
 		Database server deals with the storing and managing the data of a computer or computer programs while web server is used to save the static and dynamic content and pages of websites.
 		
-	## Basic Hacking Databases
+## Basic Hacking Databases
 	(Sensitive information such as passwords, tokens, private messages, and everything else and A lot of databases are missing authentication by default!):
 	
 			A database is an organized collection of sensitive data, generally stored and publicly accessible by users available most often interact directly with application server. 
@@ -228,4 +229,4 @@ From <https://www.quora.com/Whats-the-diference-between-an-application-server-an
 	### d. CouchDB :(Port: 5985,6984) 
 	###	e. CassandraDB: (Port:9042,9160)
   
-  # This project is under development. anyway ff you have suggestion for improvements feel free to raise a issue on Github. Thankyou :)
+  # This project is under development. anyway if you have suggestion for improvements or want to contribute feel free to raise a issue on Github. Thankyou :)
