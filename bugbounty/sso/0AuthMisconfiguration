@@ -1,0 +1,19 @@
+# 0Auth
+OAuth, which stands for “Open Authorization,” allows third-party services to exchange 
+your information without you having to give away your password.
+
+
+OpenID Connect, OAuth 2.0, and MSAL to make sign-in fully secure
+
+## Find OAuth Misconfiguration in SSO(Single Sign-On(SSO) Feature
+(For example Log in with Github, Microsfot, Google, Facebook etc)
+
+Credit: https://github.com/daffainfo
+## How to exploit OAuth Misconfiguration in SSO feature:
+1. OAuth token stealing :
+
+## Impact 
+
+
+
+
