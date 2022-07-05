@@ -10,11 +10,13 @@ OpenID Connect, OAuth 2.0, and MSAL to make sign-in fully secure
 
 ## How to exploit OAuth Misconfiguration in SSO feature:
 1. OAuth token stealing :
-  To get oAuth tokens manually, 
+  
+  Eg : To get oAuth tokens manually, 
     
     open Chrome dev tools (Ctrl + Shift +I ), head over to the Network tab, 
-    follow any twitch account, inspect the http post request (gql) , 
-    and check the Authorization header for the token. 
+    follow any SSO feature account(in video we have twitch account), 
+    inspect the http post request (gql) , 
+    and check the 'Authorization' header for the token. 
     Copy the whole text after OAuth.
 
 ![get oauth](https://user-images.githubusercontent.com/75003671/112411090-45f09d00-8d57-11eb-8922-188876cc00ad.gif)
@@ -39,5 +41,6 @@ OpenID Connect, OAuth 2.0, and MSAL to make sign-in fully secure
 1.[OAuth - Something to do with Autherization.](https://youtu.be/t4-416mg6iU)
 2.[OAuth terminology and OAuth flow explain ](https://youtu.be/3pZ3Nh8tgTE)
 3.[daffainfo](https://github.com/daffainfo)
+4.[six2dez](https://pentestbook.six2dez.com/)
 
 
