@@ -128,7 +128,8 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
       	we can identify secrets in source code files using either regex or entropy. 
         
         Regex search will be able to identify credentials that are set by users such as usernames and passwords.
-	[List of regex for scraping API and juicy information.](https://github.com/h33tlit/secret-regex-list)
+	[List of regex for scraping API and juicy information](https://github.com/h33tlit/secret-regex-list)
+	[thehackerish - JavaScript Enumeration in practice with a live example](https://www.youtube.com/watch?v=G2pWVBgCjvg)
 
         Entropy based search is effective in identifying sufficiently random secrets such as API keys and tokens.
     
