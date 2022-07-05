@@ -56,6 +56,8 @@ Updating Soon
 ## Understanding NodeJS(for backend - dev)
 Updating Soon
 
+## Understanding jQuery
+
 ## Understanding Express (for backend - dev)
 Updating Soon
 
