@@ -4,15 +4,20 @@ your information without you having to give away your password.
 
 OpenID Connect, OAuth 2.0, and MSAL to make sign-in fully secure
 
+'Redirect_uri' is used when a Resource Owner grants Authorization to the OAuth Client. 
+Following the successful Authorization by the Resource Owner at the Authorization Server for the OAuth Client for Resource Server the Resource Owner is redirected back to the OAuth Client's Redirect_uri.
+
 ## Find OAuth Misconfiguration in SSO(Single Sign-On(SSO) Feature
 (For example Log in with Github, Microsfot, Google, Facebook etc)
 
 
 ## How to exploit OAuth Misconfiguration in SSO feature:
-1. OAuth token stealing :
+1. OAuth token stealing : Changing redirect_uri to attacker.com([Use IDN Homograph](https://hackerone.com/reports/861940) or common bypasses).
   
-  Eg : To get oAuth tokens manually, 
-    
+2. OAuth Token Re-use.
+
+  To get oAuth tokens manually, 
+   
     open Chrome dev tools (Ctrl + Shift +I ), head over to the Network tab, 
     follow any SSO feature account(in video we have twitch account), 
     inspect the http post request (gql) , 
@@ -26,14 +31,17 @@ OpenID Connect, OAuth 2.0, and MSAL to make sign-in fully secure
   Eg:
       
       1. Use Burp "find" option in order to find the parameters such as url, red, redirect, redir, orgin, dest, targetURL, checkout_URL etc
-	    2. Check the value of these parameters which can contain a URL.
-	    3. Change open redirection for 0auth functionality.
-	    4. Change the URL value to www.chintan.com and check if gets redirected or not.
-	    5. Check if same secret code request can be used multiple times.
+      2. Check the value of these parameters which can contain a URL.
+      3. Change open redirection for 0auth functionality.
+      4. Change the URL value to www.chintan.com and check if gets redirected or not.
+      5. Check if same secret code request can be used multiple times.
 
 3. Check for Broken Authentication and pre-Authentication.
 4. 
-## Impact 
+
+## Potential impact re oAuth token leakage.
+
+Attack will result in leaking the user's OAuth code to an attacker-controlled domain name giving them unauthorized access to properties and data of the user's account.
 
 
 ## Referance: To understand 0auth: 
