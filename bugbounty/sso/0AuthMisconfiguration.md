@@ -7,7 +7,7 @@ OpenID Connect, OAuth 2.0, and MSAL to make sign-in fully secure
 ## Find OAuth Misconfiguration in SSO(Single Sign-On(SSO) Feature
 (For example Log in with Github, Microsfot, Google, Facebook etc)
 
-Credit: https://github.com/daffainfo
+
 ## How to exploit OAuth Misconfiguration in SSO feature:
 1. OAuth token stealing :
   To get oAuth tokens manually, 
@@ -38,5 +38,6 @@ Credit: https://github.com/daffainfo
 
 1.[OAuth - Something to do with Autherization.](https://youtu.be/t4-416mg6iU)
 2.[OAuth terminology and OAuth flow explain ](https://youtu.be/3pZ3Nh8tgTE)
+3.[daffainfo](https://github.com/daffainfo)
 
 
