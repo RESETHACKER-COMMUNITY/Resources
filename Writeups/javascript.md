@@ -90,9 +90,9 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
 
  ## 1. Debugging Javascript code:
  ## 2. Do a Stactic Analysis (Idea is to finding vulnerabilty in Js code by understanding "How JavaScript is used in website? then breaking it):
-   ### 1. Understanding Juicy information in Js files and collecting js files from Urls:
-   ### 2. Making the gathered JavaScript code readable:
-   ### 3. Automating and Enumarating information that might Lead to discovery of security issues and later you can fetch these list of Urs for -> SSTI, XSS, SQLi, SSRF, Open Redirect, IDOR etc 
+   	### 1. Understanding Juicy information in Js files and collecting js files from Urls:
+   	### 2. Making the gathered JavaScript code readable:
+   	### 3. Automating and Enumarating information that might Lead to discovery of security issues and later you can fetch these list of Urs for -> SSTI, XSS, SQLi, SSRF, Open Redirect, IDOR etc 
    
  ## 3. Understand JS Code such as  what frameworks are being used, identify dangerous functions and component in the framework and then looking for them in the source code -> can get -> dom xss , Postmessage vulns, Logical Bugs etc
 	### 1. Reading all the Js files and find something from Js code are hard so 
