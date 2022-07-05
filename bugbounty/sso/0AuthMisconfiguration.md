@@ -4,8 +4,9 @@ your information without you having to give away your password.
 
 OpenID Connect, OAuth 2.0, and MSAL to make sign-in fully secure
 
-'Redirect_uri' is used when a Resource Owner grants Authorization to the OAuth Client. 
-Following the successful Authorization by the Resource Owner at the Authorization Server for the OAuth Client for Resource Server the Resource Owner is redirected back to the OAuth Client's Redirect_uri.
+Redirect_uri or reply URL, is used when a Resource Owner grants Authorization to the OAuth Client. 
+In simple term. 
+is the location where the authorization server sends the user once the app has been successfully authorized and granted an authorization code or access token.
 
 ## Find OAuth Misconfiguration in SSO(Single Sign-On(SSO) Feature
 (For example Log in with Github, Microsfot, Google, Facebook etc)
