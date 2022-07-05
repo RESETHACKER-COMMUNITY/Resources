@@ -93,8 +93,11 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
    ### 1. Understanding Juicy information in Js files and collecting js files from Urls:
    ### 2. Making the gathered JavaScript code readable:
    ### 3. Automating and Enumarating information that might Lead to discovery of security issues and later you can fetch these list of Urs for -> SSTI, XSS, SQLi, SSRF, Open Redirect, IDOR etc 
-   ### 4.  Reading all the Js files and find something from Js code are hard so 
-## 3. Understand JS Code such as  what frameworks are being used, identify dangerous functions and component in the framework and then looking for them in the source code -> can get -> dom xss , Postmessage vulns, Logical Bugs etc
+   
+ ## 3. Understand JS Code such as  what frameworks are being used, identify dangerous functions and component in the framework and then looking for them in the source code -> can get -> dom xss , Postmessage vulns, Logical Bugs etc
+	### 1. Reading all the Js files and find something from Js code are hard so 
+	### Understand the places where developers tend to make mistakes that will lead to potential security issues.
+	### Automating potential security issues in source code.
 
 ## 4. Outcome (content discovery):
 
@@ -134,8 +137,8 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
        https://github.com/projectdiscovery/httpx
        https://github.com/lc/gau
       
-
-    It will collect the Js files from 'waybackurls' :
+----------------------------------------------------------------------------------------------------------------
+    In case you want to only collect the Js files from 'waybackurls' :
     
       waybackurls target.com | grep "\.js" | uniq | sort
       go get github.com/tomnomnom/waybackurls
@@ -198,12 +201,8 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
         https://github.com/securing/DumpsterDiver
         python DumpsterDiver -p ~/jsfiles
         [How to use DumpsterDiver to find hardcoded secrets](https://latesthackingnews.com/2018/07/10/dumpsterdiver-the-tool-for-finding-hardcoded-secrets/)
-   
-   *Privious CVE and Outdated component,Outdated framework and Outdated librabey could lead to vulenrability. 
-   ( Retire.js is a tool that can identify outdated JavaScript frameworks.Although RetireJS can report some false positives and not everything reported by RetireJS is vulnerable).
-   
-   you can also goto the wayback machine of page and check the 1st version of code to understand the changes. or Use jsmon(API key needed to push the notification) with corn jobs on daily/weekly/monthy basis to track the changes in code(https://github.com/robre/jsmon)
-   
+     
+## Understand JS Code such as  what frameworks are being used, identify dangerous functions and component in the framework and then looking for them in the source code -> can get -> dom xss , Postmessage vulns, Logical Bugs etc
 
 ### Reading all the Js files and find something from Js code are hard so 
      
@@ -213,18 +212,13 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
      To Understand about listner and How to use it find vulnerabilty in JS code :
      Recommand you to play here (https://public-firing-range.appspot.com and /dom/index.html)
      
-     extract js stuff ->
-
- echo "https://target.com | gau | grep -iE '\.js$' | httpx -status-code -mc 200 -content-type | grep 'application/javascript'
- 
-     extract API Stuff ->
-
-cat file.js | grep -aoP "(?<=(\"|\'|\'))\\/[a-zA-Z0-9_?&=\\/\\-\\#\\.]*(?=(\\"|\\'|\\'))" | sort -u
-
+     	*Privious CVE and Outdated component,Outdated framework and Outdated librabey could lead to vulenrability. 
+   ( Retire.js is a tool that can identify outdated JavaScript frameworks.Although RetireJS can report some false positives and not everything reported by RetireJS is vulnerable).
+   
+   	you can also goto the wayback machine of page and check the 1st version of code to understand the changes. or Use jsmon(API key needed to push the notification) with corn jobs on daily/weekly/monthy basis to track the changes in code(https://github.com/robre/jsmon)
      
-## Understand JS Code such as  what frameworks are being used, identify dangerous functions and component in the framework and then looking for them in the source code -> can get -> dom xss , Postmessage vulns, Logical Bugs etc
 
-Understand the places where developers tend to make mistakes that will lead to potential security issues.
+### Understand the places where developers tend to make mistakes that will lead to potential security issues.
 
         a. Usage of innerHTML indicates that there might be possible XSS issue. In the modern client-side JavaScript frameworks innerHTML equivalents do exist such as the aptly named dangerouslytSetInnerHTML in React framework and they did result in serious security vulnerabilities in the past .
         b. Improper usage of bypassSecurityTrustX methods in Angular can also lead to XSS issues.
@@ -237,10 +231,11 @@ Understand the places where developers tend to make mistakes that will lead to p
         
         **localStorage and sessionStorage** are HTML Web Storage Objects. With web storage, web applications can store data locally within the user’s browser. It is important to identify what is being stored using the Web Storage especially storing anything sensitive can lead to potential security issues. In the JavaScript, you can look for window.localStorage and window.sessionStorage.
 
+### Automating the potential security issues in source code.
 
-*Using security linters [ESLint (https://github.com/LewisArdern/eslint-plugin-angularjs-security-rules)- easily customisable by adding custom security rules] and 
+	*Using security linters [ESLint (https://github.com/LewisArdern/eslint-plugin-angularjs-security-rules)- easily customisable by adding custom security rules] and 
 
-*static security scanners(**JSPrime**) will make it easy to identify low hanging vulnerabilities in JavaScript code but the project hasn’t been updated in a while.
+	*static security scanners(**JSPrime**) will make it easy to identify low hanging vulnerabilities in JavaScript code but the project hasn’t been updated in a while.
 
 
 ## Outcome (content discovery):
