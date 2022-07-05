@@ -89,15 +89,14 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
 # JAVASCRIPT FOR Pentesters and Hackers:
 
  ## 1. Debugging Javascript code:
- ## 2. Do a Stactic Analysis (Idea is to finding vulnerabilty in Js code by understanding "How JavaScript is used in website? then breaking it):
+ ## 2. Understanding Juicy information, Collecting Urls, endpoints etc and Automating things 
    	### 1. Understanding Juicy information in Js files and collecting js files from Urls:
-   	### 2. Making the gathered JavaScript code readable:
-   	### 3. Automating and Enumarating information that might Lead to discovery of security issues and later you can fetch these list of Urs for -> SSTI, XSS, SQLi, SSRF, Open Redirect, IDOR etc 
+   	### 2. Automating and Enumarating information that might Lead to discovery of security issues and later you can fetch these list of Urs for -> SSTI, XSS, SQLi, SSRF, Open Redirect, IDOR etc 
    
  ## 3. Understand JS Code such as  what frameworks are being used, identify dangerous functions and component in the framework and then looking for them in the source code -> can get -> dom xss , Postmessage vulns, Logical Bugs etc
 	### 1. Reading all the Js files and find something from Js code are hard so 
-	### Understand the places where developers tend to make mistakes that will lead to potential security issues.
-	### Automating potential security issues in source code.
+	### 2. Understand the places where developers tend to make mistakes that will lead to potential security issues.
+	### 3. Automating potential security issues in source code.
 
 ## 4. Outcome (content discovery):
 
@@ -105,13 +104,16 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
   ## 1. Recommended Links for chrome-devtools, Finding vulnerability in javascript.
 ----------------------------------------------------------------------------------------------
 ## Debugging Javascript code:
- 
+
+	Idea is to finding vulnerabilty and information in urls and files 
+	by understanding "How JavaScript is used in website? then breaking it:
+	
   Open DevTools(right click and select inspect) > goto Netowrk 
     
     Select Js in the Options : In case you want to See all the Js files)
     Select XHR(XML HTTP Request or Simply fetching remote file with javascript) : In case you want to See Request made by javascript.
 
-## Do a Stactic Analysis (Idea is to finding vulnerabilty in Js code by understanding "How JavaScript is used in website? then breaking it):
+## Understanding Juicy information, Collecting Urls, endpoints etc and Automating things :
   
   ### Identifying and gathering JavaScript files in an application.
      
@@ -154,18 +156,6 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
       
       //hakcawler - To grep things like, subdomain,url,form,javascript,robots etc//
 
- ### Making the gathered JavaScript code readable:
- Read Deobfuscated or Minify JavaScript using Deobfuscatedjavascript.com , UglifyJS, JS Beautifier , Vs code etc
- 
-   To 'Install Js Beautifier' using PIP : pip install jsbeautifier
- 
-      To use it : 
-      jsbeautifier -o output.txt javascriptfiles.txt 
-      Search juicy keyword on output.txt (after using Jsbeautifier on javascriptfiles.txt ) using GREP : 
-      grep -color -i JUICYKEYWORD output.txt
-      Here -color : to highlight "JUICYKEYWORD" and -i to support Upper and lower letter.
-      JUICYKEYWORD Such as : token, session api, key, csrf etc
-
 
 ## Automating and Identifying information that might Lead to discovery of security issues -> SSTI, XSS, SQLi, SSRF, Open Redirect, IDOR etc 
    
@@ -205,15 +195,26 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
 ## Understand JS Code such as  what frameworks are being used, identify dangerous functions and component in the framework and then looking for them in the source code -> can get -> dom xss , Postmessage vulns, Logical Bugs etc
 
 ### Reading all the Js files and find something from Js code are hard so 
-     
-     Google important Js file in different framework/Libraries for example important Js files in Reac Js are /authProvider.js, config.js, App.js, users.js, /MyUrlField.js, /posts.js, Dashboard.js  etc then only check selected Js files.
-     
-     Click on the Global listner from threads and you can see all the POST request that has been made within JS files.
+
+ 	  Click on the Global listner from threads and you can see all the POST request that has been made within JS files.
      To Understand about listner and How to use it find vulnerabilty in JS code :
      Recommand you to play here (https://public-firing-range.appspot.com and /dom/index.html)
      
-     	*Privious CVE and Outdated component,Outdated framework and Outdated librabey could lead to vulenrability. 
-   ( Retire.js is a tool that can identify outdated JavaScript frameworks.Although RetireJS can report some false positives and not everything reported by RetireJS is vulnerable).
+	Reading gathered, Deobfuscated or Minify JavaScript using Deobfuscatedjavascript.com , UglifyJS, JS Beautifier , Vs code etc
+	
+   	    To 'Install Js Beautifier' using PIP : pip install jsbeautifier
+ 
+      		To use it : 
+      		jsbeautifier -o output.txt javascriptfiles.txt 
+      		Search juicy keyword on output.txt (after using Jsbeautifier on javascriptfiles.txt ) using GREP : 
+      		grep -color -i JUICYKEYWORD output.txt
+      		Here -color : to highlight "JUICYKEYWORD" and -i to support Upper and lower letter.
+      		JUICYKEYWORD Such as : token, session api, key, csrf etc
+
+     
+        Google important Js file in different framework/Libraries for example important Js files in Reac Js are /authProvider.js, config.js, App.js, users.js, /MyUrlField.js, /posts.js, Dashboard.js  etc then only check selected Js files.
+     
+        Privious CVE and Outdated component,Outdated framework and Outdated librabey could lead to vulenrability.( Retire.js is a tool that can identify outdated JavaScript frameworks.Although RetireJS can report some false positives and not everything reported by RetireJS is vulnerable).
    
    	you can also goto the wayback machine of page and check the 1st version of code to understand the changes. or Use jsmon(API key needed to push the notification) with corn jobs on daily/weekly/monthy basis to track the changes in code(https://github.com/robre/jsmon)
      
