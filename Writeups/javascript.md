@@ -112,6 +112,7 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
     
     Select Js in the Options : In case you want to See all the Js files)
     Select XHR(XML HTTP Request or Simply fetching remote file with javascript) : In case you want to See Request made by javascript.
+    Click on the Global listner from threads and you can see all the POST request that has been made within JS files.
 
 ## Understanding Juicy information, Collecting Urls, endpoints etc and Automating things :
   
