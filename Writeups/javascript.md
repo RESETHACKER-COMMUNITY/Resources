@@ -197,11 +197,11 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
 
 ### Reading all the Js files and find something from Js code are hard so 
 
- 	  Click on the Global listner from threads and you can see all the POST request that has been made within JS files.
-     To Understand about listner and How to use it find vulnerabilty in JS code :
-     Recommand you to play here (https://public-firing-range.appspot.com and /dom/index.html)
+ 	 Click on the Global listner from threads and you can see all the POST request that has been made within JS files.
+     		To Understand about listner and How to use it find vulnerabilty in JS code :
+     		Recommand you to play here (https://public-firing-range.appspot.com and /dom/index.html)
      
-	Reading gathered, Deobfuscated or Minify JavaScript using Deobfuscatedjavascript.com , UglifyJS, JS Beautifier , Vs code etc
+	 Reading gathered, Deobfuscated or Minify JavaScript using Deobfuscatedjavascript.com , UglifyJS, JS Beautifier , Vs code etc
 	
    	    To 'Install Js Beautifier' using PIP : pip install jsbeautifier
  
@@ -217,7 +217,7 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
      
         Privious CVE and Outdated component,Outdated framework and Outdated librabey could lead to vulenrability.( Retire.js is a tool that can identify outdated JavaScript frameworks.Although RetireJS can report some false positives and not everything reported by RetireJS is vulnerable).
    
-   	you can also goto the wayback machine of page and check the 1st version of code to understand the changes. or Use jsmon(API key needed to push the notification) with corn jobs on daily/weekly/monthy basis to track the changes in code(https://github.com/robre/jsmon)
+   	You can also goto the wayback machine of page and check the 1st version of code to understand the changes. or Use jsmon(API key needed to push the notification) with corn jobs on daily/weekly/monthy basis to [track the changes in Js code](https://github.com/robre/jsmon)
      
 
 ### Understand the places where developers tend to make mistakes that will lead to potential security issues.
