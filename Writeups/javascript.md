@@ -90,12 +90,13 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
 
  ## 1. Debugging Javascript code:
  ## 2. Do a Stactic Analysis (Idea is to finding vulnerabilty in Js code by understanding "How JavaScript is used in website? then breaking it):
-   ### 1. Identifying, gathering and automating JavaScript files in an application.
+   ### 1. Understanding Juicy information in Js files and collecting js files from Urls:
    ### 2. Making the gathered JavaScript code readable:
-   ### 3. Reading all the Js files and find something from Js code are hard so 
-   ### 4. When looking into JavaScript files, it is important to identify what frameworks are being used, identify dangerous functions in the framework and then look for them in the source code i.e. places where developers tend to make mistakes that will lead to potential security issues.
+   ### 3. Automating and Enumarating information that might Lead to discovery of security issues and later you can fetch these list of Urs for -> SSTI, XSS, SQLi, SSRF, Open Redirect, IDOR etc 
+   ### 4.  Reading all the Js files and find something from Js code are hard so 
+## 3. Understand JS Code such as  what frameworks are being used, identify dangerous functions and component in the framework and then looking for them in the source code -> can get -> dom xss , Postmessage vulns, Logical Bugs etc
 
- ## 3. Outcome (content discovery):
+## 4. Outcome (content discovery):
 
   ## 1. Bug Bounty — Tips / Tricks / JS (JavaScript Files)
   ## 1. Recommended Links for chrome-devtools, Finding vulnerability in javascript.
@@ -114,18 +115,30 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
      'BurpSuite' > proxy > HTTP history and use the display filters to only display the Js files used by the application > copy the URLs for all the JavaScript files displayed.
      Export all the scripts. Under Target > Site map right click on the site of interest and select Engagement tools > Find scripts . Using this feature you  can export all the scripts in that application and also copy URLs.
 
-  ### Getting Js files from wayback Urls:
+  ### Understanding Juicy information in Js files and collecting js files from Urls:
+      
+      we can identify secrets in source code files using either regex or entropy. 
+        
+        Regex search will be able to identify credentials that are set by users such as usernames and passwords. 
+        Entropy based search is effective in identifying sufficiently random secrets such as API keys and tokens.
+    
+    *Enumurate Juicy information* such as interesting url, hidden paths, js library/framework, subdomain, api , credentials, hardcoded secrets, internal api, ports or portals and their creds -> port scan on internal domains, token, passowrd, admin, src strict ,csrf, session, database cred, logs, , .map , credentials leak, endpints, etc
+		  
+		Tools to Enumurate Js Urls-> 
+		   Waymore + xnLinkFinder, jsscanner , linkfinder, jsfinder, relative-url-extractor and lots of one liner commands , getjs etc
+-------------------------------------------------------------------------------------------------------
+
+     This One liner will collect all known URLs for our target from the AlienVault’s Open Threat Exchange (OTX), the Wayback Machine and Common Crawl, fetch them using httpx and then display only javascript files.
      
-     It will collect all known URLs for our target from the AlienVault’s Open Threat Exchange (OTX), the Wayback Machine and Common Crawl, fetch them using httpx and then display only javascript files.
-       
+        echo target.com | gau | grep '\.js$' | httpx -status-code -mc 200 -content-type | grep 'application/javascript'
        https://github.com/projectdiscovery/httpx
        https://github.com/lc/gau
-       echo target.com | gau | grep '\.js$' | httpx -status-code -mc 200 -content-type | grep 'application/javascript'
+      
 
     It will collect the Js files from 'waybackurls' :
     
+      waybackurls target.com | grep "\.js" | uniq | sort
       go get github.com/tomnomnom/waybackurls
-      waybackurls internet.org | grep "\.js" | uniq | sort
    
    To avoide the 'false potive' or dead server/ pages.
     
@@ -135,6 +148,8 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
     
       go get github.com/hakluke/hakcheckurl
       cat lyftgalactic-js-urls.txt | hakcheckurl
+      
+      //hakcawler - To grep things like, subdomain,url,form,javascript,robots etc//
 
  ### Making the gathered JavaScript code readable:
  Read Deobfuscated or Minify JavaScript using Deobfuscatedjavascript.com , UglifyJS, JS Beautifier , Vs code etc
@@ -149,9 +164,9 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
       JUICYKEYWORD Such as : token, session api, key, csrf etc
 
 
-## Identifying information that may lead to discovery of security issues
+## Automating and Identifying information that might Lead to discovery of security issues -> SSTI, XSS, SQLi, SSRF, Open Redirect, IDOR etc 
    
-   *Sometime Just looking through code can give you endpoints i.e full URLs, relative URL/Paths etc. that potentially lead to admin access file/page/endpoints.*
+   *Sometime Just looking through code can give plenty of information as i have mentioned in *Enumurate Juicy information* but let's focous on fetching full URLs, relative URL/Paths, endpoints, etc. that potentially lead to admin access file/page/endpoints.*
       
       You can automate this process: 
       
@@ -164,7 +179,7 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
          
          
        Find hidden GET parameters in javascript files:
-          1. To clean  javascript files for variable names, e.g.: var test = "xxx"
+          1. If see  javascript files for variable names, e.g.: var test = "xxx" or var page=" in JS File or page source .
           2. Try each of them as a GET parameter to uncover hidden parameters, e.g.: https://example.com/?test=”xsstest
           
          One Liner to finds all variable names and appends them as parameters:
@@ -172,22 +187,17 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
           
           From Js request checkout the Api endpoint then search the keyword(for eg Api/hello hello is the keyword here) in Js files or code.To understand the Js behavior.
    
-          You can brute force endpoints.(but If you understand the Js code then You'll potentially have more success finding the endpoints and creating your own wordlist beacuse Bruteforec use Wordlist and there is highter chance that endpoint is not availabe in wordlists.)
+          You can brute force endpoints.(but If you understand the Js code then You'll potentially have more success finding endpoints that matter and create your own wordlist or add it to the existing Wordlists.)
    
    
-       Try reading the js file/code by seaching sensative keywords(api, token, http, https://,key, //# sourceMappingURL=*.js.map etc). Burp-suite Extension(https://github.com/BitTheByte/BitMapper) For finding .map files inside Javascripts.
+       Try reading the js file/code by seaching sensative keywords(api, token, http, https://,key, //# sourceMappingURL=*.js.map etc). 
+       Burp-suite Extension(https://github.com/BitTheByte/BitMapper) For finding .map files inside Javascripts.
     
-        we can identify secrets in source code files using either regex or entropy. 
-        
-        Regex search will be able to identify credentials that are set by users such as usernames and passwords. 
-        Entropy based search is effective in identifying sufficiently random secrets such as API keys and tokens.
         DumpsterDiver, Repo-supervisor and truffleHog are some fantastic tools to search for secrets in source code files.
         
         https://github.com/securing/DumpsterDiver
         python DumpsterDiver -p ~/jsfiles
-        [How to use DumpsterDiver](https://latesthackingnews.com/2018/07/10/dumpsterdiver-the-tool-for-finding-hardcoded-secrets/)
-        
-        Don’t forget that grep/sed/awk are also quite powerful when searching for specific sensitive information the source code files.
+        [How to use DumpsterDiver to find hardcoded secrets](https://latesthackingnews.com/2018/07/10/dumpsterdiver-the-tool-for-finding-hardcoded-secrets/)
    
    *Privious CVE and Outdated component,Outdated framework and Outdated librabey could lead to vulenrability. 
    ( Retire.js is a tool that can identify outdated JavaScript frameworks.Although RetireJS can report some false positives and not everything reported by RetireJS is vulnerable).
@@ -203,7 +213,18 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
      To Understand about listner and How to use it find vulnerabilty in JS code :
      Recommand you to play here (https://public-firing-range.appspot.com and /dom/index.html)
      
-### When looking into JavaScript files, it is important to identify what frameworks are being used, identify dangerous functions in the framework and then look for them in the source code i.e. places where developers tend to make mistakes that will lead to potential security issues.
+     extract js stuff ->
+
+ echo "https://target.com | gau | grep -iE '\.js$' | httpx -status-code -mc 200 -content-type | grep 'application/javascript'
+ 
+     extract API Stuff ->
+
+cat file.js | grep -aoP "(?<=(\"|\'|\'))\\/[a-zA-Z0-9_?&=\\/\\-\\#\\.]*(?=(\\"|\\'|\\'))" | sort -u
+
+     
+## Understand JS Code such as  what frameworks are being used, identify dangerous functions and component in the framework and then looking for them in the source code -> can get -> dom xss , Postmessage vulns, Logical Bugs etc
+
+Understand the places where developers tend to make mistakes that will lead to potential security issues.
 
         a. Usage of innerHTML indicates that there might be possible XSS issue. In the modern client-side JavaScript frameworks innerHTML equivalents do exist such as the aptly named dangerouslytSetInnerHTML in React framework and they did result in serious security vulnerabilities in the past .
         b. Improper usage of bypassSecurityTrustX methods in Angular can also lead to XSS issues.
