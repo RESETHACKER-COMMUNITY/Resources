@@ -31,23 +31,25 @@ is the location where the authorization server sends the user once the app has b
   
   Eg:
       
-      1. Use Burp "find" option in order to find the parameters such as url, red, redirect, redir, orgin, dest, targetURL, checkout_URL etc
+      1. Use Burp "find" option in order to find the parameters 
+      such as url, red, redirect, redir, orgin, dest, targetURL, checkout_URL etc
       2. Check the value of these parameters which can contain a URL.
       3. Change open redirection for 0auth functionality.
-      4. Change the URL value to www.chintan.com and check if gets redirected or not.
+      4. Change the URL value to www.example.com check if gets redirected or not.
+      (Most cases it's not that easy due to Security headers such as Referrer Policy strict-origin-when-cross-origin.)
       5. Check if same secret code request can be used multiple times.
 
 3. Check for Broken Authentication and pre-Authentication.
 4. 
 
-## Potential impact re oAuth token leakage.
+## Potential impact 
 
-Attack will result in leaking the user's OAuth code to an attacker-controlled domain name giving them unauthorized access to properties and data of the user's account.
+Attack will result in *leaking the user's OAuth code* to an attacker-controlled domain name giving them unauthorized access to properties and data of the user's account.
 
 
 ## Referance: To understand 0auth: 
 
-1.[OAuth - Something to do with Autherization.](https://youtu.be/t4-416mg6iU)
+1.[OAuth - What is OAuth really all about](https://youtu.be/t4-416mg6iU)
 2.[OAuth terminology and OAuth flow explain ](https://youtu.be/3pZ3Nh8tgTE)
 3.[daffainfo](https://github.com/daffainfo)
 4.[six2dez](https://pentestbook.six2dez.com/)
