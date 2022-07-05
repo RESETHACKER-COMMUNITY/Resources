@@ -123,15 +123,17 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
 
   ### Understanding Juicy information in Js files and collecting js files from Urls:
       
-      we can identify secrets in source code files using either regex or entropy. 
+      	we can identify secrets in source code files using either regex or entropy. 
         
-        Regex search will be able to identify credentials that are set by users such as usernames and passwords. 
+        Regex search will be able to identify credentials that are set by users such as usernames and passwords.
+	[List of regex for scraping API and juicy information.](https://github.com/h33tlit/secret-regex-list)
+
         Entropy based search is effective in identifying sufficiently random secrets such as API keys and tokens.
     
-    *Enumurate Juicy information* such as interesting url, hidden paths, js library/framework, subdomain, api , credentials, hardcoded secrets, internal api, ports or portals and their creds -> port scan on internal domains, token, passowrd, admin, src strict ,csrf, session, database cred, logs, , .map , credentials leak, endpints, etc
+    	*Enumurate Juicy information* such as interesting url, hidden paths, js library/framework, subdomain, api , credentials, hardcoded secrets, internal api, ports or portals and their creds -> port scan on internal domains, token, passowrd, admin, src strict ,csrf, session, database cred, logs, , .map , credentials leak, endpints, etc
 		  
-		Tools to Enumurate Js Urls-> 
-		   Waymore + xnLinkFinder, jsscanner , linkfinder, jsfinder, relative-url-extractor and lots of one liner commands , getjs etc
+	Tools to Enumurate Js Urls-> 
+	Waymore + xnLinkFinder, jsscanner , linkfinder, jsfinder, relative-url-extractor and lots of one liner commands , getjs etc
 -------------------------------------------------------------------------------------------------------
 
      This One liner will collect all known URLs for our target from the AlienVault’s Open Threat Exchange (OTX), the Wayback Machine and Common Crawl, fetch them using httpx and then display only javascript files.
@@ -213,7 +215,7 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
        Google important Js file in different framework/Libraries for example important Js files in Reac Js are /authProvider.js, config.js, App.js, users.js, /MyUrlField.js, /posts.js, Dashboard.js  etc then only check selected Js files.
      
        Privious CVE and Outdated component,Outdated framework and Outdated librabey could lead to vulenrability.( Retire.js is a tool that can identify outdated JavaScript frameworks.Although RetireJS can report some false positives and not everything reported by RetireJS is vulnerable).
-   
+	
        You can also goto the wayback machine of page and check the 1st version of code to understand the changes. or Use jsmon(API key needed to push the notification) with corn jobs on daily/weekly/monthy basis to [track the changes in Js code](https://github.com/robre/jsmon)
      
 
@@ -236,7 +238,7 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
 
 	*static security scanners(**JSPrime**) will make it easy to identify low hanging vulnerabilities in JavaScript code but the project hasn’t been updated in a while.
 
-
+[List of regex for scraping API and juicy information.](https://github.com/h33tlit/secret-regex-list)
 [Hacktrick - Steal Information in JS](https://book.hacktricks.xyz/pentesting-web/xss-cross-site-scripting/steal-info-js)
 	
 	
