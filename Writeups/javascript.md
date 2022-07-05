@@ -197,27 +197,24 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
 
 ### Reading all the Js files and find something from Js code are hard so 
 
- 	 Click on the Global listner from threads and you can see all the POST request that has been made within JS files.
+       Click on the Global listner from threads and you can see all the POST request that has been made within JS files.
      		To Understand about listner and How to use it find vulnerabilty in JS code :
      		Recommand you to play here (https://public-firing-range.appspot.com and /dom/index.html)
      
-	 Reading gathered, Deobfuscated or Minify JavaScript using Deobfuscatedjavascript.com , UglifyJS, JS Beautifier , Vs code etc
-	
+       Reading gathered, Deobfuscated or Minify JavaScript using deobfuscatedjavascript.com , UglifyJS, JSBeautifier, Vs code etc 
    	    To 'Install Js Beautifier' using PIP : pip install jsbeautifier
- 
-      		To use it : 
+ 		To use it : 
       		jsbeautifier -o output.txt javascriptfiles.txt 
       		Search juicy keyword on output.txt (after using Jsbeautifier on javascriptfiles.txt ) using GREP : 
       		grep -color -i JUICYKEYWORD output.txt
       		Here -color : to highlight "JUICYKEYWORD" and -i to support Upper and lower letter.
       		JUICYKEYWORD Such as : token, session api, key, csrf etc
 
+       Google important Js file in different framework/Libraries for example important Js files in Reac Js are /authProvider.js, config.js, App.js, users.js, /MyUrlField.js, /posts.js, Dashboard.js  etc then only check selected Js files.
      
-        Google important Js file in different framework/Libraries for example important Js files in Reac Js are /authProvider.js, config.js, App.js, users.js, /MyUrlField.js, /posts.js, Dashboard.js  etc then only check selected Js files.
-     
-        Privious CVE and Outdated component,Outdated framework and Outdated librabey could lead to vulenrability.( Retire.js is a tool that can identify outdated JavaScript frameworks.Although RetireJS can report some false positives and not everything reported by RetireJS is vulnerable).
+       Privious CVE and Outdated component,Outdated framework and Outdated librabey could lead to vulenrability.( Retire.js is a tool that can identify outdated JavaScript frameworks.Although RetireJS can report some false positives and not everything reported by RetireJS is vulnerable).
    
-   	You can also goto the wayback machine of page and check the 1st version of code to understand the changes. or Use jsmon(API key needed to push the notification) with corn jobs on daily/weekly/monthy basis to [track the changes in Js code](https://github.com/robre/jsmon)
+       You can also goto the wayback machine of page and check the 1st version of code to understand the changes. or Use jsmon(API key needed to push the notification) with corn jobs on daily/weekly/monthy basis to [track the changes in Js code](https://github.com/robre/jsmon)
      
 
 ### Understand the places where developers tend to make mistakes that will lead to potential security issues.
@@ -240,6 +237,9 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
 	*static security scanners(**JSPrime**) will make it easy to identify low hanging vulnerabilities in JavaScript code but the project hasn’t been updated in a while.
 
 
+[Hacktrick - Steal Information in JS](https://book.hacktricks.xyz/pentesting-web/xss-cross-site-scripting/steal-info-js)
+	
+	
 ## Outcome (content discovery):
     
     1. Information Leakage such as API, key ,token, passowrd, admin, src strict ,csrf, session, secret, database, logs, , .map , endpints,credentials leak, etc.
@@ -255,7 +255,7 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
 ![Javascript-vulnerability](https://user-images.githubusercontent.com/25515871/176843087-1e7a5d83-144d-4148-967c-b0425900aacd.jpg)
 
 
-[Hacktrick - Steal Information in JS](https://book.hacktricks.xyz/pentesting-web/xss-cross-site-scripting/steal-info-js)
+
 
       
 ## Recommended Links for chrome-devtools, Finding vulnerability in javascript
