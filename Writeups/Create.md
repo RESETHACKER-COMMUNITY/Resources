@@ -1,4 +1,4 @@
-# Create, Build and Automate Things for personal use or to give back to community
+# Create, Build and Automate Things for personal use or to give back to the community
  
 Index | Bugbounty 
 -- | ---
