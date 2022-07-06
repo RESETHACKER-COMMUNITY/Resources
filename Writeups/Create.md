@@ -1,5 +1,5 @@
-# Create, Build and Automate Things for personal use
-
+# Create, Build and Automate Things for personal use or to give back to community
+ 
 Index | Topics 
 -- | ---
 ** ** | [Writing your own Nuclie Templete and Finding Bugs](https://www.youtube.com/watch?v=B5ql2P4fTmQ)
