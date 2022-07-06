@@ -1,4 +1,4 @@
-# Creating, Bulding and Automating Things for personal use
+# Create, Build and Automate Things for personal use
 
 Index | Topics 
 -- | ---
