@@ -38,3 +38,9 @@ RESOURCES:
           6 	SSO Ebooks
           7 	SSO Researchers
           8 	SSO CVE
+
+6. BB_Setup in WSL2 > README.md 
+                    > BB_Setup.sh  
+                    > WSL2.md
+           
+            
