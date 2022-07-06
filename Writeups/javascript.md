@@ -57,6 +57,7 @@ Updating Soon
 Updating Soon
 
 ## Understanding jQuery
+- [What can jQuery selector injection do?](https://teletype.in/@skavans/6x-dhjRVxjV)
 
 ## Understanding Express (for backend - dev)
 Updating Soon
