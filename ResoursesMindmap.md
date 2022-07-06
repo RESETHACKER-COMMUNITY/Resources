@@ -1,4 +1,4 @@
-RESOURCES:
+RESOURCES:(Readme.md)
 
 1. Conferences > Readme.md (Conferences around the world)
 2. Setup  > Readme.md (SetupHelpDesk(Under Development))
@@ -43,4 +43,6 @@ RESOURCES:
                     > BB_Setup.sh  
                     > WSL2.md
            
-            
+7. Getting_Started_with_Cybersecurity 
+8. Ebooks.md
+9. ResoursesMindmap.md
