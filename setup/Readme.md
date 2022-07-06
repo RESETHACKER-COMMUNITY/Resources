@@ -33,7 +33,7 @@ Raj Chandel - telnetd Setup & configure | [Penetration Testing on Telnet (Port 2
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Index | Policy , Guide, benchmarks etc Contents 
 --- | ---
-Consortium for Educational Communication(CEC)  | [Cyber Laws in India -]https://www.youtube.com/watch?v=Vbqi0z_48bA)
+Consortium for Educational Communication(CEC)  | [Cyber Laws in India -](https://www.youtube.com/watch?v=Vbqi0z_48bA)
 Edoverflow | [A Deeper Look at Hacking Laws - video ](https://www.youtube.com/watch?v=Q5kIdpPIVuY)
 Philippe Lagadec - security hardening guides | [A collection of awesome security hardening guides, best practices, checklists, benchmarks, tools and other resources.](https://github.com/decalage2/awesome-security-hardening)
 
