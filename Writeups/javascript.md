@@ -201,6 +201,9 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
      
 ## Understand JS Code such as  what frameworks are being used, identify dangerous functions and component in the framework and then looking for them in the source code -> can get -> dom xss , Postmessage vulns, Logical Bugs etc
 
+	Many researchers may opt out of deep diving into Google's JavaScript because of their heavy obfuscation and optimization. 
+	This could be an ideal location for hackers or security researchers to find undiscovered DOM based vulnerabilities.
+
 ### Reading all the Js files and find something from Js code are hard so 
 
        Click on the Global listner from threads and you can see all the POST request that has been made within JS files.
@@ -260,7 +263,63 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
  #[snyk - Javascript security vulenrability](https://snyk.io/learn/javascript-security/)
 ![Javascript-vulnerability](https://user-images.githubusercontent.com/25515871/176843087-1e7a5d83-144d-4148-967c-b0425900aacd.jpg)
 
+## Understanding regex logic in javascripts:
+Senario : [Mobile Feedback URL Redirect Regex/Validation Flaw](https://buer.haus/2015/02/03/google-com-mobile-feedback-url-redirect-regexvalidation-flaw/#more-34)
+	
+	The normal flow of the application:
 
+    	Load this URL:https://www.google.com/tools/feedback/mobile_feedback?hl=en&url=http://www.myexample.com/&redirect=true&authuser=0&pi=17&hl=en
+   	 Write in some feedback and click the submit button.
+    	Click the close button.
+   	 ---> You are redirected to myexample.com.
+
+	 Here logic was being handled by JavaScript and to dive into the obfuscated script (for URL it was mobile_submitter__en.js). 
+	 After using a beautifier(to get a better understanding the code) and using breakpoints in Firebug, Few keypoints to note
+	
+Regex:
+	var Tb = /^(?:([^:/?#.]+):)?(?:\/\/(?:([^/?#]*)@)?([^/#?]*?)(?::([0-9]+))?(?=[/#?]|$))?([^?#]+)?(?:\?([^#]*))?(?:#(.*))?$/;
+
+    	Google were parsing the URL(myexample.com) you sent in the url request var with regex.
+    	then it was checking if the protocol section was null, http, or https before redirecting you using window.location.href.
+
+	This was important to know because:
+
+    	If the protocol is null, it assumes that you are being redirected to a relative path.
+    	window.location.href can be vulnerable to Cross-Site Scripting if redirected to "javascript:".
+
+This is what the code looked like:
+
+	Redirect logic in js code:
+
+	if ("http" == a || "https" == a || "" == a) {
+	window.location.href = this.d;
+	return
+	}
+
+	The Flaw:
+
+	After the URL gets parsed and right before redirecting it will validate that the URL's protocol is either http, https, or blank. 
+	Where "http" == a, a is the second position in the array. 
+	In the window.location script, d is the first position of the array, which is the original unparsed URI.
+	
+	
+	Example:
+	https://www.google.com/tools/feedback/mobile_feedback?hl=en&url=http://login:pass@www.google.com:80/1/2%3F3=4&5=6%237=8&redirect=true&authuser=0&pi=17&hl=en
+
+	Redirect URI:
+	http://login:pass@www.google.com:80/1/2?3=4&5=6#7=8
+	
+	Regex results:
+	0: "http://login:pass@www.google.com:80/1/2?3=4&5=6#7=8" [0, 51]
+	1: "http" [0, 4]
+	2: "login:pass" [7, 17]
+	3: "www.google.com" [18, 32]
+	4: "80" [33, 35]
+	5: "/1/2" [35, 39]
+	6: "3=4&5=6" [40, 47]
+	7: "7=8" [48, 51]
+	
+	As you can see, there are a lot of parts in the URL that the regex is looking for. Not every URL is going to have this data, so they are using question marks to state that the capture group is optional. 
 
 
       
