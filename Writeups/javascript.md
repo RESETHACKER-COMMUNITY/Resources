@@ -299,7 +299,7 @@ This is what the code looked like:
 	return
 	}
 
-	The Flaw:
+The Flaw:
 
 	After the URL gets parsed and right before redirecting it will validate that the URL's protocol is either http, https, or blank. 
 	Where "http" == a, a is the second position in the array. 
@@ -322,7 +322,23 @@ This is what the code looked like:
 	6: "3=4&5=6" [40, 47]
 	7: "7=8" [48, 51]
 	
-	As you can see, there are a lot of parts in the URL that the regex is looking for. Not every URL is going to have this data, so they are using question marks to state that the capture group is optional. 
+	As you can see, there are a lot of parts in the URL that the regex is looking for. Not every URL is going to have this data, 
+	so they are using question marks to state that the capture group is optional. 
+	
+
+The Fix
+
+	The new version of mobile_submitter__en.js with the changes:
+	https://www.gstatic.com/feedback/js/asil0m973whx/mobile_submitter__en.js
+
+	Changes:
+
+	if ("http" == a || "https" == a) {
+	window.location.href = this.d;
+	return
+	}
+
+This did not change the regex flaw, but it requires that the request variable that you send contain a full path URL with a protocol of http or https.
 
 
       
