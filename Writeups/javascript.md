@@ -158,7 +158,7 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
    
    Using 'curl or hakcheckurl' to check for the status of the JavaScript files on the server could be cumbersome. 
     
-      go get github.com/hakluke/hakcheckurl
+      go install github.com/hakluke/hakcheckurl@latest
       cat lyftgalactic-js-urls.txt | hakcheckurl
       
       //hakcawler - To grep things like, subdomain,url,form,javascript,robots etc//
