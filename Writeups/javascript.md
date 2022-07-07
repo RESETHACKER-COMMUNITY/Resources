@@ -264,6 +264,8 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
 ![Javascript-vulnerability](https://user-images.githubusercontent.com/25515871/176843087-1e7a5d83-144d-4148-967c-b0425900aacd.jpg)
 
 ## Understanding regex logic in javascripts:
+[List of regex for scraping API and juicy information](https://github.com/h33tlit/secret-regex-list)
+
 Senario : [Mobile Feedback URL Redirect Regex/Validation Flaw](https://buer.haus/2015/02/03/google-com-mobile-feedback-url-redirect-regexvalidation-flaw/#more-34)
 	
 	The normal flow of the application:
@@ -276,11 +278,12 @@ Senario : [Mobile Feedback URL Redirect Regex/Validation Flaw](https://buer.haus
 	 Here logic was being handled by JavaScript and to dive into the obfuscated script (for URL it was mobile_submitter__en.js). 
 	 After using a beautifier(to get a better understanding the code) and using breakpoints in Firebug, Few keypoints to note
 	
-Regex:
+Regex in code :
+
 	var Tb = /^(?:([^:/?#.]+):)?(?:\/\/(?:([^/?#]*)@)?([^/#?]*?)(?::([0-9]+))?(?=[/#?]|$))?([^?#]+)?(?:\?([^#]*))?(?:#(.*))?$/;
 
     	Google were parsing the URL(myexample.com) you sent in the url request var with regex.
-    	then it was checking if the protocol section was null, http, or https before redirecting you using window.location.href.
+    	then it was checking if the protocol section was null. http, or https before redirecting URL it was using window.location.href.
 
 	This was important to know because:
 
