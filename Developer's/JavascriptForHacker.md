@@ -1,20 +1,29 @@
 # 1. JavaScript
-      ## What is the role of JS frameworks and libraries ?
-      ## Does that mean “library” and “framework” two ways of saying the same thing? 
-      ## Why do we use framework?
+      ✅ ## What is the role of JS frameworks and libraries ?
+      ✅ ## Does that mean “library” and “framework” two ways of saying the same thing? 
+      ✅ ## Why do we use framework?
+      
+		    Angular :  Pros. Cons. Open Source. Single page applications. ...
+		    React : Pros. Cons. Easy to learn. Reusable components. ...
+		    Vue. js : Pros. Cons. ...
+		    Ember. js : Pros. Cons. ...
+		    Meteor : Pros. Cons. Offers several conveniences. ...
+		    Mithril : Pros. Cons. Lightweight. ...
+		    Node. js : Pros. Cons. ...
+		    Polymer : Pros. Cons. Good for single-page applications.
 
-      ## Understanding ReactJS (for frontend - dev) - Updating Soon
-      ## Understanding NodeJS(for backend - dev) - Updating Soon
-      ## Understanding jQuery- [What can jQuery selector injection do?](https://teletype.in/@skavans/6x-dhjRVxjV)
-      ## Understanding Meteor.js framework (Ahmed Ezzat & Rémi Testa)
-          ### Attacking Meteor.JS
+          ## Understanding ReactJS (for frontend - dev) - Updating Soon
+          ## Understanding NodeJS(for backend - dev) - Updating Soon
+          ## Understanding jQuery- [What can jQuery selector injection do?](https://teletype.in/@skavans/6x-dhjRVxjV)
+      ✅ ## Understanding Meteor.js framework (Ahmed Ezzat & Rémi Testa)
+          	### Attacking Meteor.JS
 
-      ## Understanding Express (for backend - dev) - Updating Soon
-      ## Understanding Ajax - Updating Soon
-      ## Understanding Typescript - Updating Soon
-      ## Bun(the future in Js) - a fast new JavaScript runtime like Node.js or Deno. 
-      ## Understanding .Net framework (for backend - dev)
-      ## Most popular web frameworks:
+          ## Understanding Express (for backend - dev) - Updating Soon
+          ## Understanding Ajax - Updating Soon
+          ## Understanding Typescript - Updating Soon
+          ## Bun(the future in Js) - a fast new JavaScript runtime like Node.js or Deno. 
+      ✅ ## Understanding .Net framework (for backend - dev)
+      
 
 
 
