@@ -1,4 +1,4 @@
-# JavaScript
+# 1. JavaScript
       ## What is the role of JS frameworks and libraries ?
       ## Does that mean “library” and “framework” two ways of saying the same thing? 
       ## Why do we use framework?
@@ -18,7 +18,7 @@
 
 
 
-# JAVASCRIPT for PRNTESTERS/Hackers
+# 1. JAVASCRIPT 
 
 **JavaScript** (or JS for short) is a scripting language used by front end developers to implement and manage dynamic content. 
 JavaScript was initially used only for the client-side but, in more recent times, it has also been used as a server-side programming language.
