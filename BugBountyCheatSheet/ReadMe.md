@@ -4,5 +4,5 @@ This section contains Bugbounty platform, practice platforms,tips, bypass, Paylo
 
 Index | Title
 ------| ------
-**1** | [CTF Practice Platforms](/BugBountyCheatSheet/Platform.md)
-**2** | [Bug Bounty Platforms]
+**1** | [CTF Practice Platforms](/BugBountyCheatSheet/CTFPlatforms.md)
+**2** | [Bug Bounty Platforms](/BugBountyCheatSheet/BBPlatforms.md)
