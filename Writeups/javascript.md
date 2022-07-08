@@ -59,6 +59,130 @@ Updating Soon
 ## Understanding jQuery
 - [What can jQuery selector injection do?](https://teletype.in/@skavans/6x-dhjRVxjV)
 
+##  Understanding Meteor.js framework (Ahmed Ezzat & Rémi Testa)
+	
+	Meteor is an open source platform for web, mobile, and desktop used by over half a million developers around the globe 
+	to make shipping javascript applications simple, efficient, and scalable.
+	
+	Prerequisite(s):
+		NoSQL Injection
+    		Socket based communication
+	
+	What Meteor Does For You ?
+	Many of these are care of Dan Dascalescu comprehensive answer on Quora referenced below.
+
+		1. The publish/subscribe mechanism limits the data that can be retrieved from the server. 
+		   Operations on client-side collections are by default restricted.
+		2. Meteor doesn’t use session cookies, which makes Cross-Site Request Forgeries (CSRF) impossible.
+		3. All user input is HTML-escaped when being displayed back to the client, thanks to the Handlebars-like {{…}} templates. A first defence against XSS.
+		4. Meteor uses the best crypto to store hashed passwords — bcrypt
+		5. Content Security Policy support is provided by the browser-policy-*core packages.
+		6. For the paranoid, a full-database encryption layer that runs on top of Meteor exists, calledMylar. 
+		It stores only encrypted data on the server, and decrypts data only in users’ browsers.
+
+	NOTE: Same as ReactJS Meteor applications will be bundled and minified however it may not has the map file by default However we don’t need it.
+
+   ### Attacking Meteor.JS
+
+	In Meteor.js based applications you just need your browser debugger and You can then try to call or search server methods () from your client.  
+	An example to search js sources for ‘Meteor.call’.
+	Just know we are interested in everyMeteor.call() function as this invokes real functions at the server using sockets.
+	![meteror call functions](https://user-images.githubusercontent.com/25515871/178000804-94df1575-4bd4-4fc0-b7ff-bed0d1eb9df4.png)
+	
+	We can also Enumurate juicy informations. such as
+		
+		Meteor informations
+			// Meteor version 
+				Meteor.release;
+			// Get settings.json public data (maybe juicy informations)
+				Meteor.settings;
+			// Production environment
+				Meteor.isProduction;
+			// Get current user informations
+				Meteor.user();
+			// Maybe get informations about other users
+			Meteor.users.find().fetch();
+			// Get meteor data
+			this;
+
+		Session variables
+
+			// List session variables 
+				Session.keys
+			// Insert/Update variable 
+				Session.set(‘theVariableName’, ‘newValue’);
+			// Get value of a specific variable
+				Session.get(‘theVariableName’);
+			// Delete variable
+				delete Session.keys.theVariableName;
+		
+		Collections 
+			List collections data
+				const subscriptions = _.map( Meteor.default_connection._subscriptions, sub => sub.name );
+				_.each(subscriptions, sub => {
+				    if ( Meteor.Collection.get(sub.toLowerCase()) ) {
+					console.log(sub, Meteor.connection._stores[sub.toLowerCase()]._getCollection().find().fetch());
+				    }
+				});
+				
+			List local collections data
+
+				_.forIn(this, (value, key) => {
+				    if (this[key] && typeof this[key] === 'object' && this[key].hasOwnProperty('_collection') && this[key]._connection === null) {
+					console.log(key, this[key].find().fetch());
+				    };
+				});
+
+			Play with collections
+
+				TheCollectionName.insert({ key: value, key2: value2 }); // Insert
+				TheCollectionName.remove({ _id: theEntryId }); // Remove
+				TheCollectionName.update({ _id: theEntryId }, {$set: { // Update
+				    key: value,
+				    key2: value2
+				}});
+				
+		Templates
+
+			List all templates
+
+				Template.forEach(value => {
+				    if (_.isObject(value)) {
+					console.log(value.viewName);
+				    }
+				});
+
+			Render a template
+
+				Blaze.render(Template[templateName], document.body);
+
+				Get template informations
+
+				// Get template events list
+				Template.TheTemplateName.__eventMaps;// Display the event code
+				Template.TheTemplateName.__eventMaps.get('TheEvent');// Get template helpers list
+				Template.TheTemplateName.__helpers;// Display the helper code
+				Template.TheTemplateName.__helpers.get('TheHelper');// Get template creation callback
+				Template.TheTemplateName._callbacks.created;// Get template rendering callback
+				Template.TheTemplateName._callbacks.rendered;// Get template destruction callback
+				Template.TheTemplateName._callbacks.destroyed;	
+
+		Routes
+			Get routes names and paths
+			_.each(Router.routes, route => console.log(route.getName(), route.path()));
+	
+	#### NoSQL Injection at MeteorJS apps
+	MeteorJS is not only a frontend library it also has its own backend engine to manage the communications. 
+	Running the following commands at Chrome’s Devtools will help us to extract some useful information about the server and the working environment.
+	server-side code is vulnerable to NoSQL Injections attacks https://resources.infosecinstitute.com/what-is-nosql-injection/
+	
+	
+Ref :
+[Javascript security Basics and understanding the web](https://www.youtube.com/watch?v=tKuFYD-rrCM)
+[Meteor-security-tips](https://medium.com/meteor-js/meteor-security-tips-6fdc28560895)
+[javascript-for-bug-bounty-hunters](https://bitthebyte.medium.com/javascript-for-bug-bounty-hunters-part-3-3b987f24ab27)
+
+
 ## Understanding Express (for backend - dev)
 Updating Soon
 
