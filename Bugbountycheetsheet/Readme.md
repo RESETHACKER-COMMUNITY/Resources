@@ -1,8 +1,8 @@
-**cybersecurity/Bugbounty practice platform**
+**Cybersecurity/Bugbounty Practice Platform**
 
-This section contain Bugbounty platform, practice platforms,tips, bypass, Payload, script etc
+This section contains Bugbounty platform, practice platforms,tips, bypass, Payload, script etc
 
 Index | Title
---- | ---
-**1** | [Bug bounty/CTF Practice platform](/Bugbountycheetsheet/bugbountyplatform.md)
-
+------| ------
+**1** | [CTF Practice Platforms](/Bugbountycheetsheet/bugbountyplatform.md)
+**2** | [Bug Bounty Platforms]
