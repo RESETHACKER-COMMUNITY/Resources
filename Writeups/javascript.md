@@ -4,22 +4,22 @@
 -----------------------------------------------------------------------------------------------------------------------
 
 # 1. [JavaScript](https://github.com/RESETHACKER-COMMUNITY/Resources/blob/main/Developer's/JavascriptForHacker.md) Click me, In case you want to Explore Deeper.
-      ## What is the role of JS frameworks and libraries ?
-      ## Does that mean “library” and “framework” two ways of saying the same thing? 
-      ## Why do we use framework?
+      ✅## What is the role of JS frameworks and libraries ?
+      ✅## Does that mean “library” and “framework” two ways of saying the same thing? 
+      ✅## Why do we use framework?
 
       ## Understanding ReactJS (for frontend - dev) - Updating Soon
       ## Understanding NodeJS(for backend - dev) - Updating Soon
       ## Understanding jQuery- [What can jQuery selector injection do?](https://teletype.in/@skavans/6x-dhjRVxjV)
-      ## Understanding Meteor.js framework (Ahmed Ezzat & Rémi Testa)
+      ✅## Understanding Meteor.js framework (Ahmed Ezzat & Rémi Testa)
           ### Attacking Meteor.JS
 
       ## Understanding Express (for backend - dev) - Updating Soon
       ## Understanding Ajax - Updating Soon
       ## Understanding Typescript - Updating Soon
       ## Bun(the future in Js) - a fast new JavaScript runtime like Node.js or Deno. 
-      ## Understanding .Net framework (for backend - dev)
-      ## Most popular web frameworks:
+      ✅## Understanding .Net framework (for backend - dev)
+    
 
 **JavaScript** (or JS for short) is a scripting language used by front end developers to implement and manage dynamic content. 
 JavaScript was initially used only for the client-side but, in more recent times, it has also been used as a server-side programming language.
