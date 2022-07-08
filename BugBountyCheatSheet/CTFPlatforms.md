@@ -1,4 +1,4 @@
-Here, you can find best platform to learn and get ideas about penetration testing, bughunting, CTFs etc
+Here, you can find best suitable platforms for you to get ideas and learn about penetration testing, bughunting, CTFs etc
 Index | Practice Platforms
 --- | ---
 **1** | [Portswigger Labs](https://portswigger.net/web-security/all-labs)
