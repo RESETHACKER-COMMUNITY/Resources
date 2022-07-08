@@ -1,8 +1,7 @@
-
 Updated Version from **RESETHACKER Community for WSL2 & VPS Environmets.**
-- Latest go Language
+- Latest Go Language
 - Arjun
-- Subfinder
+- subfinder
 - Assetfinder
 - Amass
 - ffuf
