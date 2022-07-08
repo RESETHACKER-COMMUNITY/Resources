@@ -1,7 +1,9 @@
-# 1. JAVASCRIPT 
+# 1. JavaScript
 # 2. JAVASCRIPT for Pentesters and Hackers:
 
-# [JavaScript](https://github.com/RESETHACKER-COMMUNITY/Resources/blob/main/Developer's/JavascriptForHacker.md) Click me, In case you want to Explore Deeper.
+-----------------------------------------------------------------------------------------------------------------------
+
+# 1. [JavaScript](https://github.com/RESETHACKER-COMMUNITY/Resources/blob/main/Developer's/JavascriptForHacker.md) Click me, In case you want to Explore Deeper.
       ## What is the role of JS frameworks and libraries ?
       ## Does that mean “library” and “framework” two ways of saying the same thing? 
       ## Why do we use framework?
@@ -41,30 +43,38 @@ So a JavaScript Framework is an application skeleton, a complete structure that 
 They consist of a huge collection of various JavaScript libraries that supplies the programmers with pre-written code and thus allows even those who don’t have a lot of programming knowledge.
 
 ### Most popular web frameworks:
+
 ![most-popular-web-frameworks-according-to-professional developers](https://user-images.githubusercontent.com/25515871/176917211-3757c0ce-c87f-4426-b8a6-52ad5df6c12c.png)
     
 Note: 
-Today no one directly uses javascript instead they use a framework especially if you are a company
+Today no one directly uses javascript instead they use a framework especially if you are a company.
 
+-----------------------------------------------------------------------------------------------------------------------
 
-# JAVASCRIPT FOR Pentesters and Hackers:
+# 2. JAVASCRIPT FOR Pentesters and Hackers:
 
- ## 1. Debugging Javascript code:
- ## 2. Understanding Juicy information, Collecting Urls, endpoints etc and Automating things 
+----------------------------------------------------------------------------------------------
+
+ ## 2.1. Debugging Javascript code:
+ 	### 1.DevTools for Enumuration
+	### 2.Detecting and Merging Splitted Bundles :
+ ## 2.2. Understanding Juicy information, Collecting Urls, endpoints etc and Automating things 
    	### 1. Understanding Juicy information in Js files and collecting js files from Urls:
    	### 2. Automating and Enumarating information that might Lead to discovery of security issues and later you can fetch these list of Urs for -> SSTI, XSS, SQLi, SSRF, Open Redirect, IDOR etc 
    
- ## 3. Understand JS Code such as  what frameworks are being used, identify dangerous functions and component in the framework and then looking for them in the source code -> can get -> dom xss , Postmessage vulns, Logical Bugs etc
+ ## 2.3. Understand JS Code such as  what frameworks are being used, identify dangerous functions and component in the framework and then looking for them in the source code -> can get -> dom xss , Postmessage vulns, Logical Bugs etc
 	### 1. Reading all the Js files and find something from Js code are hard so 
 	### 2. Understand the places where developers tend to make mistakes that will lead to potential security issues.
 	### 3. Automating potential security issues in source code.
 
-## 4. Outcome (content discovery):
+## 2.4. Outcome (content discovery):
+## 2.5. Bug Bounty — Tips / Tricks / JS (JavaScript Files)
+## 2.6. Understanding regex logic in javascripts:
+## 2.7 Recommended Links for chrome-devtools, Finding vulnerability in javascript.
 
-  ## 1. Bug Bounty — Tips / Tricks / JS (JavaScript Files)
-  ## 1. Recommended Links for chrome-devtools, Finding vulnerability in javascript.
 ----------------------------------------------------------------------------------------------
-## Debugging Javascript code:
+
+## 2.1.Debugging Javascript code:
 
 	Idea is to finding vulnerabilty and information in urls and files 
 	by understanding "How JavaScript is used in website? then breaking it:
@@ -111,7 +121,7 @@ Today no one directly uses javascript instead they use a framework especially if
 	you may able to access the UI revealing that it doesn’t have any server-side protection 
 	allowing anyone to access the internal log with some other juicy stuff :)
 
-## Understanding Juicy information, Collecting Urls, endpoints etc and Automating things :
+## 2.2. Understanding Juicy information, Collecting Urls, endpoints etc and Automating things :
   
   ### Identifying and gathering JavaScript files in an application.
      
@@ -137,11 +147,11 @@ Today no one directly uses javascript instead they use a framework especially if
 	Waymore + xnLinkFinder, jsscanner , linkfinder, jsfinder, relative-url-extractor and lots of one liner commands , getjs etc
 -------------------------------------------------------------------------------------------------------
  ### Colecting Js Script Files in target.
- #### 1. Manual - Colecting Js Script Files in target
- 	
+		//#### 1. Manual - Colecting Js Script Files in target//
+
 	
 	
-#### 2. Automation - Colecting Js Script Files in target:
+   #### Automation - Colecting Js Script Files in target:
 
      This One liner will collect all known URLs for our target from the AlienVault’s Open Threat Exchange (OTX), the Wayback Machine and Common Crawl, fetch them using httpx and then display only javascript files.
      
@@ -150,24 +160,25 @@ Today no one directly uses javascript instead they use a framework especially if
        https://github.com/lc/gau
       
 ----------------------------------------------------------------------------------------------------------------
-    In case you want to only collect the Js files from 'waybackurls' :
-    
-      waybackurls target.com | grep "\.js" | uniq | sort
-      go get github.com/tomnomnom/waybackurls
-   
-   To avoide the 'false potive' or dead server/ pages.
-    
-      cat js_files_url_list.txt | parallel -j50 -q curl -w 'Status:%{http_code}\t Size:%{size_download}\t %{url_effective}\n' -o /dev/null -sk
-   
-   Using 'curl or hakcheckurl' to check for the status of the JavaScript files on the server could be cumbersome. 
-    
-      go install github.com/hakluke/hakcheckurl@latest
-      cat lyftgalactic-js-urls.txt | hakcheckurl
-      
-      //hakcawler - To grep things like, subdomain,url,form,javascript,robots etc//
+	    In case you want to only collect the Js files from 'waybackurls' :
+
+	      waybackurls target.com | grep "\.js" | uniq | sort
+	      go get github.com/tomnomnom/waybackurls
+
+	   To avoide the 'false potive' or dead server/ pages.
+
+	      cat js_files_url_list.txt | parallel -j50 -q curl -w 'Status:%{http_code}\t Size:%{size_download}\t %{url_effective}\n' -o /dev/null -sk
+
+	   Using 'curl or hakcheckurl' to check for the status of the JavaScript files on the server could be cumbersome. 
+
+	      go install github.com/hakluke/hakcheckurl@latest
+	      cat lyftgalactic-js-urls.txt | hakcheckurl
+
+	      //hakcawler - To grep things like, subdomain,url,form,javascript,robots etc//
 
 
-## Automating and Identifying information that might Lead to discovery of security issues -> SSTI, XSS, SQLi, SSRF, Open Redirect, IDOR etc 
+
+   ### Automating and Identifying information that might Lead to discovery of security issues -> SSTI, XSS, SQLi, SSRF, Open Redirect, IDOR etc 
    
    *Sometime Just looking through code can give plenty of information as i have mentioned in *Enumurate Juicy information* but let's focous on fetching full URLs, relative URL/Paths, endpoints, etc. that potentially lead to admin access file/page/endpoints.*
       
@@ -202,7 +213,7 @@ Today no one directly uses javascript instead they use a framework especially if
         python DumpsterDiver -p ~/jsfiles
         [How to use DumpsterDiver to find hardcoded secrets](https://latesthackingnews.com/2018/07/10/dumpsterdiver-the-tool-for-finding-hardcoded-secrets/)
      
-## Understand JS Code such as  what frameworks are being used, identify dangerous functions and component in the framework and then looking for them in the source code -> can get -> dom xss , Postmessage vulns, Logical Bugs etc
+## 2.3 Understand JS Code such as  what frameworks are being used, identify dangerous functions and component in the framework and then looking for them in the source code -> can get -> dom xss , Postmessage vulns, Logical Bugs etc
 
 	Many researchers may opt out of deep diving into Google's JavaScript because of their heavy obfuscation and optimization. 
 	This could be an ideal location for hackers or security researchers to find undiscovered DOM based vulnerabilities.
@@ -252,7 +263,7 @@ Today no one directly uses javascript instead they use a framework especially if
 [Hacktrick - Steal Information in JS](https://book.hacktricks.xyz/pentesting-web/xss-cross-site-scripting/steal-info-js)
 	
 	
-## Outcome (content discovery):
+## 2.4 Outcome (content discovery):
     
     1. Information Leakage such as API, key ,token, passowrd, admin, src strict ,csrf, session, secret, database, logs, , .map , endpints,credentials leak, etc.
     2. Vulnerably in Javascript code such as DOM XSS(or client side XSS).(To the DOM XSS reports site:hackerone.com intext:dom XSS )
@@ -262,11 +273,11 @@ Today no one directly uses javascript instead they use a framework especially if
     6. If you know of an endpoint which returns 403 since it’s an admin endpoint but have you ever imagined knowing the correct directories and parameters sometimes can turn 403 into 200 (because of misconfigurations) and then into a SQLi? ;)
       
 
-# Bug Bounty — Tips / Tricks / JS (JavaScript Files)
+## 2.5 Bug Bounty — Tips / Tricks / JS (JavaScript Files)
  #[snyk - Javascript security vulenrability](https://snyk.io/learn/javascript-security/)
 ![Javascript-vulnerability](https://user-images.githubusercontent.com/25515871/176843087-1e7a5d83-144d-4148-967c-b0425900aacd.jpg)
 
-## Understanding regex logic in javascripts:
+## 2.6 Understanding regex logic in javascripts:
 [List of regex for scraping API and juicy information](https://github.com/h33tlit/secret-regex-list)
 
 Senario : [Mobile Feedback URL Redirect Regex/Validation Flaw](https://buer.haus/2015/02/03/google-com-mobile-feedback-url-redirect-regexvalidation-flaw/#more-34)
@@ -345,7 +356,7 @@ This did not change the regex flaw, but it requires that the request variable th
 
 
       
-## Recommended Links for chrome-devtools, Finding vulnerability in javascript
+## 2.7 Recommended Links for chrome-devtools, Finding vulnerability in javascript
       
       https://developers.google.com/web/tools/chrome-devtools
       https://developers.google.com/web/tools/chrome-devtools/javascript
