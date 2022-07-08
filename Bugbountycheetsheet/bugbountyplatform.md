@@ -1,9 +1,9 @@
-Here you can find the practice platform for learning pentesting, bughunting, CTF practice etc
+Here, you can find best platform to learn and get ideas about penetration testing, bughunting, CTFs etc
 Index | Practice Platforms
 --- | ---
 **1** | [Portswigger Labs](https://portswigger.net/web-security/all-labs)
 **2** | [OWASP Juice Shop](http://juice-shop.herokuapp.com/)
-**3** | [Pentesterlab](https://pentesterlab.com/)
+**3** | [PentesterLab](https://pentesterlab.com/)
 **4** | [XSS Game](https://xss-game.appspot.com/)
 **5** | [Hack This Site](https://www.hackthissite.org)
 **6** | [Root-Me](https://www.root-me.org)
@@ -15,4 +15,5 @@ Index | Practice Platforms
 **11** | [flAWS Cloud](http://flaws.cloud/)
 **12** | [bWAPP](http://www.itsecgames.com/)
 **13** | [OWASP Mutillidae](https://www.owasp.org/index.php/OWASP_Mutillidae_2_Project)
-**14** | [tryhackme](https://tryhackme.com/)
+**14** | [Tryhackme](https://tryhackme.com/)
+**15** | [CTFTime](https://ctftime.org)
