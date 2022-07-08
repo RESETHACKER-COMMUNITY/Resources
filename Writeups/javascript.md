@@ -116,6 +116,42 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
     Select Js in the Options : In case you want to See all the Js files)
     Select XHR(XML HTTP Request or Simply fetching remote file with javascript) : In case you want to See Request made by javascript.
     Click on the Global listner from threads and you can see all the POST request that has been made within JS files.
+    
+    
+  Detecting and Merging Splitted Bundles :
+  	
+	Why do website devide js file in multple Bundle and how to detect it during Enumuration?
+	
+	From an Developers standpoint, It save time by loading website elements faster.  
+	for Example, If you have one giant file, it would take a long time to download that will cause the delay in websites loding rather than sending the whole file from server to your browser at once server will just send the part which the browser needs thus reducing the downloading time and loding time of webisite.
+	
+		Note:
+		For bounty hunters we need to access the full source code at once as it may contain sensitive pieces of information and
+		 .map files could have a lot of information and it’s exactly the same source code at the original developer's box. 
+		 Depending on the situation this could be considered as source code disclosure (CWE-200) 
+		 So don't just go reporting map files as source code disclosure understand your target and 
+		 understand how this would affect them before reporting it.
+    	
+	Enumurating Splitted Bundles (Credit: Ahmed Ezzat (BitTheByte))
+    	First, We need to detect the bootstrap code. this could be done easily by using 
+	
+	Chrome’s DevTools Search “Three dots > More Tools > select "Search” and Search for “Loading Chunk”.
+	
+	Loading Chunk will lools like main-[hash].js or has a different name and sometime you would not find any so 
+	Use Chrome’s Dev tools Console but we need to edit the bootstrap function to return the full URL of the hosted file. 
+	
+	
+![image](https://user-images.githubusercontent.com/25515871/177983439-7222f2af-8927-48a9-abdd-0209b807a5b6.png)
+	
+	Did you Notice inside the code	Ahmed Ezzat also added .map extension to the file URL.
+	To decode the .map js bundle we can’t use the built-in source map decoder here instead we will use an awesome tool called [unwebpack-sourcemap](https://github.com/rarecoil/unwebpack-sourcemap)
+	python3 unwebpack_sourcemap.py --make-directory https://example.com/assets/UserNameComplete-d6c0c7fc8bc309d9b022.js.map output
+	After running the above command on every map file we will be able to access the full frontend source code.
+	
+	After getting the Most of the source code you can try ####Enumurating Juicy information in Js*  
+	eg By just adding a breakpoint on the redirect condition and changing it to the other branch 
+	you may able to access the UI revealing that it doesn’t have any server-side protection 
+	allowing anyone to access the internal log with some other juicy stuff :)
 
 ## Understanding Juicy information, Collecting Urls, endpoints etc and Automating things :
   
@@ -126,7 +162,7 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
 
   ### Understanding Juicy information in Js files and collecting js files from Urls:
       
-      	we can identify secrets in source code files using either regex or entropy. 
+   #### Identifying secrets in source code files using either regex or entropy. 
         
         Regex search will be able to identify credentials that are set by users such as usernames and passwords.
 	[List of regex for scraping API and juicy information](https://github.com/h33tlit/secret-regex-list)
@@ -134,11 +170,20 @@ https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_break
 
         Entropy based search is effective in identifying sufficiently random secrets such as API keys and tokens.
     
-    	*Enumurate Juicy information* such as interesting url, hidden paths, js library/framework, subdomain, api , credentials, hardcoded secrets, internal api, ports or portals and their creds -> port scan on internal domains, token, passowrd, admin, src strict ,csrf, session, database cred, logs, , .map , credentials leak, endpints, etc
+   #### Enumurating Juicy information in Js* 
+	such as interesting url, hidden paths, old version(or vulnerable) js library/framework , subdomain, Sensitive API keys found at comments,DOM Based XSS with 		parameter such as redirect etc, credentials, hardcoded secrets, internal api, ports or portals and their creds -> port scan on internal domains, token, passowrd, 	  admin, src strict ,csrf, session, database cred, logs, , .map js files , credentials leak, endpints, etc
+	
+	##### 
 		  
 	Tools to Enumurate Js Urls-> 
 	Waymore + xnLinkFinder, jsscanner , linkfinder, jsfinder, relative-url-extractor and lots of one liner commands , getjs etc
 -------------------------------------------------------------------------------------------------------
+ ### Colecting Js Script Files in target.
+ #### 1. Manual - Colecting Js Script Files in target
+ 	
+	
+	
+#### 2. Automation - Colecting Js Script Files in target:
 
      This One liner will collect all known URLs for our target from the AlienVault’s Open Threat Exchange (OTX), the Wayback Machine and Common Crawl, fetch them using httpx and then display only javascript files.
      
