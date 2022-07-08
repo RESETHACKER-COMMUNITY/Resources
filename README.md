@@ -11,8 +11,8 @@ Index | Contents
 **4** | [Security Cheetsheet](Bugbountycheetsheet/Readme.md)
 **5** | [Reconnaissance/Methodology](Reconnaissance/Readme.md)
 
-**7** | [] 
+**7** | []()
 **8** | []()
 **9** | []()
-**11** | []()
-**12** |[]()
+**11**| []()
+**12**| []()
