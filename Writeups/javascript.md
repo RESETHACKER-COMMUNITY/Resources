@@ -186,6 +186,20 @@ Ref :
 ## Understanding Express (for backend - dev)
 Updating Soon
 
+# Understanding Ajax
+Updating Soon
+
+# Understanding Typescript
+Updating Soon
+
+# Bun - a fast new JavaScript runtime like Node.js or Deno. Explore the core features of Bun.js and how they might affect fullstack web developers in the future. 
+
+	🔗 Resources
+
+			Bun.js Announcement https://bun.sh
+			Bun on Github https://github.com/Jarred-Sumner/bun
+			How JavaScript Works https://youtu.be/FSs_JYwnAdI
+
 ## Understanding .Net framework (for backend - dev)
 .NET is a software development framework and ecosystem designed and  to allow for easy desktop and web application engineering. it provides the programming environment for most software development phases. .NET best suits businesses that look for a wide range of features like web-based services, desktop software, and cloud infrastructure support.
 
