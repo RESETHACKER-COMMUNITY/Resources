@@ -23,6 +23,28 @@
 
 **JavaScript** (or JS for short) is a scripting language used by front end developers to implement and manage dynamic content. 
 JavaScript was initially used only for the client-side but, in more recent times, it has also been used as a server-side programming language.
+The core ecosystem of JavaScript consists of 3 main components which are ECMAScript, JavaScript Engine, and the JavaScript Runtime.//
+
+## Obfuscated JavaScript
+	
+	JavaScript obfuscation is the process/series of a code transformations that turn machine code and easy-to-read JS source code 
+	into a modified version that is hard for humans to understand and reverse-engineer.
+	whereas allowing it to still be successfully executed, although potentially reduce the speed/efficiency.
+	This can be done by turning componets,files and functions and to letters and symbols.
+	For example checkout
+	Js function Before Obsfuscation vs Js After Obfuscated
+
+![JsBeforeObsfuscationBefore](https://user-images.githubusercontent.com/25515871/178157547-523322d5-9104-40a4-bdc2-3bcec5531c9d.jpg)
+![JsAfterObfuscated](https://user-images.githubusercontent.com/25515871/178157550-5a583ad5-067b-44b3-bab6-7bba9b044242.jpg)
+
+Why obfuscation is very often used with JavaScript ?
+https://www.toptal.com/developers/javascript-minifier
+
+Codes written in many languages are published and executed without being compiled in interpreted languages, such as Python, PHP, and JavaScript. 
+While Python and PHP usually reside on the server-side and hence are hidden from end-users, 
+JavaScript is usually used within browsers at the client-side, and the code is sent to the user and executed in cleartext.
+
+how to obfuscate a simple JavaScript code and attempt running it before and after obfuscation make any differences?
 
 ## What is the role of JS frameworks and libraries ?
 It give developers the ability to use prewritten code for common JavaScript functions, and to create their own functions that can then be reused as needed.
@@ -222,7 +244,7 @@ Today no one directly uses javascript instead they use a framework especially if
 	Many researchers may opt out of deep diving into Google's JavaScript because of their heavy obfuscation and optimization. 
 	This could be an ideal location for hackers or security researchers to find undiscovered DOM based vulnerabilities.
 
-### Reading all the Js files and find something from Js code are hard so 
+### Reading all the Js files and finding something within Js code are hard becuase of CODE OBFUSCATION & OPTIMIZATION so 
 
        Click on the Global listner from threads and you can see all the POST request that has been made within JS files.
      		To Understand about listner and How to use it find vulnerabilty in JS code :
