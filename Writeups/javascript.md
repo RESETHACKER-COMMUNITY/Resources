@@ -180,7 +180,9 @@ Today no one directly uses javascript instead they use a framework especially if
 
    ### Automating and Identifying information that might Lead to discovery of security issues -> SSTI, XSS, SQLi, SSRF, Open Redirect, IDOR etc 
    
-   *Sometime Just looking through code can give plenty of information as i have mentioned in *Enumurate Juicy information* but let's focous on fetching full URLs, relative URL/Paths, endpoints, etc. that potentially lead to admin access file/page/endpoints.*
+   *Sometime Just looking through code can give plenty of information as i have mentioned in 
+   *Enumurate Juicy information* but let's focous on fetching full URLs, relative URL/Paths, 
+   endpoints, etc. that potentially lead to admin access file/page/endpoints.*
       
       You can automate this process: 
       
@@ -199,9 +201,11 @@ Today no one directly uses javascript instead they use a framework especially if
          One Liner to finds all variable names and appends them as parameters:
           assetfinder example.com | gau | egrep -v '(.css|.png|.jpeg|.jpg|.svg|.gif|.wolf)' | while read url; do vars=$(curl -s $url | grep -Eo "var [a-zA-Z0-9]+" | sed -e 's,'var','"$url"?',g' -e 's/ //g' | grep -v '.js' | sed 's/.*/&=xss/g'); echo -e "\e[1;33m$url\n\e[1;32m$vars"; done
           
-          From Js request checkout the Api endpoint then search the keyword(for eg Api/hello hello is the keyword here) in Js files or code.To understand the Js behavior.
+          From Js request checkout the Api endpoint then search the keyword
+	  (for eg Api/hello hello is the keyword here) in Js files or code.To understand the Js behavior.
    
-          You can brute force endpoints.(but If you understand the Js code then You'll potentially have more success finding endpoints that matter and create your own wordlist or add it to the existing Wordlists.)
+          You can brute force endpoints.(but If you understand the Js code then You'll potentially 
+	  have more success finding endpoints that matter and create your own wordlist or add it to the existing Wordlists.)
    
    
        Try reading the js file/code by seaching sensative keywords(api, token, http, https://,key, //# sourceMappingURL=*.js.map etc). 
@@ -233,31 +237,55 @@ Today no one directly uses javascript instead they use a framework especially if
       		Here -color : to highlight "JUICYKEYWORD" and -i to support Upper and lower letter.
       		JUICYKEYWORD Such as : token, session api, key, csrf etc
 
-       Google important Js file in different framework/Libraries for example important Js files in Reac Js are /authProvider.js, config.js, App.js, users.js, /MyUrlField.js, /posts.js, Dashboard.js  etc then only check selected Js files.
+       Google important Js file in different framework/Libraries for example important Js files in Reac Js 
+       are /authProvider.js, config.js, App.js, users.js, /MyUrlField.js, /posts.js, Dashboard.js  etc then only check selected Js files.
      
-       Privious CVE and Outdated component,Outdated framework and Outdated librabey could lead to vulenrability.( Retire.js is a tool that can identify outdated JavaScript frameworks.Although RetireJS can report some false positives and not everything reported by RetireJS is vulnerable).
+       Privious CVE and Outdated component,Outdated framework and Outdated librabey could lead to vulenrability.
+       ( Retire.js is a tool that can identify outdated JavaScript frameworks.
+       Although RetireJS can report some false positives and not everything reported by RetireJS is vulnerable).
 	
-       You can also goto the wayback machine of page and check the 1st version of code to understand the changes. or Use jsmon(API key needed to push the notification) with corn jobs on daily/weekly/monthy basis to [track the changes in Js code](https://github.com/robre/jsmon)
+       You can also goto the wayback machine of page and check the 1st version of code to understand the changes. 
+       or Use jsmon(API key needed to push the notification) with corn jobs on daily/weekly/monthy basis 
+       to [track the changes in Js code](https://github.com/robre/jsmon)
      
 
 ### Understand the places where developers tend to make mistakes that will lead to potential security issues.
 
-        a. Usage of innerHTML indicates that there might be possible XSS issue. In the modern client-side JavaScript frameworks innerHTML equivalents do exist such as the aptly named dangerouslytSetInnerHTML in React framework and they did result in serious security vulnerabilities in the past .
-        b. Improper usage of bypassSecurityTrustX methods in Angular can also lead to XSS issues.
-        c. eval function is another place where things can go wrong both on client-side and server side.
+        a. Usage of innerHTML indicates that there might be possible XSS issue. 
+	In the modern client-side JavaScript frameworks innerHTML equivalents do exist 
+	such as the aptly named dangerouslytSetInnerHTML in React framework and 
+	they did result in serious security vulnerabilities in the past .
+	
+        b.eval function is another place where things can go wrong both on client-side and server side.
+	
+       c.Improper usage of bypassSecurityTrustX methods in Angular can also lead to XSS issues.
         
-        List of bypassSecurityTrustX methods in Angular:
+
+List of bypassSecurityTrustX methods in Angular:
         ![Getting deeper with JS code review](https://user-images.githubusercontent.com/25515871/176961444-9cd0b727-897e-4c15-b7cf-cd971fb956e7.png)
         
-        **postMessage** API is an alternative to JSONP, XHR with CORS headers and other methods enabling sending data between origins by bypassing Same Origin Policy(SOP). The idea of bypassing SOP and communicating with different origin should be of interest to attackers. There are various security pitfalls when using postMessage. Once you understand the possible security issues associated with postMessage, you can look for the implementation in JavaScript files. On the message sender side, look for window.postMessage and on the receiver end look for a listener window.addEventListener . You’ll have to keep in mind that a lot of frameworks implement wrappers around postMessage
+        **postMessage** API is an alternative to JSONP, XHR with CORS headers and 
+	other methods enabling sending data between origins by bypassing Same Origin Policy(SOP). 
+	The idea of bypassing SOP and communicating with different origin should be of interest to attackers. 
+	There are various security pitfalls when using postMessage. 
+	Once you understand the possible security issues associated with postMessage, 
+	you can look for the implementation in JavaScript files. On the message sender side, 
+	look for window.postMessage and on the receiver end look for a listener window.addEventListener . 
+	You’ll have to keep in mind that a lot of frameworks implement wrappers around postMessage
         
-        **localStorage and sessionStorage** are HTML Web Storage Objects. With web storage, web applications can store data locally within the user’s browser. It is important to identify what is being stored using the Web Storage especially storing anything sensitive can lead to potential security issues. In the JavaScript, you can look for window.localStorage and window.sessionStorage.
+        **localStorage and sessionStorage** are HTML Web Storage Objects. 
+	With web storage, web applications can store data locally within the user’s browser. 
+	It is important to identify what is being stored using the Web Storage 
+	especially storing anything sensitive can lead to potential security issues. 
+	In the JavaScript, you can look for window.localStorage and window.sessionStorage.
 
 ### Automating the potential security issues in source code.
 
-	*Using security linters [ESLint (https://github.com/LewisArdern/eslint-plugin-angularjs-security-rules)- easily customisable by adding custom security rules] and 
+	*Using security linters [ESLint (https://github.com/LewisArdern/eslint-plugin-angularjs-security-rules)
+	- easily customisable by adding custom security rules] 
 
-	*static security scanners(**JSPrime**) will make it easy to identify low hanging vulnerabilities in JavaScript code but the project hasn’t been updated in a while.
+	*static security scanners(**JSPrime**) will make it easy to identify low hanging vulnerabilities
+	in JavaScript code but the project hasn’t been updated in a while.
 
 [List of regex for scraping API and juicy information.](https://github.com/h33tlit/secret-regex-list)
 [Hacktrick - Steal Information in JS](https://book.hacktricks.xyz/pentesting-web/xss-cross-site-scripting/steal-info-js)
@@ -265,12 +293,15 @@ Today no one directly uses javascript instead they use a framework especially if
 	
 ## 2.4 Outcome (content discovery):
     
-    1. Information Leakage such as API, key ,token, passowrd, admin, src strict ,csrf, session, secret, database, logs, , .map , endpints,credentials leak, etc.
+    1. Information Leakage such as API, key ,token, passowrd, admin, src strict,
+    	csrf, session, secret, database, logs, , .map , endpints,credentials leak, etc.
     2. Vulnerably in Javascript code such as DOM XSS(or client side XSS).(To the DOM XSS reports site:hackerone.com intext:dom XSS )
     3. you can extract endpoints to automate XSS, SQL, RCE, open redirectory etc or for manual purpose.
     4. Create your own wordlist with endpoint and bruteforce the end points.
     5. Misconfiguration , Js version recent vulnerabilty and exploits. 
-    6. If you know of an endpoint which returns 403 since it’s an admin endpoint but have you ever imagined knowing the correct directories and parameters sometimes can turn 403 into 200 (because of misconfigurations) and then into a SQLi? ;)
+    6. If you know of an endpoint which returns 403 since it’s an admin endpoint 
+    	but have you ever imagined knowing the correct directories and parameters sometimes can
+	turn 403 into 200 (because of misconfigurations) and then into a SQLi? ;)
       
 
 ## 2.5 Bug Bounty — Tips / Tricks / JS (JavaScript Files)
