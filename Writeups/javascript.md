@@ -377,6 +377,7 @@ This did not change the regex flaw, but it requires that the request variable th
       https://medium.com/@alex.birsan/the-bug-that-exposed-your-paypal-password-539fc2896da9
       https://www.infosecmatter.com/bug-bounty-tips-4-aug-03/#2_find_javascript_files_using_gau_and_httpx
       https://github.com/robre/jsmon (a javascript change monitoring tool for bugbounties )
-      [Difference between variable declaration syntaxes in Javascript (including global variables)?](https://stackoverflow.com/questions/4862193/difference-between-variable-declaration-syntaxes-in-javascript-including-global)
+      [Difference between variable declaration syntaxes in Javascript (including global variables)?]
+      (https://stackoverflow.com/questions/4862193/difference-between-variable-declaration-syntaxes-in-javascript-including-global)
       
 ## If you have any suggestion, or have ideas for improvements, please feel free to raise an issue on Github. 
