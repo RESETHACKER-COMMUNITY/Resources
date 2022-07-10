@@ -357,13 +357,15 @@ This did not change the regex flaw, but it requires that the request variable th
 
       
 ## 2.7 Recommended Links for chrome-devtools, Finding vulnerability in javascript
-      
+ 
+      https://howtodoinjava.com/ (This is one of intresting webiste that i have came across still need to explore)
       https://developers.google.com/web/tools/chrome-devtools
       https://developers.google.com/web/tools/chrome-devtools/javascript
       https://youtu.be/44D-FSAj3PQ
       https://youtu.be/FTeE3OrTNoA
       https://www.youtube.com/watch?v=NjJ_f1y7Kz4
       https://blog.appsecco.com/static-analysis-of-client-side-javascript-for-pen-testers-and-bug-bounty-hunters-f1cb1a5d5288
+      
       Performing JavaScript Static Analysis by Lewis Ardern [Video]
       https://statuscode.ch/2015/05/static-javascript-analysis-with-burp/
       http://blog.blueclosure.com/2017/10/javascript-dangerous-functions-part-2_29.html
@@ -375,5 +377,6 @@ This did not change the regex flaw, but it requires that the request variable th
       https://medium.com/@alex.birsan/the-bug-that-exposed-your-paypal-password-539fc2896da9
       https://www.infosecmatter.com/bug-bounty-tips-4-aug-03/#2_find_javascript_files_using_gau_and_httpx
       https://github.com/robre/jsmon (a javascript change monitoring tool for bugbounties )
+      [Difference between variable declaration syntaxes in Javascript (including global variables)?](https://stackoverflow.com/questions/4862193/difference-between-variable-declaration-syntaxes-in-javascript-including-global)
       
 ## If you have any suggestion, or have ideas for improvements, please feel free to raise an issue on Github. 
