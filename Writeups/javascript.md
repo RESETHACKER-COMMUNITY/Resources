@@ -32,19 +32,28 @@ The core ecosystem of JavaScript consists of 3 main components which are ECMAScr
 	whereas allowing it to still be successfully executed, although potentially reduce the speed/efficiency.
 	This can be done by turning componets,files and functions and to letters and symbols.
 	For example checkout
-	Js function Before Obsfuscation vs Js After Obfuscated
+	Js function Before Obfuscation vs Js After Obfuscated 
+	(you can use obfuscation.io or https://beautifytools.com/javascript-obfuscator.php)
 
-![JsBeforeObsfuscationBefore](https://user-images.githubusercontent.com/25515871/178157547-523322d5-9104-40a4-bdc2-3bcec5531c9d.jpg)
+![JsBeforeObfuscationBefore](https://user-images.githubusercontent.com/25515871/178157547-523322d5-9104-40a4-bdc2-3bcec5531c9d.jpg)
 ![JsAfterObfuscated](https://user-images.githubusercontent.com/25515871/178157550-5a583ad5-067b-44b3-bab6-7bba9b044242.jpg)
 
-Why obfuscation is very often used with JavaScript ?
-https://www.toptal.com/developers/javascript-minifier
+Why obfuscation is very often used with JavaScript ? (Josh Gates but still need to update)
 
 Codes written in many languages are published and executed without being compiled in interpreted languages, such as Python, PHP, and JavaScript. 
 While Python and PHP usually reside on the server-side and hence are hidden from end-users, 
 JavaScript is usually used within browsers at the client-side, and the code is sent to the user and executed in cleartext.
 
-how to obfuscate a simple JavaScript code and attempt running it before and after obfuscation make any differences?
+How an obfuscating a simple JavaScript code before and after obfuscation understand any differences?
+Minification(process of having code in one long line) is the soltultion. 
+process of having code in one long line allows minification to make it look effectively the same as it is all on the same line before and after.
+https://www.toptal.com/developers/javascript-minifier
+
+Deobfuscated JavaScript (Josh Gates but still need to update)
+http://www.jsnice.org/
+![deobfuscation](https://user-images.githubusercontent.com/25515871/178163961-b63780a7-2118-471b-946f-0302f87d33d3.png)
+
+Another way of unpacking such code is to find the return value at the end and use console.log to print it instead of executing it.
 
 ## What is the role of JS frameworks and libraries ?
 It give developers the ability to use prewritten code for common JavaScript functions, and to create their own functions that can then be reused as needed.
