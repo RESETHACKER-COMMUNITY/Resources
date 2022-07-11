@@ -3,7 +3,6 @@
 This Contains all kind of resources for learning purpose which includes
 Conference, jobs, Writeups, Tutorials, Bugbounty helpdesk, pentesting helpdesk, How to get started, etc.
 
-
 ## We're inviting community contributers for early stage cybersecurity HELPDESK.
 This project is not limited to bugbounty or pentesting. Anyone is welcome to contribute.
 
@@ -14,12 +13,11 @@ DM me.
 
 Index | Topics
 ---|---
-**1** | [Pentesting Sample Reports, timeline, quotation etc](https://github.com/RESETHACKER-COMMUNITY/Pentesting/tree/main/PentestingReports)
-**2** | [Pentesting for Researchers](https://github.com/RESETHACKER-COMMUNITY/Pentesting/tree/main/Pentesting_for_Researchers)
+**1** | [Cybersecurity Jobs](https://github.com/RESETHACKER-COMMUNITY/Pentesting/blob/main/CyberSecurityJobs/Readme.md)
+**2** | [CyberSecurity Conferences](https://github.com/RESETHACKER-COMMUNITY/Resources/tree/main/Conference)
 **3** | [BugBounty-HelpDesk](https://github.com/RESETHACKER-COMMUNITY/Pentesting-Bugbounty/tree/main/Bugbounty)
-**4** | [Cybersecurity Jobs](https://github.com/RESETHACKER-COMMUNITY/Pentesting/blob/main/CyberSecurityJobs/Readme.md)
-**5** | [CyberSecurity Conferences](https://github.com/RESETHACKER-COMMUNITY/Resources/tree/main/Conference)
-
+**4** | [Pentesting Sample Reports, timeline, quotation etc](https://github.com/RESETHACKER-COMMUNITY/Pentesting/tree/main/PentestingReports)
+**5** | [Pentesting for Researchers](https://github.com/RESETHACKER-COMMUNITY/Pentesting/tree/main/Pentesting_for_Researchers)
 
 Note: Contents inside the **RESETHACKER** is to help the community and all
 the content belongs to respective Authors and RESETHACKER.
