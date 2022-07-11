@@ -1,18 +1,25 @@
 # Resources
 
 This Contains all kind of resources for learning purpose which includes
-Conference, Writeups, Tutorials, Bugbounty tips, How to get started etc.
+Conference, jobs, Writeups, Tutorials, Bugbounty helpdesk, pentesting helpdesk, How to get started, etc.
 
-Index | Contents 
-------|------
-**1** | [Conferences around the World](Conference/Conference.md)
-**2** | [Setups](https://github.com/RESETHACKER-COMMUNITY/Resources/tree/main/setup)
-**3** | [Web Security Write-ups & Bug Hunting](Write-ups/writeups.md)
-**4** | [Security Cheetsheet](Bugbountycheetsheet/Readme.md)
-**5** | [Reconnaissance/Methodology](Reconnaissance/Readme.md)
-**6** | []()
-**7** | []()
-**8** | []()
-**9** | []()
-**10**| []()
-**11**| []()
+
+## We're inviting community contributers for early stage cybersecurity HELPDESK.
+This project is not limited to bugbounty or pentesting. Anyone is welcome to contribute.
+
+Rules are quite simple.
+Pick a topic from your domain or mentioned domain or choose new topics that you find helpful for community.
+If you still have questions feel free to create an issue on github or want to contribute to this project as a member of Team. 
+DM me. 
+
+Index | Topics
+---|---
+**1** | [Pentesting Sample Reports, timeline, quotation etc](https://github.com/RESETHACKER-COMMUNITY/Pentesting/tree/main/PentestingReports)
+**2** | [Pentesting for Researchers](https://github.com/RESETHACKER-COMMUNITY/Pentesting/tree/main/Pentesting_for_Researchers)
+**3** | [BugBounty-HelpDesk](https://github.com/RESETHACKER-COMMUNITY/Pentesting-Bugbounty/tree/main/Bugbounty)
+**4** | [Cybersecurity Jobs](https://github.com/RESETHACKER-COMMUNITY/Pentesting/blob/main/CyberSecurityJobs/Readme.md)
+**5** | [CyberSecurity Conferences](https://github.com/RESETHACKER-COMMUNITY/Resources/tree/main/Conference)
+
+
+Note: Contents inside the **RESETHACKER** is to help the community and all
+the content belongs to respective Authors and RESETHACKER.
