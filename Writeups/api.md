@@ -102,7 +102,7 @@ Whois|Perform a WHOIS look-up on domain names and owned netblocks.|Internal
 # Get a free/trail API to intergrate with Recon/OSINT tools & modules.   
 [Credit -  Steve Micallef](https://github.com/smicallef/spiderfoot))
                
-  | Name     | Description | Type   |
+  | Use cases    | Description | API   |
 |:---------| :-----------|:-------|
 [AbstractAPI](https://app.abstractapi.com/)|Look up domain, phone and IP address information from AbstractAPI.|Tiered API
 [abuse.ch](https://www.abuse.ch)|Check if a host/domain, IP address or netblock is malicious according to Abuse.ch.|Free API
