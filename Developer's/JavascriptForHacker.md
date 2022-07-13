@@ -11,9 +11,12 @@
 		    Mithril : Pros. Cons. Lightweight. ...
 		    Node. js : Pros. Cons. ...
 		    Polymer : Pros. Cons. Good for single-page applications.
-
-          ## Understanding ReactJS (for frontend - dev) - Updating Soon
+	  
+	  ## understanding SolidJs (fastest UI designing) - Updating Soon
+          ## Understanding ReactJs (UI designing for frontend - dev) - Updating Soon
           ## Understanding NodeJS(for backend - dev) - Updating Soon
+	  ## Understanding NestJS(for backend - dev) - Updating Soon
+	  ## Understanding Flutter(UI software development kit created by Google. It is used to develop cross platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase.) - Updating Soon
           ## Understanding jQuery- [What can jQuery selector injection do?](https://teletype.in/@skavans/6x-dhjRVxjV)
       ✅ ## Understanding Meteor.js framework (Ahmed Ezzat & Rémi Testa)
           	### Attacking Meteor.JS
