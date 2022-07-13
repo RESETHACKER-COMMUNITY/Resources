@@ -52,7 +52,7 @@
                - Twitter and forums are similar but endpoints will be custom + use different terminology
                
 
-## Check out the meantioned list of Tools(in free/trail API ) for OSINT/Recon 
+## Check out the meantioned list of website(in free/trail API section) for OSINT. 
 [Incase want to automates OSINT for threat intelligence and mapping your attack surface. ](https://github.com/smicallef/spiderfoot)
 
   | Use cases  | Descriptions | purpose   |
@@ -99,7 +99,7 @@ Web Server Identifier|Obtain web server banners to identify versions of web serv
 Web Spider|Spidering of web-pages to extract content for searching.|Internal
 Whois|Perform a WHOIS look-up on domain names and owned netblocks.|Internal
 
-# Get a free/trail API to intergrate with tools (also to test Use Cases) & modules.   
+# Get a free/trail API to intergrate with Recon/OSINT tools & modules.   
 [Credit -  Steve Micallef](https://github.com/smicallef/spiderfoot))
                
   | Name     | Description | Type   |
