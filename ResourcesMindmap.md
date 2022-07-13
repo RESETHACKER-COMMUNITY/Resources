@@ -46,3 +46,12 @@ RESOURCES:(Readme.md)
 7. Getting_Started_with_Cybersecurity 
 8. Ebooks.md
 9. ResoursesMindmap.md
+
+
+## Idea Create a Repository based on Projects for Hackers -- Updating Soon
+were we can add
+1. Tools list based on Programming language :
+[python pentest-tools](https://github.com/dloss/python-pentest-tools)
+[bash scripting pentest-tools](https://github.com/dloss/python-pentest-tools)
+[Go language pentest-tools](https://github.com/dloss/python-pentest-tools)
+[Ruby pentest-tools](https://github.com/dloss/python-pentest-tools)
