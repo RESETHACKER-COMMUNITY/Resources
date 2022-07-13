@@ -7,8 +7,8 @@ Conference, jobs, Writeups, Tutorials, Bugbounty helpdesk, pentesting helpdesk, 
 This project is not limited to bugbounty or pentesting. Anyone is welcome to contribute.
 
 Rules are quite simple.
-Pick a topic from your domain or mentioned domain or choose new topics that you find helpful for community.
-If you still have questions feel free to create an issue on github or want to contribute to this project as a member of Team. 
+Pick a topic from your domain or mentione domain or choose new topics that you find helpful for community.
+If you still have question feel free to create an issue on github or want to contribute to this project as a member of Team. 
 DM me. 
 
 Index | Topics
