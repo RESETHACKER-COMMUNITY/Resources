@@ -53,7 +53,7 @@
                
 
 # Get a free/trail API to intergrate with Recon/OSINT tools & for diffenret use case.
-[Credit -  Steve Micallef](https://github.com/smicallef/spiderfoot))
+[Credit -  Steve Micallef](https://github.com/smicallef/spiderfoot)
                
   | Use cases    | Description | API   |
 |:---------| :-----------|:-------|
