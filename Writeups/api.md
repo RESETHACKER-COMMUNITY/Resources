@@ -52,54 +52,7 @@
                - Twitter and forums are similar but endpoints will be custom + use different terminology
                
 
-## Check out the meantioned list of website(in free/trail API section) for OSINT. 
-[Incase want to automates OSINT for threat intelligence and mapping your attack surface. ](https://github.com/smicallef/spiderfoot)
-
-  | Use cases  | Descriptions | purpose   |
-|:---------| :-----------|:-------|
-Account Finder|Look for possible associated accounts on nearly 200 websites like Ebay, Slashdot, reddit, etc.|Internal
-Base64 Decoder|Identify Base64-encoded strings in URLs, often revealing interesting hidden information.|Internal
-Binary String Extractor|Attempt to identify strings in binary content.|Internal
-Bitcoin Finder|Identify bitcoin addresses in scraped webpages.|Internal
-Company Name Extractor|Identify company names in any obtained data.|Internal
-Cookie Extractor|Extract Cookies from HTTP headers.|Internal
-Country Name Extractor|Identify country names in any obtained data.|Internal
-Credit Card Number Extractor|Identify Credit Card Numbers in any data|Internal
-Cross-Referencer|Identify whether other domains are associated ('Affiliates') of the target by looking for links back to the target site(s).|Internal
-Custom Threat Feed|Check if a host/domain, netblock, ASN or IP is malicious according to your custom feed.|Internal
-DNS Brute-forcer|Attempts to identify hostnames through brute-forcing common names and iterations.|Internal
-DNS Common SRV|Attempts to identify hostnames through brute-forcing common DNS SRV records.|Internal
-DNS Look-aside|Attempt to reverse-resolve the IP addresses next to your target to see if they are related.|Internal
-DNS Raw Records|Retrieves raw DNS records such as MX, TXT and others.|Internal
-DNS Resolver|Resolves hosts and IP addresses identified, also extracted from raw content.|Internal
-DNS Zone Transfer|Attempts to perform a full DNS zone transfer.|Internal
-E-Mail Address Extractor|Identify e-mail addresses in any obtained data.|Internal
-Error String Extractor|Identify common error messages in content like SQL errors, etc.|Internal
-Ethereum Address Extractor|Identify ethereum addresses in scraped webpages.|Internal
-File Metadata Extractor|Extracts meta data from documents and images.|Internal
-Hash Extractor|Identify MD5 and SHA hashes in web content, files and more.|Internal
-Hosting Provider Identifier|Find out if any IP addresses identified fall within known 3rd party hosting ranges, e.g. Amazon, Azure, etc.|Internal
-Human Name Extractor|Attempt to identify human names in fetched content.|Internal
-IBAN Number Extractor|Identify International Bank Account Numbers (IBANs) in any data.|Internal
-Interesting File Finder|Identifies potential files of interest, e.g. office documents, zip files.|Internal
-Junk File Finder|Looks for old/temporary and other similar files.|Internal
-Page Information|Obtain information about web pages (do they take passwords, do they contain forms, etc.)|Internal
-PGP Key Servers|Look up e-mail addresses in PGP public key servers.|Internal
-Phone Number Extractor|Identify phone numbers in scraped webpages.|Internal
-Port Scanner - TCP|Scans for commonly open TCP ports on Internet-facing systems.|Internal
-Similar Domain Finder|Search various sources to identify similar looking domain names, for instance squatted domains.|Internal
-Social Network Identifier|Identify presence on social media networks such as LinkedIn, Twitter and others.|Internal
-SSL Certificate Analyzer|Gather information about SSL certificates used by the target's HTTPS sites.|Internal
-Strange Header Identifier|Obtain non-standard HTTP headers returned by web servers.|Internal
-Subdomain Takeover Checker|Check if affiliated subdomains are vulnerable to takeover.|Internal
-TLD Searcher|Search all Internet TLDs for domains with the same name as the target (this can be very slow.)|Internal
-Web Analytics Extractor|Identify web analytics IDs in scraped webpages and DNS TXT records.|Internal
-Web Framework Identifier|Identify the usage of popular web frameworks like jQuery, YUI and others.|Internal
-Web Server Identifier|Obtain web server banners to identify versions of web servers being used.|Internal
-Web Spider|Spidering of web-pages to extract content for searching.|Internal
-Whois|Perform a WHOIS look-up on domain names and owned netblocks.|Internal
-
-# Get a free/trail API to intergrate with Recon/OSINT tools & modules.   
+# Get a free/trail API to intergrate with Recon/OSINT tools & for diffenret use case.
 [Credit -  Steve Micallef](https://github.com/smicallef/spiderfoot))
                
   | Use cases    | Description | API   |
