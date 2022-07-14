@@ -1,10 +1,3 @@
-Here you can find platforms to submit your bugs.
-Index | Bug Bounty Platforms
---- | ---
-**1** | [HackerOne](https://hackerone.com)
-**2** | [BugCrowd](https://bugcrowd.com)
-**3** | [Intigriti](https://intigriti.com)
-
 Bug Bounty Platforms by John Doe
 
 PaaS : Pentesting as a Service Providers - Updating Soon
@@ -13,6 +6,7 @@ Continuous scanning - updating soon
 
 Ai/Ml based security providers - updating soon
 
+# Here you can find platforms to submit your bugs.
 
 ASIA
 India
