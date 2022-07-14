@@ -1,0 +1,1 @@
+Bugbounty by vulnerabilty Type:
