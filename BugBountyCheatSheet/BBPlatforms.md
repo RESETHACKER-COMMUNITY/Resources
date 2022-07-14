@@ -6,8 +6,13 @@ Index | Bug Bounty Platforms
 **3** | [Intigriti](https://intigriti.com)
 
 Bug Bounty Platforms by John Doe
+
+PaaS : Pentesting as a Service Providers - Updating Soon
+
 Continuous scanning - updating soon
-ai/ml based security provides - updating soon
+
+Ai/Ml based security providers - updating soon
+
 
 ASIA
 India
