@@ -119,6 +119,7 @@ Credit: <https://www.quora.com/Whats-the-diference-between-an-application-server
 ## Basic Hacking CMS:
 ![image](https://user-images.githubusercontent.com/25515871/179157332-e90d3ff1-ed14-4cc7-bbf6-77de5f5f36cc.png)
 
+
 	
 	1. WORDPRESS (60%):
 		As of right now over a quarter (25%) of the internet is built using WordPress. This is useful to know because that means a single exploit has the potential to impact a large portion of your targetâ€™s assets. There are in fact hundreds of exploits and misconfigurations impacting WordPress and its associated plugins. One common tool to scan for these vulnerabilities is wpscan: 
@@ -150,8 +151,13 @@ Credit: <https://www.quora.com/Whats-the-diference-between-an-application-server
 		There are Hundred's of different CMS to know about all 
 		â— https;//wappalyzer.com/technologies
 		
-	### Conclusion:
-		When you do find a CMS, you donâ€™t want to waste time manually testing the endpoint, you want to test for known CVEs and misconfigurations. The best way and 1st step to do this is to find some sort of CMS specific vulnerability scanner. If you can find that you can try searching exploit-db and google for known CVEs.
+### Conclusion:
+	
+		When you do find a CMS, you don't want to waste time manually testing the endpoint,
+		you normally run some type of scanner against the host which looks for known CVEs and misconfigurations. 
+		The best way and 1st step to do this is to find some sort of CMS specific vulnerability scanner.
+		If you can find that you can try searching exploit-db and google for known CVEs.
+		
 		
 		
 		Database server deals with the storing and managing the data of a computer or computer programs while web server is used to save the static and dynamic content and pages of websites.
@@ -224,16 +230,19 @@ Credit: <https://www.quora.com/Whats-the-diference-between-an-application-server
 			Like Elasticsearch MongoDB is a nosql database that uses JSON-like documents to store data. Also similar to the rest of the databases we have talked about Mongo DB fails to implement authentication by default. This means it's up to the user to enable this which they often forget.
 			
 			Tips: 
-			Identify: If you're searching for MongoDB instances, be on the lookout for port 27017 becuse authentication enabled by default so to test for this vulnerability just try to login.
+			Identify: If you're searching for MongoDB instances, be on the lookout for port 27017 becuse authentication enabled 
+			by default so to test for this vulnerability just try to login.
 			 To do this I normally just use the mongo cli just install it and run the cammand: 
 				â— mongo ip-address-here 
 			
-			Exploit: Once logged into the database try issuing a command, if you get an â€œunauthorizedâ€ error message prompting for authentication then the endpoint has authentication enabled. However, if you can run arbitrary commands against the system then authentication has not been set up and you can do whatever you want. 
+			Exploit: Once logged into the database try issuing a command, if you get an "unauthorized" error message 
+			prompting for authentication then the endpoint has authentication enabled. However, if you can run arbitrary 
+			commands against the system then authentication has not been set up and you can do whatever you want. 
 			
 	  Summary:
 			 If you see port 27017 open or any other MongoDB associate port make sure to test the endpoint to see if its missing authentication. Exploiting this misconfiguration is as easy as connecting to the database and extracting the data. This is as easy as it gets folks. 
 			
-	### d. CouchDB :(Port: 5985,6984) 
+	### 	d. CouchDB :(Port: 5985,6984) 
 	###	e. CassandraDB: (Port:9042,9160)
   
   # This project is under development. anyway if you have suggestion for improvements or want to contribute feel free to raise a issue on Github. Thankyou :)
