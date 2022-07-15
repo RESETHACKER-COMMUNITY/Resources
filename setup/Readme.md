@@ -2,7 +2,7 @@
 
 Index | Contents 
 --- | ---
-Imran parray Bugbounty FAQ | [General questions asked by poeple](https://github.com/imran-parray/General-Notes)
+
 0xblackbird - Developer Tools | [Developer Tools for bugbounty hunters](https://0xblackbird.github.io/blog/post4)
 Hakluke | [How-to-exit-vim](https://github.com/hakluke/how-to-exit-vim)
 Nahamsec - Recon_profile | [Create easy aliases to run via an SSH/terminal.](https://github.com/nahamsec/recon_profile)
