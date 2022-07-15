@@ -117,6 +117,8 @@ Credit: <https://www.quora.com/Whats-the-diference-between-an-application-server
 		Using latest efficient versions of HTTP (e.g. beyond using common HTTP/1.1)
 		
 ## Basic Hacking CMS:
+![image](https://user-images.githubusercontent.com/25515871/179157332-e90d3ff1-ed14-4cc7-bbf6-77de5f5f36cc.png)
+
 	
 	1. WORDPRESS (60%):
 		As of right now over a quarter (25%) of the internet is built using WordPress. This is useful to know because that means a single exploit has the potential to impact a large portion of your targetâ€™s assets. There are in fact hundreds of exploits and misconfigurations impacting WordPress and its associated plugins. One common tool to scan for these vulnerabilities is wpscan: 
