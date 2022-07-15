@@ -1,6 +1,6 @@
 ## Idea behind creating this page: Bug hunter take time to explore and take notes from each section rather than just scroling the Resources.
 
-
+0. [Linux/debian Distributions](#Linux/debian-Distributions)
 1. [Community-Contributors](#Community-Contributors)
 2. [Learning resources](#Learning-resources)
 3. [Paid Certifications / courses](#Paid-Certifications/courses)
@@ -15,7 +15,7 @@
 13. [Ebooks](#Ebooks)
 14. [Misc](#Misc)
 
-
+# Linux/debian Distributions  
 Index | Linux Distributions  
 -- | ---
 **1.** | [Kali Linux](https://www.kali.org)
