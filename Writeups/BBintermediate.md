@@ -1,4 +1,4 @@
-# Idea behind creating this page: Bug hunter take time to explore each section rather than just scroling the Resources.
+# Idea behind creating this page: Bug hunter take time to explore each section rather than just scroling the Resources. - Under development
 This contains the Reports, disclosed, write-ups on IT sectors.
 
 ## Trace latest reward, CVE, writeups, tools, Reports, Disclosures and on going trend in Community.
