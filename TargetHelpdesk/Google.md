@@ -1,6 +1,8 @@
 # Google
 
-Ggoole Home API
+Google 0auth : https://developers.google.com/oauthplayground/
+
+Goole Home API
     [unofficial documentation of the local API used by the Home app to communicate with GH devices. ](https://rithvikvibhu.github.io/GHLocalApi)
 
     [Retrieving Google Home API keys into Home Assistant](https://github.com/chvancooten/homeassistant-googletokenretriever)
