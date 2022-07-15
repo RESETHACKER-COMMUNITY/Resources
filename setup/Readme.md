@@ -9,7 +9,7 @@ Nahamsec - BugBounty Tookit| [BBHT is a script to install the most popular tools
 Aseem Shrey - Bug bounty Setups in any VPS | [Quick script to install and setups Setup Bug Bounty Tools on AWS instance / any VPS for that matter](https://gist.github.com/LuD1161/66f30da6d8b6c1c05b9f6708525ea885)
 HackerSploit - Docker for Bug Hunters | [Docker For Pentesting & Bug Bounty Hunting](https://www.youtube.com/watch?v=rfXadJ72dhg)
 Phoenixnap - Hyper-V for Bug Hunters |[Hyper-v configuration and install ubuntu](https://phoenixnap.com/kb/hyper-v-ubuntu)
-Vikram - BB_Setup in Windows(WSL2) | [Bug Bug setup in Window 10 & 11 with WSL2 ](https://github.com/RESETHACKER-COMMUNITY/Resources/tree/main/BB_Setup%20in%20WSL2)
+Vikram - BB_Setup in Windows(WSL2) | [Bug bounty setup in Window 10 & 11 with WSL2 ](https://github.com/RESETHACKER-COMMUNITY/Resources/tree/main/BB_Setup%20in%20WSL2)
 Vikram - Burpsuite Setup and useses | [Penetration Testing with Burp (ft.: Raj chandel's blog and @Ignitetechnologies)](https://github.com/RESETHACKER-COMMUNITY/Pentesting-Bugbounty/blob/main/Bugbounty/burpsuite.md)
 Updating - Pentesting setup in VM machine
 Updating - Pentesting setup in VMware
