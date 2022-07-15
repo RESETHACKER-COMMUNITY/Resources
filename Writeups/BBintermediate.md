@@ -24,27 +24,6 @@ Index | Web Pentesting MindMaps
 --- | ---
 **1** | [Web Pentesting/Bug Bounty Mindmaps](https://workbook.securityboat.in/mindmaps/web-app-pen-test-mindmap)
 
-## Vulnerabilty Assesment
-Index | Vulnerabilty Assesment
---- | ---
-**1** | [Web Application Security & Bug Bounty - Methodology, Reconnaissance, Vulnerabilities, Reporting)](https://blog.usejournal.com/web-application-security-bug-bounty-methodology-reconnaissance-vulnerabilities-reporting-635073cddcf2)
-**2.** | [King of Bugbounty - One Liner Tips](https://github.com/KingOfBugbounty/KingOfBugBountyTips)                           
-**3.** | [Awesome-oneliner-bugbounty - One Liner Tips](https://github.com/attrib07/awesome-oneliner-bugbounty)
-**4.** | [Dork Collection for different search engine:](https://github.com/cipher387/Dorks-collections-list)
-
-
-## Web Pentesting Methodology/Reconnaissance writeups
-Index | Bugbounty Methodology/Reconnaissance
---- | ---
-0. | [Power of Automation & Recon - Mohamed Eldeeb)]() 
-0. | [Nahamsec How to Recon & Content Discovery](https://www.hackerone.com/blog/) 
-1. | [How To Do Your Reconnaissance](https://medium.com/bugbountywriteup/guide-to-basic-recon-bug-bounties-recon-728c5242a115)
-2. | [My Guide to Basic Recon](https://blog.securitybreached.org/2017/11/25/guide-to-basic-recon-for-bugbounty/)
-3. | [Shankar Bug Hunting Methodology -part 1](https://blog.usejournal.com/bug-hunting-methodology-part-1-91295b2d2066)
-4. | [Shankar Bug Hunting Methodology -part 2](https://blog.usejournal.com/bug-hunting-methodology-part-2-5579dac0615)
-5. | [Recon — my way](https://medium.com/@ehsahil/reconemy-way-82b7e5f62e21)
-6. | [Holdswarth Penetration Testing Methodology -part 1,2 ](https://medium.com/dvlpr/penetration-testing-methodology-part-1-6-recon-9296c4d07c8a)
-7. | [Wired](https://www.wired.com/category)
 
 # Beginner Guide to 0day/CVE 
 
