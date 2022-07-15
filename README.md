@@ -21,3 +21,5 @@ Index | Topics
 **6** | [Cybersecurity Project HelpDesk - Updating Soon]
 
 Note: Contents inside the **RESETHACKER** is to help the community and all the content belongs to respective Authors and RESETHACKER.
+
+On a final note, I would like to thank all the amzing community people for the amzing content. Their research and findings has been the foundation for what I had curated.
