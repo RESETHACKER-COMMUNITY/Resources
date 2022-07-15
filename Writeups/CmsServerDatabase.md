@@ -160,7 +160,8 @@ Credit: <https://www.quora.com/Whats-the-diference-between-an-application-server
 		
 		
 		
-		Database server deals with the storing and managing the data of a computer or computer programs while web server is used to save the static and dynamic content and pages of websites.
+
+**Database server deals with the storing and managing the data of a computer or computer programs while web server is used to save the static and dynamic content and pages of websites.**
 		
 ## Basic Hacking Databases
 	(Sensitive information such as passwords, tokens, private messages, and everything else and A lot of databases are missing authentication by default!):
