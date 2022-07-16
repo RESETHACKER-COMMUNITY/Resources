@@ -1,4 +1,4 @@
-# 0Auth 
+# 0Auth & 0Auth2 
 OAuth, which stands for “Open Authorization,” allows third-party services to exchange 
 your information without you having to give away your password.
 
@@ -54,4 +54,6 @@ Attack will result in *leaking the user's OAuth code* to an attacker-controlled 
 3.[daffainfo](https://github.com/daffainfo)
 4.[six2dez](https://pentestbook.six2dez.com/)
 
+5.[The Most Common OAuth2 Vulnerability](https://homakov.blogspot.com/2012/07/saferweb-most-common-oauth2.html?m=1)
+6.[Account hijacking using "dirty dancing" in sign-in OAuth-flows](https://labs.detectify.com/2022/07/06/account-hijacking-using-dirty-dancing-in-sign-in-oauth-flows/)
 
