@@ -1,16 +1,42 @@
+
+## Find OAuth Misconfiguration in SSO(Single Sign-On(SSO) Feature - under development
+(For example Log in with Github, Microsfot, Google, Facebook etc)
+
 # 0Auth & 0Auth2 
 OAuth, which stands for “Open Authorization,” allows third-party services to exchange 
 your information without you having to give away your password.
 
-OpenID Connect, OAuth 2.0, and MSAL to make sign-in fully secure
+  
+    A little bit of theory:
+    
+      client_id=
+      Redirect_uri or reply URL, is used when a Resource Owner grants Authorization to the OAuth Client. 
+    In simple term. 
+    is the location where the authorization server sends the user once the app has been successfully authorized and granted an authorization code or access token.
+    
+    state=?ReturnUrl=
+    UtmTerm=null
+    csrf-request-id=
+    __provider__=google
+    dnsamr=true
+    ru
+    
+    flowName=GeneralOAuthFlow
+    
+      response_type = code is server-side auth flow, should be used when possible, more secure than response_type = token. 
+      Provider returns 'code' with User's user-agent and Client sends along with client's credentials the code to obtain 'access_token'. 
+      Callback when user is redirected looks like site.com/oauth/callback?code=AQCOtAVov1Cu316rpqPfs-8nDb-jJEiF7aex9n05e2dq3oiXlDwubVoC8VEGNq10rSkyyFb3wKbtZh6xpgG59FsAMMSjIAr613Ly1usZ47jPqADzbDyVuotFaRiQux3g6Ut84nmAf9j-KEvsX0bEPH_aCekLNJ1QAnjpls0SL9ZSK-yw1wPQWQsBhbfMPNJ_LqI
 
-Redirect_uri or reply URL, is used when a Resource Owner grants Authorization to the OAuth Client. 
-In simple term. 
-is the location where the authorization server sends the user once the app has been successfully authorized and granted an authorization code or access token.
+    Reminder, OAuth is all about authorization, not authentication. 
+    What's the difference, you might ask. 
+    OAuth just gives to Client access to User's resources on Provider.
+    But very often Client authenticates you by 'profile_info' resource, thus we can call it authentication framework either.
+    OpenID Connect, OAuth 2.0, and MSAL to make sign-in fully secure.
+    
 
-## Find OAuth Misconfiguration in SSO(Single Sign-On(SSO) Feature
-(For example Log in with Github, Microsfot, Google, Facebook etc)
-
+## Website can impliments 0Auth for users in two ways either login with OAuth Provider or both.
+    
+    login with OAuth Provider + ability to add OAuth Provider logins in settings
 
 ## How to exploit OAuth Misconfiguration in SSO feature:
 1. OAuth token stealing : Changing redirect_uri to attacker.com([Use IDN Homograph](https://hackerone.com/reports/861940) or common bypasses).
@@ -49,11 +75,17 @@ Attack will result in *leaking the user's OAuth code* to an attacker-controlled 
 
 ## Referance: To understand 0auth: 
 
-1.[OAuth - What is OAuth really all about](https://youtu.be/t4-416mg6iU)
-2.[OAuth terminology and OAuth flow explain ](https://youtu.be/3pZ3Nh8tgTE)
-3.[daffainfo](https://github.com/daffainfo)
-4.[six2dez](https://pentestbook.six2dez.com/)
+0.[The OAuth 2.0 Authorization Framework draft-ietf-oauth-v2-27](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-v2-27#section-10.10)
 
-5.[The Most Common OAuth2 Vulnerability](https://homakov.blogspot.com/2012/07/saferweb-most-common-oauth2.html?m=1)
+1.[OAuth - What is OAuth really all about](https://youtu.be/t4-416mg6iU)
+
+2.[OAuth terminology and OAuth flow explain ](https://youtu.be/3pZ3Nh8tgTE)
+
+3.[daffainfo - resources to hunt](https://github.com/daffainfo)
+
+4.[six2dez- resources to hunt](https://pentestbook.six2dez.com/)
+
+5.[OAuth 2 support- flow,cheetsheet, Extra](https://sakurity.com/oauth)
+
 6.[Account hijacking using "dirty dancing" in sign-in OAuth-flows](https://labs.detectify.com/2022/07/06/account-hijacking-using-dirty-dancing-in-sign-in-oauth-flows/)
 
