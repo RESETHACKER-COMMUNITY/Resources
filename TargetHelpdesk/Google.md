@@ -1,5 +1,8 @@
 # Google
 
+
+Google XML sitemaps rules for other websites: https://support.google.com/webmasters/answer/7451001?hl=en
+
 Google 0auth : https://developers.google.com/oauthplayground/
 
 Goole Home API
