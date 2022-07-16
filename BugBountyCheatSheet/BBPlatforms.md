@@ -6,6 +6,8 @@ Continuous scanning - updating soon
 
 Ai/Ml based security providers - updating soon
 
+[Wordpress bg bounty platform beta version](https://patchstack.com/)
+
 # Here you can find platforms to submit your bugs.
 
 ASIA
