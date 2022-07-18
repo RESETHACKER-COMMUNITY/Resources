@@ -15,6 +15,13 @@
     • Go to bug bounty platform and look for new listed programs 
 
 
+Index | Reconnaissancece understanding
+--- | ---
+**1** | [Ip/ DNS]()
+**2** | [Subdomain Recon - Horizontal and verticle]()
+
+
+
 Index | Reconnaissancece/Methodology
 --- | ---
 **1** | [How To Do Your Reconnaissance](https://medium.com/bugbountywriteup/guide-to-basic-recon-bug-bounties-recon-)
