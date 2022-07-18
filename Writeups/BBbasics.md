@@ -184,6 +184,7 @@ Index | Vulnerabilty Assesment
 **2.** | [King of Bugbounty - One Liner Tips](https://github.com/KingOfBugbounty/KingOfBugBountyTips)                           
 **3.** | [Awesome-oneliner-bugbounty - One Liner Tips](https://github.com/attrib07/awesome-oneliner-bugbounty)
 **4.** | [Dork Collection for different search engine:](https://github.com/cipher387/Dorks-collections-list)
+**5.** | [Regex - Updating Soon]
 
 
 ## Bug hunting Reconnaissance writeups
