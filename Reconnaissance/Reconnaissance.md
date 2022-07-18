@@ -46,4 +46,4 @@
 			python3 ~/Affinis/Affinis.py appsheet.com 500 ~/appsheetSubAll.txt
 			
 			Or also check https://www.wolframalpha.com it uses natural language and comutation to find details and subdomains based on SEO.
-![image](https://user-images.githubusercontent.com/25515871/179446366-bef2a290-07dc-42a7-8efd-41974a1c54ea.png)
+
