@@ -18,3 +18,23 @@
     
     [Wildcard DNS Record](https://en.wikipedia.org/wiki/Wildcard_DNS_record)
 
+#### Idea is find more Ip/domains related to target/Acquisition
+
+Tools to find all the details :
+Get IP : ping xyz.com or dig xyz or host xyz.com
+https://mxtoolbox.com/
+https://bgp.he.net/
+https://dnschecker.org/all-tools.php
+
+Check ASN with IP :
+check CIDR range :
+WHOIS : (Domain owners by same organizations or company)
+Reverse Whois:
+DNS Information:
+Reverse DNS :
+Reverse Name server:
+Reverse Mail server:
+Reverse IP:
+
+Favicon hash : calculate hash of a site's favicon and submit it in tools such as Shodan.io,  
+you can find more domains that have the same favicon and could potentially be owned by the same company.
