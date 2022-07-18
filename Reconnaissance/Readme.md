@@ -1,7 +1,19 @@
 # Resources
 **Reconnaissance** is a mission to obtain information by visual observation or other detection methods, about the activities and resources of an enemy or potential enemy, or about the meteorologic, hydrographic, or geographic characteristics of a particular area.
 
-This contains the write-ups from the Internet.
+
+	  • Find Acquisition(google 6 month rule), ASNS, reversewhois,  (Identifying IPs and main TLDS)
+		    Example: List_of_mergers_and_acquisitions_by_COMPANYNAME
+		      https://en.wikipedia.org/wiki/List_of_mergers_and_acquisitions_by_Alphabet
+		      https://en.wikipedia.org/wiki/List_of_mergers_and_acquisitions_by_Meta_Platforms
+		
+    • Search eg :
+		responsible disclosure 2022 
+		Company responsible disclosure 
+		Or check out the suggested keywords by search engines.
+		
+    • Go to bug bounty platform and look for new listed programs 
+
 
 Index | Reconnaissancece/Methodology
 --- | ---
@@ -16,3 +28,9 @@ Index | Reconnaissancece/Methodology
 **9** | [Zdnet](https://www.zdnet.com/blog/security)
 **11** | [Brain Kerbs](https://krebsonsecurity.com)
 **12** |[Bruce Schneier](https://www.schneier.com)
+
+
+
+
+
+This contains the write-ups from the Internet.
