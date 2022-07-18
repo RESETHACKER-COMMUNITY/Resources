@@ -16,3 +16,8 @@ Index | Reconnaissancece
 **9** | [Zdnet] ( https://www.zdnet.com/blog/security )
 **11** | [Brain Kerbs] ( https://krebsonsecurity.com )
 **12** |[Bruce Schneier] ( https://www.schneier.com )
+
+
+----------------------------------------
+
+
