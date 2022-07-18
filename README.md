@@ -18,7 +18,7 @@ Index | Topics
 **3** | [BugBounty-HelpDesk](https://github.com/RESETHACKER-COMMUNITY/Pentesting-Bugbounty/tree/main/Bugbounty)
 **4** | [Pentesting Sample Reports, timeline, quotation etc](https://github.com/RESETHACKER-COMMUNITY/Pentesting/tree/main/PentestingReports)
 **5** | [Pentesting for Researchers](https://github.com/RESETHACKER-COMMUNITY/Pentesting/tree/main/Pentesting_for_Researchers)
-**6** | [Cybersecurity Project HelpDesk - Updating Soon]
+
 
 Note: Contents inside the **RESETHACKER** is to help the community and all the content belongs to respective Authors and RESETHACKER.
 
