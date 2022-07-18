@@ -1,3 +1,6 @@
+# Resources
+**Reconnaissance** is a mission to obtain information by visual observation or other detection methods, about the activities and resources of an enemy or potential enemy, or about the meteorologic, hydrographic, or geographic characteristics of a particular area.
+
 This contains the write-ups from the Internet.
 
 Index | Reconnaissancece/Methodology
