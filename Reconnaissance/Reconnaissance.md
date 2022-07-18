@@ -1,23 +1,49 @@
-# Resources
-**Reconnaissance** is a mission to obtain information by visual observation or other detection methods, about the activities and resources of an enemy or potential enemy, or about the meteorologic, hydrographic, or geographic characteristics of a particular area.
+### Sub domains (Search engine, archive data github, shodan, domains/subdomains from Js source code, brute force subdomains, wordlist to enumurate subdomains (you'll find it on github ) and manual explore)
+		
+    ○  Horizontal 
+		
+		○  Vertical subdomains
+			§ Sub domains Enumurations
+			
+				□ Chaos.project discovery.io
+				□ Sublister
+				□ Amass
+				□ Aquatone
+				□ Knockpy
+				□ Assetfinder
+				□ Findomain
+				
+				
+			§ Subdomains Brute forcing
+			Sometimes, passive DNS data simply doesn’t provide us with all of the subdomains associated with an entity — which is a problem if your goal is to perform all-encompassing vertical domain enumeration. Plus, there could also be newer subdomains — new enough that they still haven’t been spotted by Internet crawlers.
+			In these scenarios, subdomain brute-forcing can be beneficial. In this process, a large list that contains common subdomain names is used, and by appending the target domain to them and sending an HTTP request, new subdomains can be discovered.
+			
+				□ Subfinder - Brute force subdomains +wordlists.
+				□ Subbrute/ gobuster
+				□ Alt-DNS (Sub-subdomains)
+				
+			§ Historical/archive data
+				□ Web = Gau, waybackurls  
+				□ DNS = Sectrails , Recondev
+				
+			§ Virtual Host discovery
+			( A virtual host includes a name and set of domains that get routed to it based on the incoming request's host header.)
+			
+				□ Vhost-brute, virtual-host-discovery,virustotal_subdomains_enum.py, vhostbrute
+			
+			§ Scrap domains from JS/source code (Still need to verify)
+			Gospider
 
-This contains the write-ups from Internet.
-
-Index | Reconnaissancece
---- | ---
-**1** | [How To Do Your Reconnaissance]  (https://medium.com/bugbountywriteup/guide-to-basic-recon-bug-bounties-recon-)
-**2** | [My Guide to Basic Reckon] (https://blog.securitybreached.org/2017/11/25/guide-to-basic-recon-for-bugbounty/
-**3** | [Shankar Bug Hunting Methodology (part 1)] (https://blog.usejournal.com/bug-hunting-methodology-part-1-91295b2d2066 )
-**4** | [Shankar Bug Hunting Methodology (part 2)] (https://blog.usejournal.com/bug-hunting-methodology-part-2-5579dac06150 )
-**5** | [Recon — my way] (https://medium.com/@ehsahil/recon-my-way-82b7e5f62e21 )
-**6** |  [Holdswarth Penetration Testing Methodology (part 1)]  (https://medium.com/dvlpr/penetration-testing-methodology-part-1-6-recon-9296c4d07c8a
-**7** | [Holdswarth Penetration Testing Methodology (part 2)] 
-**8** | [Wired] ( https://www.wired.com/categoory/threatlevel )
-**9** | [Zdnet] ( https://www.zdnet.com/blog/security )
-**11** | [Brain Kerbs] ( https://krebsonsecurity.com )
-**12** |[Bruce Schneier] ( https://www.schneier.com )
-
-
-----------------------------------------
-
-
+			§ Find Domains from already discovered subdomains,By examining A records, CNAME of public DNS server of each discovered subdomains.
+		
+			Turbolist3r queries public DNS servers for each discovered subdomain. If the subdomain exists (i.e. the resolver replied with an address), the answer is categorized as CNAME or A record. By examining A records, it is possible to discover potential penetration testing targets for a given domain. Likewise, the process of looking for subdomain takeovers is simple; view the discovered CNAME records and investigate any that point to applicable cloud services.
+			
+			
+			§ Find hidden subdomains using of Natural Language Processing and the Keras LSTM RNN API (Python-based, deep learning API that runs on top of the TensorFlow machine learning platform, and fully supports GPUs.) It will read in a file of already discovered subdomains for the target and generate its own list of potential subdomains the target may have. 
+			It then verifies the existence of those subdomains with a quick DNS lookup and will ultimately tell you if it has made any discoveries.
+			
+			 https://github.com/JetP1ane/Affinis.git
+			python3 ~/Affinis/Affinis.py appsheet.com 500 ~/appsheetSubAll.txt
+			
+			Or also check https://www.wolframalpha.com it uses natural language and comutation to find details and subdomains based on SEO.
+![image](https://user-images.githubusercontent.com/25515871/179446366-bef2a290-07dc-42a7-8efd-41974a1c54ea.png)
