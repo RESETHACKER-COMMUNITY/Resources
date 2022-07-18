@@ -20,9 +20,9 @@
 
 #### Idea is find more Ip/domains related to target/Acquisition
 
-Tools to find all the details :
-
 Get IP : ping xyz.com or dig xyz or host xyz.com
+
+Tools to find all the details 
 
 https://mxtoolbox.com/
 https://bgp.he.net/
