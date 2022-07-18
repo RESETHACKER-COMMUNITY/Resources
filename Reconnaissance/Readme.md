@@ -17,8 +17,8 @@
 
 Index | Reconnaissancece understanding
 --- | ---
-**1** | [Ip/ DNS]()
-**2** | [Subdomain Recon - Horizontal and verticle]()
+**1** | [Ip/ DNS](https://github.com/RESETHACKER-COMMUNITY/Resources/blob/main/Reconnaissance/Ip%26DNS.md)
+**2** | [Subdomain Recon - Horizontal and verticle](https://github.com/RESETHACKER-COMMUNITY/Resources/blob/main/Reconnaissance/Reconnaissance.md)
 
 
 
