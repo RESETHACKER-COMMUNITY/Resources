@@ -18,6 +18,7 @@ Index | StayUptoDate
 **12** | [Hackeone Top reportd by bug type](https://github.com/reddelexc/hackerone-reports)
 **13** | [BugReader](https://bugreader.com/)
 **14** | [CVE poc Lists](https://github.com/nomi-sec/PoC-in-GitHub)
+**15** | [Collection of public Bugbounty program](https://github.com/resethacker/public-bugbounty-programs)
 
 
 ## Web Pentesting MindMaps
