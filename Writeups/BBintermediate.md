@@ -19,6 +19,12 @@ Index | StayUptoDate
 **13** | [BugReader](https://bugreader.com/)
 **14** | [CVE poc Lists](https://github.com/nomi-sec/PoC-in-GitHub)
 **15** | [Collection of public Bugbounty program](https://github.com/resethacker/public-bugbounty-programs)
+**16** | [News](https://github.com/RESETHACKER-COMMUNITY/Community-Contributers/blob/main/news.md)
+**17** | [Podcasts](https://github.com/RESETHACKER-COMMUNITY/Community-Contributers/blob/main/podcasts.md)
+**18** | [Youtube](https://github.com/RESETHACKER-COMMUNITY/Community-Contributers/tree/main/YouTube)
+**19** | [Twitter](https://github.com/RESETHACKER-COMMUNITY/Community-Contributers/blob/main/twitter.md)
+**20** | [Twitch](https://github.com/RESETHACKER-COMMUNITY/Community-Contributers/blob/main/twitch.md)
+**21** | [Discord](https://github.com/RESETHACKER-COMMUNITY/Community-Contributers/blob/main/discord.md)
 
 
 ## Web Pentesting MindMaps
