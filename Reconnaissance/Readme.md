@@ -2,7 +2,7 @@
 **Reconnaissance** is a mission to obtain information by visual observation or other detection methods, about the activities and resources of an enemy or potential enemy, or about the meteorologic, hydrographic, or geographic characteristics of a particular area.
 
 
-	  • Find Acquisition(google 6 month rule), ASNS, reversewhois,  (Identifying IPs and main TLDS)
+    • Find Acquisition(google 6 month rule), ASNS, reversewhois,  (Identifying IPs and main TLDS)
 		    Example: List_of_mergers_and_acquisitions_by_COMPANYNAME
 		      https://en.wikipedia.org/wiki/List_of_mergers_and_acquisitions_by_Alphabet
 		      https://en.wikipedia.org/wiki/List_of_mergers_and_acquisitions_by_Meta_Platforms
