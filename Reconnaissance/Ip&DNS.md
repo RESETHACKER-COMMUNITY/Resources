@@ -22,7 +22,7 @@
 
 Get IP : ping xyz.com or dig xyz or host xyz.com
 
-Tools to find all the details 
+Online Tools:
 
       https://mxtoolbox.com/
       https://bgp.he.net/
