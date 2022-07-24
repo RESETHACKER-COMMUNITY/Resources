@@ -442,4 +442,7 @@ This did not change the regex flaw, but it requires that the request variable th
       [Difference between variable declaration syntaxes in Javascript (including global variables)?]
       (https://stackoverflow.com/questions/4862193/difference-between-variable-declaration-syntaxes-in-javascript-including-global)
       
+      
+ [30 days of javscripts for programers](https://github.com/Asabeneh/30-Days-Of-JavaScript)
+      
 ## If you have any suggestion, or have ideas for improvements, please feel free to raise an issue on Github. 
