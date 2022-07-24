@@ -264,7 +264,7 @@ REF:
 https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/V.Kochetkov_breaking_ASP.NET.pdf
 [Still need to review this PDF](https://owasp.org/www-pdf-archive/ASDC12-Hacking_NETC_Applications_The_Black_Arts.pdf)
 
-## Programer challenge
+## Programmer challenge
 [30 days of javscripts for programmers](https://github.com/Asabeneh/30-Days-Of-JavaScript)
 
 
