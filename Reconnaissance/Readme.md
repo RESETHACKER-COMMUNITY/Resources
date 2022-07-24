@@ -2,7 +2,7 @@
 **Reconnaissance** is a mission to obtain information by visual observation or other detection methods, about the activities and resources of an enemy or potential enemy, or about the meteorologic, hydrographic, or geographic characteristics of a particular area.
 
 
-    • Find Acquisition(google 6 month rule), ASNS, reversewhois,  (Identifying IPs and main TLDS)
+    • Find Acquisition(google 6 month rule), use tools or just google it.
 		    Example: List_of_mergers_and_acquisitions_by_COMPANYNAME
 		      https://en.wikipedia.org/wiki/List_of_mergers_and_acquisitions_by_Alphabet
 		      https://en.wikipedia.org/wiki/List_of_mergers_and_acquisitions_by_Meta_Platforms
@@ -13,6 +13,10 @@
 		Or check out the suggested keywords by search engines.
 		
     • Go to bug bounty platform and look for new listed programs 
+    
+    • TLDS, Mobile websites, New mobile app versions and Searching parent company by trademark or privacy policy
+    
+    • ASNS, reversewhois, (Identifying IPs and main TLDS) etc
 
 
 Index | Reconnaissancece understanding
