@@ -1,5 +1,6 @@
 Index | Title
 -- | --
+**0.** Proxyscrape | [Free proxy lists](https://proxyscrape.com/free-proxy-list)
 **1.** Shodan | [Deep Into Data Breaches](https://www.shodan.com/)
 **2.** ';--have i been pwned? | [Check if your email or phone or domain is in a data breach](https://haveibeenpwned.com/)
 **3** Mx-tool box supertool | [connect to the mail server, verify reverse DNS records, ](https://mxtoolbox.com/SuperTool.aspx)
