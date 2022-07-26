@@ -9,8 +9,6 @@ Index | Title
 
 
 Temporary Mail
-
-Temporary SMS
 https://www.mohmal.com/en
 https://temp-mail.org/en/
 
