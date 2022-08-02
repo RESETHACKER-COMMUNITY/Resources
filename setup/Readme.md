@@ -2,6 +2,7 @@
 
 Index | Contents 
 --- | ---
+Crhuber | Linix Cheetsheet (https://github.com/crhuber/linux-cheatsheet)
 0xblackbird - Developer Tools | [Developer Tools for bugbounty hunters](https://0xblackbird.github.io/blog/post4)
 Hakluke | [How-to-exit-vim](https://github.com/hakluke/how-to-exit-vim)
 Nahamsec - Recon_profile | [Create easy aliases to run via an SSH/terminal.](https://github.com/nahamsec/recon_profile)
