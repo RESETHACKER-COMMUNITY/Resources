@@ -89,4 +89,4 @@ Attack will result in *leaking the user's OAuth code* to an attacker-controlled 
 
 6.[Account hijacking using "dirty dancing" in sign-in OAuth-flows](https://labs.detectify.com/2022/07/06/account-hijacking-using-dirty-dancing-in-sign-in-oauth-flows/)
 
-7. [A couple more common OAuth 2.0 vulnerabilities eg race codition, misconfiguration ](https://blog.avuln.com/article/4)
+7.[**A couple more common OAuth 2.0 vulnerabilities eg race codition, misconfiguration ](https://blog.avuln.com/article/4)
