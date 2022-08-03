@@ -1,3 +1,5 @@
+#### Under Development
+
 Index | Title
 -- | --
 **0.** Proxyscrape | [Free proxy lists](https://proxyscrape.com/free-proxy-list)
@@ -7,8 +9,8 @@ Index | Title
 **4** hacker Target | [For lazy hackers](https://hackertarget.com/)
 **.** Hacked-email | [What to do when your e-mail account is hacked](https://www.hacked-email.com/)
 
-
-Temporary Mail
-https://www.mohmal.com/en
-https://temp-mail.org/en/
+Index | Title
+-- | --
+**1** mohmal | [Temporary Mail 45 minutes ](https://www.mohmal.com/en)
+**2** Temp-Mail | [Temporary Mail 10 minutes ](https://temp-mail.org/en/)
 
