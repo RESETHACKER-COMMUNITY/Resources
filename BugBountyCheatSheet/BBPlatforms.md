@@ -1,4 +1,4 @@
-## [Bug Bounty Platforms by John Doe](#Lists of Bug_bounty_platforms_by_Country_to_submit_your_bugs.)
+## [Bug Bounty Platforms by John Doe](##Lists_of_Bug_bounty_platforms_by_Country_to_submit_your_bugs.)
 
 ## [Wordpress bg bounty platform beta version](https://patchstack.com/)
 
