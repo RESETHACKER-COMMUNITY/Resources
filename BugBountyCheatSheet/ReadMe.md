@@ -1,6 +1,6 @@
 **Cybersecurity/Bugbounty Practice Platform**
 
-This section contains Bugbounty platform, practice platforms,tips, bypass, Payload, script etc
+This section contains Practice paltforms for CTF's, Atatck-defence, pentesting and Bugbounty  platfroms lists to submite Bugs.
 
 Index | Title
 ------| ------
