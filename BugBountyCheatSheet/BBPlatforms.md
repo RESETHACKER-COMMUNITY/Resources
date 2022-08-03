@@ -1,118 +1,121 @@
-Bug Bounty Platforms by John Doe
+## [Bug Bounty Platforms by John Doe](#Lists of Bug_bounty_platforms_by_Country_to_submit_your_bugs.)
 
-PaaS : Pentesting as a Service Providers - Updating Soon
+## [Wordpress bg bounty platform beta version](https://patchstack.com/)
 
-Continuous scanning - updating soon
+    UPDATING SOON :-
+    
+    PaaS : Pentesting as a Service Providers - Updating Soon
 
-Ai/Ml based security providers - updating soon
+    Continuous scanning - updating soon
 
-[Wordpress bg bounty platform beta version](https://patchstack.com/)
+    Ai/Ml based security providers - updating soon
 
-# Here you can find platforms to submit your bugs.
+
+## Lists of Bug bounty platforms by Country to submit your bugs.
 
 ASIA
-India
+- India
     
-    Safehats
-    BugsBounty
-    BugDiscover
-    bugbase.in
+        Safehats
+        BugsBounty
+        BugDiscover
+        bugbase.in
     
-Vietnam
+- Vietnam
     
-    WhiteHub
-    Bugbounty.vn
-    BugRank
+        WhiteHub
+        Bugbounty.vn
+        BugRank
     
-Japan
+- Japan
     
-    bugbounty.jp
+        bugbounty.jp
     
-Indonesia
+- Indonesia
     
-    CyberArmy
-    RedStorm
+        CyberArmy
+        RedStorm
     
-Thailand
+- Thailand
     
-    PentestCrowd
+        PentestCrowd
     
-Singapore
+- Singapore
     
-    Antihack
+        Antihack
     
-Philippines
+- Philippines
     
-    Secuna
+        Secuna
     
-Saudi Arabia
+- Saudi Arabia
     
-    bugbounty.sa
+        bugbounty.sa
 
-Malaysia
+- Malaysia
 
-    thebugbounty
+        thebugbounty
 
-Nepal
+- Nepal
     
-    BountyBash
+        BountyBash
 
 NORTH AMERICA
-US
+- US
 
-    HackerOne
-    BugCrowd
-    Synack
-    Federacy
-    Cobalt
+        HackerOne
+        BugCrowd
+        Synack
+        Federacy
+        Cobalt
 
 
-CESPPA
+- CESPPA
     
-    Bountygraph
+        Bountygraph
 
-Canada
+- Canada
     
-    CrowdShield
+        CrowdShield
 
-EUROPE
+- EUROPE
     
-    Slovakia
-    Hacktrophy
+        Slovakia
+        Hacktrophy
 
-Belgium
+- Belgium
 
-    Intigriti
+        Intigriti
 
-Sweden
+- Sweden
     
-    Detectify Crowdsource
-    Finland
-    Hackrfi 
+        Detectify Crowdsource
+        Finland
+        Hackrfi 
 
-France
+- France
     
-    Yes We Hack
-    Yogosha
-    Bugbountyzone
+        Yes We Hack
+        Yogosha
+        Bugbountyzone
 
-Netherlands
+- Netherlands
     
-    Zerocopter
+        Zerocopter
 
-Estonia
+- Estonia
     
-    HackenProof
+        HackenProof
 
-Kosovo
+- Kosovo
     
-    Findbug.io
+        Findbug.io
 
-Italy
+- Italy
     
-    UpSecurIT
+        UpSecurIT
 
-Germany
+- Germany
     
-    v1Bounty
+        v1Bounty
 
