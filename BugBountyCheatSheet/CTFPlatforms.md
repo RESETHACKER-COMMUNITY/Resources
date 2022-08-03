@@ -1,4 +1,4 @@
-#### Lists of best suitable PRACTICE platforms for CTF's, penetration testing, bughunting, CTFs etc
+#### Lists of best suitable PRACTICE platforms for CTF's, penetration testing, bughunting, Attack-defence, etc
 
 Index | Practice Platforms
 --- | ---
