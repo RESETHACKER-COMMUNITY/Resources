@@ -52,8 +52,7 @@ Index | Practice Platforms
 **48** | [Vulnmachines](https://vulnmachines.com)
 **49** | [Rangeforce](https://www.rangeforce.com)
 **50** | [Pwn college](https://dojo.pwn.college)
-**51** | [Pentestlab](https://pentesterlab.com/)
-**52** | [Hackaflag BR](https://hackaflag.com.br/)
-**53** | [Penetration Testing Practice Labs](https://lnkd.in/e6wVANYd)
+**51** | [Hackaflag BR](https://hackaflag.com.br/)
+**52** | [Penetration Testing Practice Labs](https://lnkd.in/e6wVANYd)
 
 
