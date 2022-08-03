@@ -45,7 +45,15 @@ Index | Practice Platforms
 **41** | [NewbieContest](https://lnkd.in/ewBk6fU5)
 **42** | [OverTheWire](http://overthewire.org/)
 **43** | [Practical Pentest Labs](https://lnkd.in/esq9Yuv5)
-**44** | [Pentestlab](https://pentesterlab.com/)
-**45** | [Hackaflag BR](https://hackaflag.com.br/)
-**46** | [Penetration Testing Practice Labs](https://lnkd.in/e6wVANYd)
+**44** | [WeChall](http://www.wechall.net/)
+**45** | [Zenk-Security](https://lnkd.in/ewJ5rNx2)
+**46** | [Cyberdefenders](https://lnkd.in/dVcmjEw8)
+**47** | [LetsDefend](https://letsdefend.io/)
+**48** | [Vulnmachines](https://vulnmachines.com)
+**49** | [Rangeforce](https://www.rangeforce.com)
+**50** | [Pwn college](https://dojo.pwn.college)
+**51** | [Pentestlab](https://pentesterlab.com/)
+**52** | [Hackaflag BR](https://hackaflag.com.br/)
+**53** | [Penetration Testing Practice Labs](https://lnkd.in/e6wVANYd)
+
 
