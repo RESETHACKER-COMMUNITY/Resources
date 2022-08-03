@@ -2,6 +2,7 @@
 
 Index | Contents 
 --- | ---
+ResetHAcker | [HAcker Daily Utility and OSINT](https://github.com/RESETHACKER-COMMUNITY/Resources/blob/main/setup/HackersUtilities.md)
 Crhuber | [Linix Cheetsheet ](https://github.com/crhuber/linux-cheatsheet)
 0xblackbird - Developer Tools | [Developer Tools for bugbounty hunters](https://0xblackbird.github.io/blog/post4)
 Hakluke | [How-to-exit-vim](https://github.com/hakluke/how-to-exit-vim)
@@ -34,7 +35,7 @@ Raj Chandel - Web Proxy Lab Setup Testing using Squid | [Penetration Testing Lab
 Raj Chandel - Microsocks Lab setup | [Penetration Testing Lab Setup: Microsocks](https://www.hackingarticles.in/penetration-testing-lab-setup-microsocks/)
 Raj Chandel - telnetd Setup & configure | [Penetration Testing on Telnet (Port 23)](https://www.hackingarticles.in/penetration-testing-lab-setuptomcat/)
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 Index | Policy , Guide, benchmarks etc Contents 
 --- | ---
 Consortium for Educational Communication(CEC)  | [Cyber Laws in India -](https://www.youtube.com/watch?v=Vbqi0z_48bA)
