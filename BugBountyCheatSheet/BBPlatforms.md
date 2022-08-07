@@ -20,6 +20,7 @@ ASIA
         BugsBounty
         BugDiscover
         bugbase.in
+        [Pentabug by AppSecure](https://www.linkedin.com/company/pentabug/)
     
 - Vietnam
     
