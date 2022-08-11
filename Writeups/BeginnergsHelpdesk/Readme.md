@@ -1,12 +1,14 @@
-# Beginners HelpDesk
+# Beginners Guide
 
-#### Hardware & Software Understanding
-#### Infosec Understanding
-#### Networking (Tools, Setups & Use to analyse)
-#### Web (Web Tools, Setups, Recon , Mass target and automate)
-#### Scripting & programming
-#### Active Directory
-#### Reverse Enginering
+- #### Hardware & Software Understanding
+- #### Infosec Understanding
+- #### Networking (Tools, Setups & Use to analyse)
+- #### Web (Web Tools, Setups, Recon , Mass target and automate basic)
+- #### Scripting & programming
+- #### Active Directory
+- #### Reverse Enginering
+- #### Automation Advance and write your own tools
+- #### Threat hunting, Soc, Xdr, Continuous scanning, AI/Ml, DevSecOps etc.
 
 
 #### Hardware & Software Understanding
