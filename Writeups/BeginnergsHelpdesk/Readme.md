@@ -4,7 +4,7 @@
 - #### Infosec Understanding
 - #### Networking (Tools, Setups & Use to analyse)
 - #### Web (Web Tools, Setups, Recon , Mass target and automate basic)
-- #### Scripting & programming
+- #### Code snippet, Scripting & programming
 - #### Active Directory
 - #### Reverse Enginering
 - #### Automation Advance and write your own tools
