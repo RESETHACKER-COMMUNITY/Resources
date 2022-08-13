@@ -18,7 +18,7 @@ Index | Topics
 **1** | [BugBounty-HelpDesk](https://github.com/RESETHACKER-COMMUNITY/Pentesting-Bugbounty/tree/main/Bugbounty)
 **2** | [Cybersecurity Jobs](https://github.com/RESETHACKER-COMMUNITY/Pentesting/blob/main/CyberSecurityJobs/Readme.md)
 **3** | [CyberSecurity Conferences](https://github.com/RESETHACKER-COMMUNITY/Resources/tree/main/Conference)
-**4** | [Pentesting pre-engagement, NDA form, Report samples, timeline etc](https://github.com/RESETHACKER-COMMUNITY/Pentesting/tree/main/PentestingReports)
+**4** | [Pentesting pre-engagement, NDA, Report samples, timeline etc](https://github.com/RESETHACKER-COMMUNITY/Pentesting/tree/main/PentestingReports)
 **5** | [Pentesting for Researchers](https://github.com/RESETHACKER-COMMUNITY/Pentesting/tree/main/Pentesting_for_Researchers)
 
 
