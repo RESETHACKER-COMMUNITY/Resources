@@ -7,9 +7,9 @@ Conference, jobs, Writeups, Tutorials, Bugbounty helpdesk, pentesting helpdesk, 
 This project is not limited to bugbounty or pentesting. Anyone is welcome to contribute.
 
 Rules are quite simple.
-Pick a topic from your domain or mentione domain or choose new topics that you find helpful for community.
+Pick a topic from your domain or ADD domain or choose new topics that you find helpful for community.
 If you still have question feel free to create an issue on github or want to contribute to this project as a member of Team. 
-DM me. 
+DM me on telegram @Attr1b or mail me to resethackerofficial@gmail.com
 
 
 Index | Topics
