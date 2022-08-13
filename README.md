@@ -1,4 +1,4 @@
-# Let's crowdsource our learnings.
+# Let's crowdsource our learning.
 
 This Contains all kind of resources for learning purpose which includes
 Conference, jobs, Writeups, Tutorials, Bugbounty helpdesk, pentesting helpdesk, How to get started, etc.
