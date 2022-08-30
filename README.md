@@ -1,16 +1,16 @@
 # Let's crowdsource our learning.
 
-This Contains all kind of resources for learning purpose which includes
-Conference, jobs, Writeups, Tutorials, Bugbounty helpdesk, pentesting helpdesk, How to get started, etc.
-
-## We're inviting community contributers for early stage cybersecurity HELPDESK.
-This project is not limited to bugbounty or pentesting. Anyone is welcome to contribute.
-
 ![](https://img.shields.io/github/issues/RESETHACKER-COMMUNITY/Resources)
 ![](https://img.shields.io/github/forks/RESETHACKER-COMMUNITY/Resources)
 ![](https://img.shields.io/github/stars/RESETHACKER-COMMUNITY/Resources)
 ![](https://img.shields.io/github/last-commit/RESETHACKER-COMMUNITY/Resources)
 <p align=""> <img src="https://komarev.com/ghpvc/?username=RESETHACKER-COMMUNITY&label=Profile%20views&color=ce9927&style=flat" alt="Resources" /> </p>
+
+This Contains all kind of resources for learning purpose which includes
+Conference, jobs, Writeups, Tutorials, Bugbounty helpdesk, pentesting helpdesk, How to get started, etc.
+
+## We're inviting community contributers for early stage cybersecurity HELPDESK.
+This project is not limited to bugbounty or pentesting. Anyone is welcome to contribute.
 
 Rules are quite simple.
 Pick a topic from your domain or ADD domain or choose new topics that you find helpful for community.
