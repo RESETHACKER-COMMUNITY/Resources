@@ -2,7 +2,7 @@
 
 Index | Contents 
 --- | ---
-ResetHAcker | [HAcker Daily Utility and OSINT](https://github.com/RESETHACKER-COMMUNITY/Resources/blob/main/setup/HackersUtilities.md)
+ResetHacker | [Hacker Daily Utility and OSINT](https://github.com/RESETHACKER-COMMUNITY/Resources/blob/main/setup/HackersUtilities.md)
 Crhuber | [Linix Cheetsheet ](https://github.com/crhuber/linux-cheatsheet)
 0xblackbird - Developer Tools | [Developer Tools for bugbounty hunters](https://0xblackbird.github.io/blog/post4)
 Hakluke | [How-to-exit-vim](https://github.com/hakluke/how-to-exit-vim)
