@@ -13,6 +13,7 @@ HackerSploit - Docker for Bug Hunters | [Docker For Pentesting & Bug Bounty Hunt
 Phoenixnap - Hyper-V for Bug Hunters |[Hyper-v configuration and install ubuntu](https://phoenixnap.com/kb/hyper-v-ubuntu)
 Vikram - BB_Setup in Windows(WSL2) | [Bug bounty setup in Window 10 & 11 with WSL2 ](https://github.com/RESETHACKER-COMMUNITY/Resources/tree/main/BB_Setup%20in%20WSL2)
 Vikram - Burpsuite Setup and useses | [Penetration Testing with Burp (ft.: Raj chandel's blog and @Ignitetechnologies)](https://github.com/RESETHACKER-COMMUNITY/Pentesting-Bugbounty/blob/main/Bugbounty/burpsuite.md)
+Fernando Guisso | [Demonstration of how to use Github Actions to automate a Recon](https://guisso.dev/posts/github-actions-recon-en/)
 Updating - Pentesting setup in VM machine
 Updating - Pentesting setup in VMware
 
