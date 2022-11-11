@@ -1,0 +1,2 @@
+- [Getting-into-InfoSec-and-Cybersecurity](https://github.com/GoVanguard/Getting-into-InfoSec-and-Cybersecurity)
+- [InfoSec Encyclopedia](https://github.com/GoVanguard/list-infosec-encyclopedia#online-vidoes)
